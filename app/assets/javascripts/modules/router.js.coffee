@@ -71,8 +71,6 @@ class @Router
 
   # Phase 3
   _round_results: ->
-    console.log @current_question
-
     if @current_question
       template = @_mainTemplate(@current_question)
     else
@@ -80,6 +78,9 @@ class @Router
 
     $('#content').append(template)
 
+    if @is_correct
+      #do some jquery stuff to insert text/classes/data
+      @is_correct = null
 
   # Phase 4
   _final_results: ->

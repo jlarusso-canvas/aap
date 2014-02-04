@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require handlebars.runtime
+//= require websocket_rails/main
+//= require_tree ./templates
+//= require_tree ./controllers
 //= require_tree .

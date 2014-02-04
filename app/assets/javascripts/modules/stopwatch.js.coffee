@@ -16,7 +16,6 @@ class @Stopwatch
       @$container.text(count)
       if count <= 0
         clearInterval(counter)
-        window['AAL']['router']["_#{type}_countdown_callback"]()
       count -= 1
 
     counter = setInterval(timer, 1000)

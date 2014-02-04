@@ -2,20 +2,11 @@ class @Router
   constructor: ->
     @clearHeaderCountdown()
     @user_type = "player"
-    @host = "192.168.72.112"
-    @port = "3000"
 
-    @countdown_template = HandlebarsTemplates["../templates/shared/countdown"]()
+    @countdown_template = HandlebarsTemplates["shared/countdown"]()
 
-    $.when(@_fetchCurrentPhase(), @_fetchQuestion()).done (phase_json, question_json) =>
-      if phase_json[2].status is 200 and question_json[2].status is 200
-        @current_phase = phase_json[0].current_phase
-        @current_question = question_json[0]
 
-        @clearContent()
-        @loadCurrentTemplate()
-
-        $.post "#{host}:#{port}/log/client_connect", { phase: @current_phase, question: @current_question, client_type: @user_type }
+    # Make socket -> $.post "#{host}:#{port}/log/client_connect", { phase: @current_phase, question: @current_question, client_type: @user_type }
 
 
   #############################################################################
@@ -36,23 +27,10 @@ class @Router
   #############################################################################
   # Private
   #############################################################################
-  _fetchQuestion: ->
-    $.get "#{host}:#{port}/screen/question", (json) ->
-      json
-
-
-  _fetchWinners: ->
-    $.get "#{host}:#{port}/screen/winners", (json) ->
-      json
-
-
-  _fetchCurrentPhase: ->
-    $.get "#{host}:#{port}/screen/current_phase", (json) ->
-      json
 
 
   _mainTemplate: (json) ->
-    HandlebarsTemplates["../templates/#{@user_type}/#{@current_phase}"](json)
+    HandlebarsTemplates["#{@user_type}/#{@current_phase}"](json)
 
 
   #############################################################################
@@ -78,9 +56,14 @@ class @Router
   # Phase 2
   _question: ->
     console.log "rendering question template", @current_phase
-    template = @_mainTemplate(@current_question)
     @clearHeaderCountdown()
-    $('#header').append(@countdown_template)
+
+    if @current_question
+      template = @_mainTemplate(@current_question)
+      $('#header').append(@countdown_template)
+    else
+      template = @_waitTemplate()
+
     $('#content').append(template)
     window.AAL.stopwatch.startCountdown('header')
 
@@ -88,13 +71,17 @@ class @Router
   # Phase 3
   _round_results: ->
     console.log @current_question
-    template = @_mainTemplate(@current_question)
+
+    if @current_question
+      template = @_mainTemplate(@current_question)
+    else
+      template = @_waitTemplate()
+
     $('#content').append(template)
 
 
   # Phase 4
   _final_results: ->
     @clearHeaderCountdown()
-    $.when(@_fetchWinners()).done (json) =>
-      template = @_mainTemplate(json)
-      $('#content').append(template)
+    template = @_mainTemplate()
+    $('#content').append(template)

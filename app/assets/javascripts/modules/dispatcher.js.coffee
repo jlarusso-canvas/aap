@@ -14,10 +14,11 @@ class @Dispatcher
 
   # Events execute an action when a binding is activated
   _currentQuestion: (message) =>
+    window.AAL.router.current_question = message['current_question']
     # NOTICE: using ajax to GET question right now
     # @current_question = message['current_question']
     # console.log "Just got current question: ", @current_question
-    console.log "Player client got current question"
+    console.log "Player client got current question: ", window.AAL.router.current_question
 
   _currentPhase: (message) =>
     @current_phase = message['current_phase']

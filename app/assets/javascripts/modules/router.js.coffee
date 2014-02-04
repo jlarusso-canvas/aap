@@ -4,6 +4,7 @@ class @Router
     @user_type = "player"
 
     @countdown_template = HandlebarsTemplates["shared/countdown"]()
+    @wait_template = HandlebarsTemplates["player/wait"]()
 
 
     # Make socket -> $.post "#{host}:#{port}/log/client_connect", { phase: @current_phase, question: @current_question, client_type: @user_type }
@@ -62,7 +63,7 @@ class @Router
       template = @_mainTemplate(@current_question)
       $('#header').append(@countdown_template)
     else
-      template = @_waitTemplate()
+      template = @wait_template
 
     $('#content').append(template)
     window.AAL.stopwatch.startCountdown('header')
@@ -75,7 +76,7 @@ class @Router
     if @current_question
       template = @_mainTemplate(@current_question)
     else
-      template = @_waitTemplate()
+      template = @wait_template
 
     $('#content').append(template)
 

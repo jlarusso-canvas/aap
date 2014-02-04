@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Aerial America Player</title>
+
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <script src="vendor/javascripts/jquery-2.0.3.min.js"></script>
+  <script src="vendor/javascripts/websocket-rails.min.js"></script>
+  <script src="javascripts/app.js"></script>
+
+</head>
+
+<body>
+  <div id="socket" data-uri="192.168.72.112:3000/websocket">
+  </div>
+
+  <header id="header">
+    <p class="header-text">Where in America?</p>
+  </header>
+
+  <div id="content">Game is offline.</div>
+</body>
+
+</html>

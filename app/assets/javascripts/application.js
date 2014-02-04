@@ -16,5 +16,6 @@
 //= require handlebars.runtime
 //= require websocket_rails/main
 //= require_tree ./templates
+//= require_tree ./modules
 //= require_tree ./controllers
 //= require_tree .

@@ -9,13 +9,10 @@ class @PlayerController
       # highlight 'this'
       # use jquery to update the dom "youve selected north carolina blah blah"
 
-    $('#pick').on 'click', ->
+
+    $('#pick').on 'click', =>
       # get state_id from the highlighted state
-      #   compare that to the answer_id in the question json
-      # if correct, set attribute on the player client's router to 'is_correct'
 
-
-    $('#submit').on 'click', =>
       client_id = window.AAL.dispatcher.client_id
 
       if client_id

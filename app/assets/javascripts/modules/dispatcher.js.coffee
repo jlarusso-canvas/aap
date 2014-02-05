@@ -10,7 +10,7 @@ class @Dispatcher
     # TODO: use an identifier from model number of device and send it
     # to the server during the initial websocket connection (as queried param)
     # The server will use this to allocate the proper score to the proper client.
-    @client_id = nil
+    @client_id = null
 
 
   #############################################################################

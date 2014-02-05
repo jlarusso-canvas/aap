@@ -14,10 +14,7 @@ class @Dispatcher
 
   # Events execute an action when a binding is activated
   _currentQuestion: (message) =>
-    window.AAL.router.current_question = message['current_question']
-    # NOTICE: using ajax to GET question right now
-    # @current_question = message['current_question']
-    # console.log "Just got current question: ", @current_question
+    window.AAL.router.current_question = @_unSerialize message['current_question']
     console.log "Player client got current question: ", window.AAL.router.current_question
 
   _currentPhase: (message) =>
@@ -26,3 +23,9 @@ class @Dispatcher
     window.AAL.router.clearContent()
     window.AAL.router.loadCurrentTemplate()
     console.log "Player client got current phase: ", @current_phase
+
+  _unSerialize: (question) =>
+    choice_ary = question.choices.split(",")
+    question.choices = $.map choice_ary, (id) ->
+      parseInt id
+    question

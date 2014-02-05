@@ -1,7 +1,16 @@
 class @Dispatcher
   constructor: (url, useWebSockets) ->
+
+    # fyi, you can do queried params in websocket requests
+    # we may want to do this for identifying particular clients
     @dispatcher = new WebSocketRails(url, useWebSockets)
     @_bindEvents()
+
+    # For now, client id is stubbed by setting it in the console.
+    # TODO: use an identifier from model number of device and send it
+    # to the server during the initial websocket connection (as queried param)
+    # The server will use this to allocate the proper score to the proper client.
+    @client_id = nil
 
 
   #############################################################################

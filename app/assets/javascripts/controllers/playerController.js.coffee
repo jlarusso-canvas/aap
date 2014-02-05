@@ -15,7 +15,18 @@ class @PlayerController
       # if correct, set attribute on the player client's router to 'is_correct'
 
 
+    $('#submit').on 'click', =>
+      client_id = window.AAL.dispatcher.client_id
 
+      if client_id
+        answer =
+          client_id: client_id
+          question_id: 94
+          answer_index: 18
+
+        @dispatcher.trigger "send_answer", answer
+      else
+        console.log "ERROR: window.AAL.dispatcher.client_id not found."
 
 
 

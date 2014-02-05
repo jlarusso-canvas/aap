@@ -28,4 +28,5 @@ AerialAmericaPlayer::Application.configure do
   config.assets.debug = true
 
   config.middleware.delete Rack::Lock
+  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
 end

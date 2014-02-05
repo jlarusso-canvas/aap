@@ -1,160 +1,32 @@
 <!-- Start Pre-Game Carousel -->
-  <div class="main-content">
-    <!-- Slide 1 -->
-    <div class="slide-1">
-      <figure>
-        <img src="assets/illinois.png">
-      </figure>
-      <h2>Each question reveals 10 states <br>as possible answers</h2>
-    </div>
-    <!-- Slide 2 -->
-    <div class="slide-2">
-      <figure>
-        <img src="assets/florida.png">
-      </figure>
-      <h2>Feeling confident? Tap the state<br> and "Submit" your answer.</h2>
-    </div>
-    <!-- Slide 3 -->
-    <div class="slide-3">
-      <figure>
-        <img src="assets/timer.png">
-      </figure>
-      <h2>But hurry... you've got 10 seconds<br> for each question</h2>
-    </div>
+  <div class="pre-game-content">
+    <div class="pre-game-slides">
+      <ul class="slides">
+        <!-- Slide 1 -->
+          <li>
+            <figure>
+              <img src="assets/illinois.png" style="width: 180px;">
+            </figure>
+            <h2>Each question reveals 10 states <br>as possible answers</h2>
+          </li>
+          <!-- Slide 2 -->
+          <li>
+            <figure>
+              <img src="assets/florida.png" style="width: 250px;">
+            </figure>
+            <h2>Feeling confident? Tap the state<br> and "Submit" your answer.</h2>
+          </li>
+          <!-- Slide 3 -->
+          <li>
+            <figure>
+              <img src="assets/timer.png" style="width: 220px;">
+            </figure>
+            <h2>But hurry... you've got 10 seconds<br> for each question</h2>
+          </li>
+        </div>
+      </ul>
   </div>
 <!-- End Pre-Game Carousel -->
-
-{{! Working content }}
-<!-- Map for Player Select -->
-<div class="main-content">
-  <!- TODO: Replace US Map with SVG -->
-  {{! <img class="placeholder" src="assets/placeholder-states.png"> }}
-    <div id="views-container">
-      <div class="views map-container">
-        <div id="map"></div>
-      </div>
-      </div>
-  <script>
-    window.onload = function () {
-      var R = Raphael("map", 1000, 900),
-        attr = {
-        "fill": "#d3d3d3",
-        "stroke": "#fff",
-        "stroke-opacity": "1",
-        "stroke-linejoin": "round",
-        "stroke-miterlimit": "4",
-        "stroke-width": "0.75",
-        "stroke-dasharray": "none"
-      },
-      usRaphael = {};
-
-      var translate_to_center = function(r, time, scale_string) {
-      var cx = R.width / 2;
-      var cy = R.height / 2;
-
-      var r_box = r.getBBox();
-      var rcx = (r_box.x2 - r_box.x) + r_box.x;
-      var rcy = (r_box.y2 - r_box.y) + r_box.y;
-
-      var tcx = (cx - rcx) + ((r_box.x2 - r_box.x) / 2);
-      var tcy = (cy - rcy) + ((r_box.y2 - r_box.y) / 2);
-      var t_string = 'T' + tcx + ' ' + tcy
-
-      if (scale_string) {
-        t_string = t_string + ', ' + scale_string;
-      }
-
-      r.animate({
-        transform: t_string
-      }, time, '<>')
-    }
-
-    var get_scale_to_fit_string = function(r) {
-      var pw = R.width;
-      var rw = r.getBBox().width;
-      var scale_size = (pw/rw);
-      return 'S' + scale_size;
-    }
-
-    var reset_state = function(r, time) {
-      r.animate({
-        transform: 'T0 0, S1 1'
-      }, time, '<>');
-    }
-
-    //Draw Map and store Raphael paths
-    var animate_in_map = function() {
-      for (var state in AA.map_svg) {
-        usRaphael[state] = R.path(AA.map_svg[state]).attr(attr).attr('transform', 'S0 0');
-      }
-
-      //for (var state in AA.map_svg) {
-        //translate_to_center(usRaphael[state], 1000, 'S0 0');
-      //}
-
-      var state_arr = []
-
-      for (var state in AA.map_svg) {
-        state_arr.push(usRaphael[state]);
-      }
-
-      // Randomize the state order
-      state_arr.sort(function() {return 0.5 - Math.random()});
-
-      var i=0;
-      setInterval(function(){
-        if (!state_arr[i]) return false;
-        reset_state(state_arr[i], 500);
-        i++
-      }, 5)
-      console.log(state_arr);
-      console.log(usRaphael['ny']);
-    }
-
-    /**/
-    // Animate the map rendoring
-    animate_in_map();
-    /**/
-
-    /*
-    // Scale NY to the center of the map and make it fit
-    ny = usRaphael.ny = R.path(AA.map_svg.ny).attr(attr);
-    translate_to_center(ny, 3000, get_scale_to_fit_string(ny));
-    */
-
-
-
-    //Do Work on Map
-    for (var state in usRaphael) {
-      usRaphael[state].color = Raphael.getColor();
-
-      (function (st, state) {
-
-        st[0].style.cursor = "pointer";
-
-        st[0].onmouseover = function () {
-          st.animate({fill: st.color}, 500);
-          st.toFront();
-          R.safari();
-        };
-
-        st[0].onmouseout = function () {
-          st.animate({fill: "#d3d3d3"}, 500);
-          st.toFront();
-          R.safari();
-        };
-
-      })(usRaphael[state], state);
-    }
-
-  };
-  </script>
-</div>
-
-<!-- Footer for Player Submit -->
-<div class="selection">
-  <footer class="select-bar">
-    <h3>Select a State</h3>
-    <button class="submit">SUBMIT</button>
-  </footer>
-</div>
+<script type="text/javascript">
+  AA.create_pre_game_slider();
+</script>

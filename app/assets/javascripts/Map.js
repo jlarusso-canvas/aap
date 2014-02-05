@@ -118,5 +118,5 @@ AA.Map = (function(){
   }
 
   // Public
-  // return Map
+  return Map
 })();

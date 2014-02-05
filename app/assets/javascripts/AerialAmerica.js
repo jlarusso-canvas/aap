@@ -1,3 +1,4 @@
+var $doc = $(document);
 if (typeof(AA) == 'undefined') AA = {}
 AA = (function(){
   // Private
@@ -33,6 +34,24 @@ AA = (function(){
 
       AA.RaphaelHelpers.translate_to_center(paper, path, false, scale_string);
       AA.RaphaelHelpers.translate_to_center(paper, path_texture, false, scale_string);
+    },
+
+    create_pre_game_slider: function() {
+      console.log('pre game slider starts')
+      $doc.find('.pre-game-slides').flexslider({
+        animation: 'slide',
+        slideshow: false,
+        selector: '.slides > li',
+        itemWidth: 1000,
+        directionNav: false,
+        start: function(){
+          $doc.find('.pre-game-slides').fadeIn(500);
+
+          // Make sure background is resized to accomodate for area occupied
+          // by the slider.
+          $(window).trigger('resize');
+        }
+      })
     }
   }
 })();

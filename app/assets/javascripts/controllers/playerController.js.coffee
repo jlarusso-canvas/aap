@@ -13,23 +13,21 @@ class @PlayerController
     $('#pick').on 'click', =>
       # get state_id from the highlighted state
 
-      client_id = window.AAL.dispatcher.client_id
+      client_id = window.AAL.dispatcher.client_id?
+
+      #for testing
+      client_id = 8
 
       if client_id
-        answer =
+        params =
           client_id: client_id
           question_id: 94
           answer_index: 18
 
-        @dispatcher.trigger "send_answer", answer
+        @dispatcher.trigger "send_answer", params
       else
         console.log "ERROR: window.AAL.dispatcher.client_id not found."
 
-
-
-
-
-    # Tell the server you want to play again
 
 
     # Submit contact info to the server for raffle

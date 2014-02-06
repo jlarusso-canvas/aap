@@ -24,10 +24,12 @@
               </li>
               <!-- Slide 3 -->
               <li>
-                <figure>
-                  <%= image_tag "timer.png", width: "220" %>
-                </figure>
-                <h2>But hurry... you've got 10 seconds<br> for each question</h2>
+                <%= link_to page_path('question') do %>
+                  <figure>
+                    <%= image_tag "timer.png", width: "220" %>
+                  </figure>
+                  <h2>But hurry... you've got 10 seconds<br> for each question</h2>
+                <% end %>
               </li>
             </div>
           </ul>

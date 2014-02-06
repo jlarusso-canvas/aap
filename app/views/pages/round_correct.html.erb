@@ -1,0 +1,41 @@
+<div id="container">
+  <header id="header">
+    <div class="wia-logo"></div>
+  </header>
+  <div id="content">
+
+    <!-- Answer Explanation -->
+    <div class="main-content">
+      <div id="overlay">
+        <%= link_to page_path('round_wrong') do %>
+          <div class="round-results">
+            <h4 class="points is-correct">+10 points</h4>
+            <h2>Correct! South Carolina</h2>
+            <p>Now get out your flip-flops!</p>
+          </div>
+        <% end %>
+      </div>
+
+      <!-- Map Background -->
+      <div id="views-container">
+        <div class="views map-container">
+            <div id="map"></div>
+        </div>
+      </div>
+      <!-- End Map -->
+
+    </div>
+    <!-- End Answer Explanation -->
+
+    <!-- Player's Submitted Answer -->
+    <div class="selection">
+      <footer class="select-bar">
+        <h3>You Selected:
+          <strong>South Carolina</strong>
+        </h3>
+      </footer>
+    </div>
+    <!-- End Player's Submitted Answer -->
+
+  </div>
+</div>

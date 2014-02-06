@@ -15,24 +15,23 @@ class @Map
     @choices = window.AAL.router.current_question.choices
 
     $.each @map_data, (index, state) =>
+      # Build each state as a path object
+      # FYI you also have access to:
+      # state.name => "North Carolina"
+      # state.abbreviation => "NC"
       path = @paper.path(state.path_data)
       path.attr @path_attrs
+      path[0].setAttribute "data-id", state.id
 
       # Override default attributes
       if state.id in @choices
         path.attr
           fill: "#ef8301"
+        @_makeClickable(path)
 
-      path[0].setAttribute "data-id", state.id
-
-      # FYI you can also use
-      # state.name => "North Carolina"
-      # state.abbreviation => "NC"
-
-      # TODO: refactor multiple setting of id's?
-      path.data("identifier": state.id)
-      @attachEvents(path)
-
-  attachEvents: (element) =>
+  _makeClickable: (element) =>
+    id = element[0].getAttribute('data-id')
     element.click ->
-      $('.submit').attr 'answer_index', @data('identifier')
+      $('.submit').attr 'answer_index', id
+
+      # TODO: tell player to select a valid state

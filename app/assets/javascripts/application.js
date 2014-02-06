@@ -15,8 +15,7 @@
 //= require turbolinks
 //= require handlebars
 //= require websocket_rails/main
-//= require raphael-2.1.0
-//= require scale.raphael
+//= require raphael-min
 //= require flexslider
 //= require_tree ./templates
 //= require_tree ./modules

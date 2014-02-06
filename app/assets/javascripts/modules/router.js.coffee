@@ -34,6 +34,10 @@ class @Router
     window.AAL.map.buildMap()
 
 
+  attachSubmitEvent: ->
+    $('.submit').on 'click', ->
+      console.log "Trigger answer and transition.  answer_index is ", $(@).attr('answer_index')
+
   #############################################################################
   # Private
   #############################################################################
@@ -69,6 +73,7 @@ class @Router
     @clearMap()
     @clearHeaderCountdown()
 
+
     if @current_question
       template = @_mainTemplate(@current_question)
       $('#header').append(@countdown_template)
@@ -77,8 +82,8 @@ class @Router
     $('#content').append(template)
 
     if window.AAL.map.map_data
-      console.log "Map has map_data"
       @createMap()
+      @attachSubmitEvent()
 
     window.AAL.stopwatch.startCountdown('header')
 

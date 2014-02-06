@@ -15,9 +15,11 @@ class @Map
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
-      path.attr(@path_attrs)
-      debugger
-      # state.id
-      # state.abbreviation
+      path.attr @path_attrs
 
- # bind events to the path objects
+      path.data("identifier": state.id)
+      @attachEvents(path)
+
+  attachEvents: (element) =>
+    element.click ->
+      $('.submit').attr 'answer_index', @data('identifier')

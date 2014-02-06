@@ -11,7 +11,7 @@ class @Dispatcher
     # TODO: use an identifier from model number of device and send it
     # to the server during the initial websocket connection (as queried param)
     # The server will use this to allocate the proper score to the proper client.
-    @client_id = null
+    @device_uuid = null
 
 
   #############################################################################
@@ -29,7 +29,6 @@ class @Dispatcher
   _currentQuestion: (message) =>
     if message
       window.AAL.router.current_question = @_unSerialize message['current_question']
-      console.log "Player client got current question: ", window.AAL.router.current_question
 
 
   _currentPhase: (message) =>
@@ -37,11 +36,9 @@ class @Dispatcher
     window.AAL.router.current_phase = @current_phase
     window.AAL.router.clearContent()
     window.AAL.router.loadCurrentTemplate()
-    console.log "Player client got current phase: ", @current_phase
 
 
   _mapData: (message) =>
-    console.log "Player client got map data"
     window.AAL.map.map_data = message['map_data']
 
 

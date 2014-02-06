@@ -10,7 +10,6 @@ class @Map
       "stroke-dasharray": "none"
 
   buildMap: (map_data) =>
-    console.log "Building map"
     @paper = Raphael("map", 900, 700)
     @choices = window.AAL.router.current_question.choices
 

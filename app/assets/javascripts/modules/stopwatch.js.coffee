@@ -14,8 +14,6 @@ class @Stopwatch
     else if type is "main"
       count = 3
       @$container = $('.main-countdown .seconds')
-    else
-      console.log "Error: wrong argument for startCountdown(type)"
 
     timer = =>
       if @break

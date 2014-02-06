@@ -13,4 +13,3 @@ class @PreGameSlider
         # Make sure background is resized to accomodate for area occupied
         # by the slider.
         $(window).trigger "resize"
-    console.log "hello"

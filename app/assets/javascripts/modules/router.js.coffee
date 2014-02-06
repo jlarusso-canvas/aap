@@ -8,9 +8,6 @@ class @Router
     @map_template = HandlebarsTemplates["player/map"]()
 
 
-    # Make socket -> $.post "#{host}:#{port}/log/client_connect", { phase: @current_phase, question: @current_question, client_type: @user_type }
-
-
   #############################################################################
   # Public
   #############################################################################
@@ -36,7 +33,7 @@ class @Router
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
       params =
-        client_id: 2
+        device_uuid: 2
         question_id: 10
         answer_index: $(@).attr('answer_index')
 
@@ -59,14 +56,12 @@ class @Router
   _pre_game: ->
     @clearHeaderCountdown()
     window.AAL.pre_game_slider.create_pre_game_slider()
-    console.log "rendering pregame template", @current_phase
     template = @_mainTemplate()
     $('#content').append(template)
 
 
   # Phase 1
   _game_start: ->
-    console.log "rendering gamestart template", @current_phase
     template = @_mainTemplate()
     $('#content').append(template)
     window.AAL.stopwatch.startCountdown('main')
@@ -74,7 +69,6 @@ class @Router
 
   # Phase 2
   _question: ->
-    console.log "rendering question template", @current_phase
     @clearMap()
     @clearHeaderCountdown()
 

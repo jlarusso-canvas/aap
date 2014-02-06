@@ -14,20 +14,17 @@ class @PlayerController
     $('#pick').on 'click', =>
       # get state_id from the highlighted state
 
-      client_id = window.AAL.dispatcher.client_id?
+      device_uuid = window.AAL.dispatcher.device_uuid
 
-      #for testing
-      client_id = 8
-
-      if client_id
+      if device_uuid
         params =
-          client_id: client_id
+          device_uuid: device_uuid
           question_id: 94
           answer_index: 18
 
         @dispatcher.trigger "send_answer", params
       else
-        console.log "ERROR: window.AAL.dispatcher.client_id not found."
+        console.log "ERROR: window.AAL.dispatcher.device_uuid not found."
 
 
 

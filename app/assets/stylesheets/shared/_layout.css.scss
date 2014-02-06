@@ -76,7 +76,9 @@ h1, h2, h3, h4, .seconds {
 // Game Countdown 10s
 .header-countdown {
   float: right;
+  width: 350px;
   margin-right: 50px;
+
   color: $offWhite;
   font-weight: 700;
   @include font-size(25);

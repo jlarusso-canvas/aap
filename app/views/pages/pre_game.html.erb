@@ -37,7 +37,21 @@
     </div>
   </div>
 </div>
-<!-- End Pre-Game Carousel -->
+
 <script type="text/javascript">
-  AA.create_pre_game_slider();
+  console.log('pre game slider starts')
+  $('.pre-game-slides').flexslider({
+    animation: 'slide',
+    slideshow: false,
+    selector: '.slides > li',
+    itemWidth: 1000,
+    directionNav: false,
+    start: function(){
+
+      // Make sure background is resized to accomodate for area occupied
+      // by the slider.
+      $(window).trigger('resize');
+    }
+  })
+
 </script>

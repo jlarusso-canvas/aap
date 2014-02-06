@@ -23,7 +23,7 @@ class @Stopwatch
         @counting = null
         @break = null
       else
-        @$container.text(count)
+        @$container.text(":0" + count)
         if count <= 0
           clearInterval(counter)
           @counting = null

@@ -11,11 +11,18 @@ class @Map
 
   buildMap: (map_data) =>
     console.log "Building map"
-    @paper = Raphael("map", 1000, 900)
+    @paper = Raphael("map", 900, 700)
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
       path.attr @path_attrs
+      path.attr
+        fill: "#ef8301"
+      path[0].setAttribute "data-id", state.id
+      console.log path
+      debugger
+      # state.id
+      # state.abbreviation
 
       path.data("identifier": state.id)
       @attachEvents(path)

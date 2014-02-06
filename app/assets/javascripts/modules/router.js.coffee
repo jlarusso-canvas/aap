@@ -27,10 +27,9 @@ class @Router
   clearHeaderCountdown: ->
     $('.header-countdown').remove()
 
-
   # Load map template and create the map
   createMap: ->
-    $('#container').append(@map_template)
+    $('.main-content').append(@map_template)
     window.AAL.map.buildMap()
 
 
@@ -59,6 +58,7 @@ class @Router
   # Phase 0
   _pre_game: ->
     @clearHeaderCountdown()
+    window.AAL.pre_game_slider.create_pre_game_slider()
     console.log "rendering pregame template", @current_phase
     template = @_mainTemplate()
     $('#content').append(template)

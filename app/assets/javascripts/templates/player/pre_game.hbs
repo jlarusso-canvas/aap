@@ -3,27 +3,45 @@
     <div class="pre-game-slides">
       <ul class="slides">
         <!-- Slide 1 -->
-          <li>
-            <figure>
-              <img src="assets/illinois.png" style="width: 180px;">
-            </figure>
-            <h2>Each question reveals 10 states <br>as possible answers</h2>
-          </li>
-          <!-- Slide 2 -->
-          <li>
-            <figure>
-              <img src="assets/florida.png" style="width: 250px;">
-            </figure>
-            <h2>Feeling confident? Tap the state<br> and "Submit" your answer.</h2>
-          </li>
-          <!-- Slide 3 -->
-          <li>
-            <figure>
-              <img src="assets/timer.png" style="width: 220px;">
-            </figure>
-            <h2>But hurry... you've got 10 seconds<br> for each question</h2>
-          </li>
-        </div>
+        <li>
+          <figure>
+            <img src="assets/illinois.png", width="130">
+          </figure>
+          <h2>Each question reveals 10 states <br>as possible answers</h2>
+        </li>
+        <!-- Slide 2 -->
+        <li>
+          <figure>
+            <img src="assets/florida.png", width="250">
+          </figure>
+          <h2>Feeling confident? Tap the state<br> and "Submit" your answer.</h2>
+        </li>
+        <!-- Slide 3 -->
+        <li>
+          <figure>
+            <img src="assets/timer.png", width="220">
+          </figure>
+          <h2>But hurry... you've got 10 seconds<br> for each question</h2>
+        </li>
       </ul>
+    </div>
   </div>
 <!-- End Pre-Game Carousel -->
+
+<script type="text/javascript">
+  console.log('pre game slider starts')
+  $('.pre-game-slides').flexslider({
+    animation: 'slide',
+    slideshow: false,
+    selector: '.slides > li',
+    itemWidth: 1000,
+    directionNav: false,
+    start: function(){
+
+      // Make sure background is resized to accomodate for area occupied
+      // by the slider.
+      $(window).trigger('resize');
+    }
+  })
+
+</script>

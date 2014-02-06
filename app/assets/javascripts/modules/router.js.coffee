@@ -36,7 +36,12 @@ class @Router
 
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
-      console.log "Trigger answer and transition.  answer_index is ", $(@).attr('answer_index')
+      params =
+        client_id: 2
+        question_id: 10
+        answer_index: $(@).attr('answer_index')
+
+      window.AAL.dispatcher.dispatcher.trigger "send_answer", params
 
   #############################################################################
   # Private

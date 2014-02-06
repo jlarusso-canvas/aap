@@ -5,6 +5,7 @@ class @Router
 
     @countdown_template = HandlebarsTemplates["shared/countdown"]()
     @wait_template = HandlebarsTemplates["player/wait"]()
+    @map_template = HandlebarsTemplates["player/map"]()
 
 
     # Make socket -> $.post "#{host}:#{port}/log/client_connect", { phase: @current_phase, question: @current_question, client_type: @user_type }
@@ -20,9 +21,17 @@ class @Router
   clearContent: ->
     $('#content').empty()
 
+  clearMap: ->
+    $('#map').remove()
 
   clearHeaderCountdown: ->
     $('.header-countdown').remove()
+
+
+  # Load map template and create the map
+  createMap: ->
+    $('#container').append(@map_template)
+    window.AAL.map.buildMap()
 
 
   #############################################################################
@@ -57,6 +66,7 @@ class @Router
   # Phase 2
   _question: ->
     console.log "rendering question template", @current_phase
+    @clearMap()
     @clearHeaderCountdown()
 
     if @current_question
@@ -64,8 +74,12 @@ class @Router
       $('#header').append(@countdown_template)
     else
       template = @wait_template
-
     $('#content').append(template)
+
+    if window.AAL.map.map_data
+      console.log "Map has map_data"
+      @createMap()
+
     window.AAL.stopwatch.startCountdown('header')
 
 
@@ -84,6 +98,7 @@ class @Router
 
   # Phase 4
   _final_results: ->
+    @clearMap()
     @clearHeaderCountdown()
     template = @_mainTemplate()
     $('#content').append(template)

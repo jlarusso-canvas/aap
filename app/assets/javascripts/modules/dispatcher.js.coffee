@@ -1,9 +1,10 @@
 class @Dispatcher
-  constructor: (url, useWebSockets) ->
+  constructor: ->
+    url = "192.168.72.112:3000/websocket"
 
     # fyi, you can do queried params in websocket requests
     # we may want to do this for identifying particular clients
-    @dispatcher = new WebSocketRails(url, useWebSockets)
+    @dispatcher = new WebSocketRails(url, true)
     @_bindEvents()
 
     # For now, client id is stubbed by setting it in the console.
@@ -20,11 +21,15 @@ class @Dispatcher
   _bindEvents: =>
     @dispatcher.bind 'current_question', @_currentQuestion
     @dispatcher.bind 'current_phase', @_currentPhase
+    @dispatcher.bind 'map_data', @_mapData
+
 
   # Events execute an action when a binding is activated
   _currentQuestion: (message) =>
-    window.AAL.router.current_question = @_unSerialize message['current_question']
-    console.log "Player client got current question: ", window.AAL.router.current_question
+    if message
+      window.AAL.router.current_question = @_unSerialize message['current_question']
+      console.log "Player client got current question: ", window.AAL.router.current_question
+
 
   _currentPhase: (message) =>
     @current_phase = message['current_phase']
@@ -32,6 +37,13 @@ class @Dispatcher
     window.AAL.router.clearContent()
     window.AAL.router.loadCurrentTemplate()
     console.log "Player client got current phase: ", @current_phase
+
+
+  _mapData: (message) =>
+    if message
+      console.log "Player client got map data"
+      window.AAL.map.map_data = message['map_data']
+
 
   _unSerialize: (question) =>
     choice_ary = question.choices.split(",")

@@ -1,9 +1,5 @@
 class @Map
   constructor: ->
-    # $.when($.getJSON('states.json')).then (json) ->
-    #   @map_svg = json
-    #   console.log @map_svg
-    @$map = $('#map')
     @path_attrs =
       fill: "#d3d3d3"
       stroke: "#fff"
@@ -24,12 +20,4 @@ class @Map
       # state.id
       # state.abbreviation
 
- # svg data should go in rails database then reveal as full object to client
- # get raphael library referenced
- # create and append path objects with correct properties
  # bind events to the path objects
-
-
-
-
-

@@ -1,0 +1,41 @@
+<div id="container">
+  <header id="header">
+    <div class="wia-logo"></div>
+  </header>
+  <div id="content">
+    <div class="start">
+    <!-- Start Pre-Game Carousel -->
+      <div class="pre-game-content">
+        <div class="pre-game-slides">
+          <ul class="slides">
+            <!-- Slide 1 -->
+              <li>
+                <figure>
+                  <%= image_tag "illinois.png", width: "130" %>
+                </figure>
+                <h2>Each question reveals 10 states <br>as possible answers</h2>
+              </li>
+              <!-- Slide 2 -->
+              <li>
+                <figure>
+                  <%= image_tag "florida.png", width: "250" %>
+                </figure>
+                <h2>Feeling confident? Tap the state<br> and "Submit" your answer.</h2>
+              </li>
+              <!-- Slide 3 -->
+              <li>
+                <figure>
+                  <%= image_tag "timer.png", width: "220" %>
+                </figure>
+                <h2>But hurry... you've got 10 seconds<br> for each question</h2>
+              </li>
+            </div>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Pre-Game Carousel -->
+<script type="text/javascript">
+  AA.create_pre_game_slider();
+</script>

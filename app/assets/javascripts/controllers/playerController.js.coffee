@@ -10,6 +10,7 @@ class @PlayerController
       # use jquery to update the dom "youve selected north carolina blah blah"
 
 
+    $('#pick').hide()
     $('#pick').on 'click', =>
       # get state_id from the highlighted state
 

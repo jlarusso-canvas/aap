@@ -37,6 +37,9 @@ gem 'guard-livereload',        :require => false
 gem 'rack-livereload'
 gem 'rb-fsevent',              :require => false
 
+# Static Pages for Testing
+gem "high_voltage", "~> 2.1.0"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

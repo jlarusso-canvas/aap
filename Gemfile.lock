@@ -67,6 +67,7 @@ GEM
       multi_json
       sprockets (>= 2.0.3)
       tilt
+    high_voltage (2.1.0)
     hike (1.2.3)
     hiredis (0.4.5)
     http_parser.rb (0.5.3)
@@ -178,6 +179,7 @@ DEPENDENCIES
   guard (>= 2.2.2)
   guard-livereload
   handlebars_assets
+  high_voltage (~> 2.1.0)
   jbuilder (~> 1.2)
   jquery-rails
   normalize-rails

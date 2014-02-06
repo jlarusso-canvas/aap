@@ -45,7 +45,6 @@ AA = (function(){
         itemWidth: 1000,
         directionNav: false,
         start: function(){
-          $doc.find('.pre-game-slides').fadeIn(500);
 
           // Make sure background is resized to accomodate for area occupied
           // by the slider.

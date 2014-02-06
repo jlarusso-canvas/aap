@@ -7,7 +7,10 @@
 # # 4. attach event handlers to states
 # # 5.
 window.onload = ->
-  R = Raphael("map", 1000, 900)
+  w = 900
+  h = 700
+  R = Raphael("map")
+  R.setViewBox(0, 0, w, h, true)
   attr =
     fill: "#d3d3d3"
     stroke: "#fff"
@@ -67,24 +70,8 @@ window.onload = ->
     ), 5
     return
 
-
-  # Add Data attribute to each state
-
-  # console.log(state_arr);
-  # console.log(usRaphael['ny']);
-
-  #
-
   # Animate the map rendoring
   animate_in_map()
-
-  #
-
-  #
-  #// Scale NY to the center of the map and make it fit
-  #ny = usRaphael.ny = R.path(AA.map_svg.ny).attr(attr);
-  #translate_to_center(ny, 3000, get_scale_to_fit_string(ny));
-  #
 
   #Do Work on Map
   for state of usRaphael

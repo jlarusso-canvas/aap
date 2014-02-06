@@ -22,6 +22,7 @@ class @Dispatcher
     @dispatcher.bind 'current_question', @_currentQuestion
     @dispatcher.bind 'current_phase', @_currentPhase
     @dispatcher.bind 'map_data', @_mapData
+    @dispatcher.bind 'answer_response', @_answerResponse
 
 
   # Events execute an action when a binding is activated
@@ -40,9 +41,12 @@ class @Dispatcher
 
 
   _mapData: (message) =>
-    if message
-      console.log "Player client got map data"
-      window.AAL.map.map_data = message['map_data']
+    console.log "Player client got map data"
+    window.AAL.map.map_data = message['map_data']
+
+
+  _answerResponse: (message) =>
+    window.AAL.router.has_correct_answer = message['is_correct']
 
 
   _unSerialize: (question) =>

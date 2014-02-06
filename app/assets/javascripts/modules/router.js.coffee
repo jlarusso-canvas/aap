@@ -102,9 +102,11 @@ class @Router
 
     $('#content').append(template)
 
-    if @is_correct
+    if @has_correct_answer
       #do some jquery stuff to insert text/classes/data
-      @is_correct = null
+
+      #set up for next question
+      @has_correct_answer = false
 
   # Phase 4
   _final_results: ->

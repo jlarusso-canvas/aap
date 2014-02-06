@@ -12,18 +12,24 @@ class @Map
   buildMap: (map_data) =>
     console.log "Building map"
     @paper = Raphael("map", 900, 700)
+    @choices = window.AAL.router.current_question.choices
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
       path.attr @path_attrs
-      path.attr
-        fill: "#ef8301"
-      path[0].setAttribute "data-id", state.id
-      console.log path
-      debugger
-      # state.id
-      # state.abbreviation
 
+      # Override default attributes
+      if state.id in @choices
+        path.attr
+          fill: "#ef8301"
+
+      path[0].setAttribute "data-id", state.id
+
+      # FYI you can also use
+      # state.name => "North Carolina"
+      # state.abbreviation => "NC"
+
+      # TODO: refactor multiple setting of id's?
       path.data("identifier": state.id)
       @attachEvents(path)
 

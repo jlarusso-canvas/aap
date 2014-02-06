@@ -31,7 +31,7 @@ class @Router
   # Load map template and create the map
   createMap: ->
     $('#container').append(@map_template)
-    window.AAL.map()
+    window.AAL.map.buildMap()
 
 
   #############################################################################
@@ -74,9 +74,12 @@ class @Router
       $('#header').append(@countdown_template)
     else
       template = @wait_template
-
     $('#content').append(template)
-    @createMap()
+
+    if window.AAL.map.map_data
+      console.log "Map has map_data"
+      @createMap()
+
     window.AAL.stopwatch.startCountdown('header')
 
 

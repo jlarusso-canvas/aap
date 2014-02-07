@@ -18,11 +18,16 @@ class @Router
   clearContent: ->
     $('#content').empty()
 
+
   clearMap: ->
     $('#map').remove()
 
+
   clearHeaderCountdown: ->
     $('.header-countdown').remove()
+
+  clearAnswer: ->
+    @answer_data = null
 
   # Load map template and create the map
   createMap: ->
@@ -32,7 +37,7 @@ class @Router
 
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
-      answer_choice = $(@).attr('answer_choice')
+      answer_choice = parseInt $(@).attr('answer_choice')
       choice_name = $(@).attr('choice_name')
 
       if answer_choice
@@ -40,8 +45,8 @@ class @Router
 
         # It's wrong to validate the answer on the client side, but I wanted
         # to avoid a potential break point by making an extra request.
-
         answer_is_correct = answer_choice is answer_index
+
         if answer_is_correct
           window.AAL.router.answer_data =
             answer_is_correct: true
@@ -54,6 +59,7 @@ class @Router
             answer_class: "is-incorrect"
             exclamation: "Incorrect!"
             choice_name: choice_name
+
 
         params =
           #TODO: make device uuid dynamic
@@ -95,9 +101,9 @@ class @Router
 
   # Phase 2
   _question: ->
+    @clearAnswer()
     @clearMap()
     @clearHeaderCountdown()
-
 
     if @current_question
       template = @_mainTemplate(@current_question)
@@ -115,7 +121,8 @@ class @Router
 
   # Phase 3
   _round_results: ->
-    if @current_question and @answer_data
+    if @current_question
+      @answer_data = {has_answer: false} unless @answer_data
       updated_question = $.extend(@current_question, @answer_data)
       template = @_mainTemplate(updated_question)
     else
@@ -123,14 +130,6 @@ class @Router
 
     $('#content').append(template)
 
-    if @answer_is_correct
-      #do some jquery stuff to insert text/classes/data
-      $('.answer-text').text @current_question.correct_headline
-    else
-      $('.answer-text').text @current_question.incorrect_headline
-
-      #set up for next question
-      @answer_is_correct = false
 
   # Phase 4
   _final_results: ->

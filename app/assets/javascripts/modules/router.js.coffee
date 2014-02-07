@@ -31,7 +31,7 @@ class @Router
 
   # Load map template and create the map
   createMap: ->
-    $('.main-content').append(@map_template)
+    $('.map-content').append(@map_template)
     window.AAL.map.buildMap()
 
 
@@ -127,6 +127,7 @@ class @Router
       console.log @answer_data.has_answer
       updated_question = $.extend(@current_question, @answer_data)
       template = @_mainTemplate(updated_question)
+
     else
       template = @wait_template
 

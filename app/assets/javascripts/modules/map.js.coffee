@@ -22,9 +22,8 @@ class @Map
       path.attr @path_attrs
       path[0].setAttribute "data-id", state.id
       path[0].setAttribute "data-name", state.name
-      # debugger
 
-      # Override default attributes
+      # Choices highlighted Green
       if state.id in @choices
         path[0].setAttribute "class", "is-choice"
         path.attr

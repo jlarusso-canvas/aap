@@ -53,13 +53,14 @@ class @Router
             answer_class: "is-correct"
             exclamation: "Correct!"
             choice_name: choice_name
+            has_answer: true
         else
           window.AAL.router.answer_data =
             answer_is_correct: false
             answer_class: "is-incorrect"
             exclamation: "Incorrect!"
             choice_name: choice_name
-
+            has_answer: true
 
         params =
           #TODO: make device uuid dynamic
@@ -123,6 +124,7 @@ class @Router
   _round_results: ->
     if @current_question
       @answer_data = {has_answer: false} unless @answer_data
+      console.log @answer_data.has_answer
       updated_question = $.extend(@current_question, @answer_data)
       template = @_mainTemplate(updated_question)
     else

@@ -1,6 +1,6 @@
 class @Dispatcher
   constructor: ->
-    url = "192.168.72.112:3000/websocket"
+    url = "192.168.72.108:3000/websocket"
 
     # fyi, you can do queried params in websocket requests
     # we may want to do this for identifying particular clients
@@ -29,7 +29,6 @@ class @Dispatcher
   _currentQuestion: (message) =>
     window.AAL.router.current_question = @_unSerialize message['current_question']
     console.log window.AAL.router.current_question
-
 
   _currentPhase: (message) =>
     @current_phase = message['current_phase']

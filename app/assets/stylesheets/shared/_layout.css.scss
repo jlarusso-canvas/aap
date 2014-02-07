@@ -1,13 +1,15 @@
 // Background
 body {
-	font-family: $font;
-	background: $background-color url('gray_bg.jpg') no-repeat top center;
+  font-family: $font;
+  background: $background-color url('background.jpg') no-repeat top center;
+  background-position: 0 50px;
+  background-size: cover;
 }
 
 // Header
 header {
-	background: #3f84af url('blue_bg.jpg') no-repeat top center;
-	background-size: cover;
+  background: #3f84af url('blue_bg.jpg') no-repeat top center;
+  background-size: cover;
   height: 107px;
   text-align: center;
   padding-left: 15px;
@@ -34,22 +36,22 @@ h1, h2, h3, h4, .seconds {
 
 // Pre-Game Start
 .start {
-	text-align: center;
+  text-align: center;
 
-	h2 {
-		@include font-size(50);
-	}
+  h2 {
+    @include font-size(50);
+  }
 }
 
 .main-content,
 .top-content {
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 
-	h2 {
-		@include font-size(50);
-	}
+  h2 {
+    @include font-size(50);
+  }
 
 }
 
@@ -62,15 +64,15 @@ h1, h2, h3, h4, .seconds {
 }
 
 .top-content {
-	h2 {padding-top: 100px;}
+  h2 {padding-top: 100px;}
 }
 
 // Pre-Game Countdown 3s
 .main-countdown {
-	.seconds {
-		@include font-size(270);
-		font-weight: 700;
-	}
+  .seconds {
+    @include font-size(270);
+    font-weight: 700;
+  }
 }
 
 // Game Countdown 10s
@@ -84,7 +86,7 @@ h1, h2, h3, h4, .seconds {
   @include font-size(25);
 
   .seconds {
-	  @include font-size(85);
+    @include font-size(85);
     font-weight: bold;
   }
   p {
@@ -93,59 +95,6 @@ h1, h2, h3, h4, .seconds {
   }
 }
 
-// TODO: Update default styles
-button {
-  display: block;
-  padding: 10px;
-  margin: 10px;
-}
-
-#phase-chart {
-  color: grey;
-  border: solid 1px lightgrey;
-  margin: 20px 0 0 10px;
-}
-
-.check-box {
-  color: darkgrey;
-  visibility: hidden;
-}
-
-.show {
-  visibility: visible;
-}
-
-.success {
-  color: limegreen;
-}
-
-.notice {
-  color: cornflowerblue;
-}
-
-.error {
-  color: tomato;
-}
-
-.transition {
- color: chocolate;
-}
-
-.websocket {
-  color: darkviolet;
-}
-
-.log {
-  margin: 10px;
-  padding: 5px;
-  background: rgba(180, 140, 200, .15);
-}
-
-h4 {
-  text-align: center;
-}
-
-.button_to {
-  text-align: center;
-  margin-top: 30px;
-}
+// Game Rounds
+.is-correct {color: $success-color;}
+.is-incorrect {color: $warning-color;}

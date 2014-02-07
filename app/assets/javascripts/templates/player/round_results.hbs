@@ -4,11 +4,16 @@
     <div class="round-results">
 <!-- if Answer is correct, attach .is-correct class -->
 <!-- else attach .is-incorrect -->
-      <h4 class="points is-correct">+10 points</h4>
-      <h2>Correct! {{ answer_name }}</h2>
+      <h4 class="points {{answer_class}}">+10 points</h4>
+      <h2><span>{{exclamation}}</span> {{ answer_name }}</h2>
 <!-- if Correct, attach correct_headline -->
 <!-- else, attach incorrect_headline -->
-      <p>{{correct_headline}}</p></div>
+      {{#if answer_is_correct}}
+        <p>{{correct_headline}}</p>
+      {{else}}
+        <p>{{incorrect_headline}}</p>
+      {/if}
+    </div>
   </div>
   <!- TODO: Replace US Map with SVG -->
   <img class="placeholder" src="assets/placeholder-states.png">
@@ -22,5 +27,4 @@
     </h3>
   </footer>
 </div>
-
 

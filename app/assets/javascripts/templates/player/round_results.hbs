@@ -2,9 +2,13 @@
 <div class="main-content">
   <div id="overlay">
     <div class="round-results">
+<!-- if Answer is correct, attach .is-correct class -->
+<!-- else attach .is-incorrect -->
       <h4 class="points is-correct">+10 points</h4>
-      <h2>Correct! {{ answer_text }}</h2>
-      <p>Now get out your flip-flops!</p></div>
+      <h2>Correct! {{ answer_name }}</h2>
+<!-- if Correct, attach correct_headline -->
+<!-- else, attach incorrect_headline -->
+      <p>{{correct_headline}}</p></div>
   </div>
   <!- TODO: Replace US Map with SVG -->
   <img class="placeholder" src="assets/placeholder-states.png">
@@ -14,7 +18,7 @@
 <div class="selection">
   <footer class="select-bar">
     <h3>You Selected:
-      <strong>South Carolina</strong>
+      <strong>{{answer_name}}</strong>
     </h3>
   </footer>
 </div>

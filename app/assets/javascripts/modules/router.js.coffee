@@ -33,14 +33,13 @@ class @Router
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
       answer_choice = $(@).attr('answer_choice')
-      console.log "answer choice: " + answer_choice
       if answer_choice
         answer_index = window.AAL.router.current_question.answer_index
 
         console.log answer_index
         # It's wrong to validate the answer on the client side, but I wanted
         # to avoid a potential break point by making an extra request.
-        answer_is_correct = parseInt(answer_choice) is answer_index
+        answer_is_correct = answer_choice is answer_index
         window.AAL.router.answer_is_correct = answer_is_correct
 
         console.log "answer is correct: " + answer_is_correct
@@ -51,7 +50,6 @@ class @Router
           answer_is_correct: answer_is_correct
 
         window.AAL.dispatcher.dispatcher.trigger "send_answer", params
-        debugger
       else
         # TODO: tell player to select a valid state
 

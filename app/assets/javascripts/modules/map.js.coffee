@@ -40,5 +40,5 @@ class @Map
         fill: "#87a347"
       @.attr
         fill: "#ef8301"
-      $('.submit').attr('answer_index', id).addClass("is-active")
+      $('.submit').attr('answer_choice', parseInt(id)).addClass("is-active")
       $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>")

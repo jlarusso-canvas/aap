@@ -32,12 +32,23 @@ class @Router
 
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
-      params =
-        device_uuid: 2
-        question_id: 10
-        answer_index: $(@).attr('answer_index')
+      answer_choice = $(@).attr('answer_choice')
+      if answer_choice
+        answer_index = window.AAL.router.current_question.answer_index
 
-      window.AAL.dispatcher.dispatcher.trigger "send_answer", params
+        # It's wrong to validate the answer on the client side, but I wanted
+        # to avoid a potential break point by making an extra request.
+        answer_is_correct = parseInt(answer_choice) is answer_index
+
+        params =
+          #TODO: make device uuid dynamic
+          device_uuid: 2
+          answer_is_correct: answer_is_correct
+
+        window.AAL.dispatcher.dispatcher.trigger "send_answer", params
+      else
+        # TODO: tell player to select a valid state
+
 
   #############################################################################
   # Private

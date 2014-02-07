@@ -33,4 +33,3 @@ class @Map
     element.click ->
       $('.submit').attr 'answer_index', id
 
-      # TODO: tell player to select a valid state

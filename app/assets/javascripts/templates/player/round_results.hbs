@@ -6,7 +6,12 @@
 <!-- else attach .is-incorrect -->
 
       {{#if has_answer}}
-        <h4 class="points {{answer_class}}">+10 points</h4>
+        <h4 class="points {{answer_class}}">
+          {{#if correct_headline}}
+            +10
+          {{else}}
+            +0
+          {{/if}} points</h4>
         <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
       {{else}}
         <h2><span>You didn't answer!</span> {{answer_name}}</h2>

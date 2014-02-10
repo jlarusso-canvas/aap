@@ -4,6 +4,7 @@
 $red: #960000;
 $green: #87a347;
 $orange: #ef8301;
+$blue: #39addb;
 
 $offWhite: #fff7ed;
 $noHover: #fff;
@@ -12,6 +13,7 @@ $white: #fff;
 $grayish: #c6c6c6;
 $grayish1: #fff6ec;
 $grayish2: #7c7c7c;
+$grayish3: #c7c7c7;
 $darkgray: #404446;
 
 $font-color: $white;
@@ -19,6 +21,7 @@ $success-color: $green;
 $warning-color: $red;
 $active-color: $orange;
 $background-color: $darkgray;
+$title-color: $blue;
 
 /* Font */
 $font: "franklin-gothic-urw", Arial, sans-serif;
@@ -77,6 +80,20 @@ $font: "franklin-gothic-urw", Arial, sans-serif;
   zoom: 1;
   /* END IE HACKERY */
   background: rgba($red, $green, $blue, $alpha);
+}
+
+
+@mixin vcenter-td (
+  $inner: ".inner"
+) {
+
+  display: table;
+
+  & > #{$inner} {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
 }
 
 // Helpers

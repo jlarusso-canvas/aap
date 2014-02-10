@@ -130,15 +130,18 @@ footer {
 }
 
 // Submit Answer Button
-.submit {
+.answer {
   float: right;
+}
+
+.submit {
   border: 0;
   padding: 10px 25px;
   font-size:25px;
   @include box-shadow(8px, 13px, 7px, rgba(0,0,0,.2));
   margin-right: 50px;
   font-weight: bold;
-    color: $grayish2;
+  color: $grayish2;
 
   &:hover {
     color: white;
@@ -153,4 +156,200 @@ footer {
     color: white;
     background-color: $active-color;
   }
+}
+
+// Round Results
+.final-results {
+  color: red;
+  background: #414547 image-url("final-results-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+#logo-column {
+  width: 30%;
+  float:left;
+  text-align: center;
+
+  .wia-logo {
+    margin-top: 12%;
+    margin-left: 15%;
+    padding-right: 1%;
+    border-right: 1px solid rgba($white, 0.2);
+  }
+}
+
+#form-column {
+  float:left;
+  width: 70%;
+
+  h3 {
+    font-weight: normal;
+    @include font-size(35);
+    margin-top: 5%;
+  }
+
+  h1 {
+    color: $title-color;
+    margin-top: 2%;
+    @include font-size(43);
+  }
+
+  p {
+    margin-top: 1.5%;
+    color: $grayish3;
+    @include font-size(20)
+  }
+}
+
+#final-results-footer {
+  .aerial-social {
+    float: left;
+    display: inline-block;
+
+    @include font-size(25);
+    text-shadow: none;
+  }
+
+  .smithsonian-logo {
+    float: right;
+    display: inline-block;
+    margin-right: 2%;
+
+    img {
+      width: 250px;
+      height: 54px;
+    }
+  }
+}
+
+#sweep-form {
+  width: 90%;
+  margin-top: 3%;
+}
+
+#sweep-label-left {
+  display: inline-block;
+  float:left;
+  width: 20%;
+
+  color: $grayish3;
+  @include font-size(20);
+
+  .label {
+    text-align: right;
+    height: 43px;
+    margin-bottom: 2%;
+    padding-right: 15px;
+  }
+}
+
+.checkbox {
+  margin: 5px 0;
+  color: $grayish3;
+  @include font-size(15);
+
+  padding-top: 15px;
+
+  &:last-of-type {
+    padding-top: 5px;
+  }
+}
+
+#checkbox-group {
+  margin-top: 2%;
+}
+
+#sweep-input {
+  float: left;
+  display: inline-block;
+  width: 80%;
+
+  a {
+    color: $white;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $white;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 90%;
+    margin-bottom: 2%;
+
+    border: 0;
+    height: 23px;
+    background-color: rgba(#fff, 0.2);
+    color: $white;
+    padding: 5px 10px;
+
+    &:focus,
+    &:active {
+      outline:none;
+    }
+  }
+
+  // Checkbox Form
+  input[type=checkbox] {
+    display:none;
+    cursor:pointer;
+
+    &:focus,
+    &:active {
+      outline:none;
+    }
+
+    &:checked + label {
+      background: transparent image-url("check-1.png") no-repeat;
+    }
+
+    & + label {
+      cursor: pointer;
+      display:inline-block;
+      position: relative;
+      padding-left: 60px;
+      background: transparent image-url("check-box.png") no-repeat;
+      height: 40px;
+      line-height: 1.4;
+    }
+  }
+
+  input[type="submit"] {
+    -moz-box-shadow: 3px 5px 7px rgba(0,0,0,.2); /* drop shadow */
+    -webkit-box-shadow: 3px 5px 7px rgba(0,0,0,.2); /* drop shadow */
+    box-shadow: 3px 5px 7px rgba(0,0,0,.2); /* drop shadow */
+
+    margin-right: 30px;
+  }
+
+  .submit-form {
+    margin-top: 5%;
+
+    a {
+      border: 0;
+      color: $grayish3;
+    }
+  }
+
+}
+
+.promo-page {
+  background: #414547 image-url("promo-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.aerial-promo-logo {
+  height: 768px;
+  margin: 0 auto;
+  @include vcenter-td;
+
+  .inner img {
+    height: 323px;
+    width: 666px;
+  }
+}
+
+.promo-bottom {
+  position: absolute;
+  bottom: 25px;
+  margin: 0 auto;
+  width: 88%;
 }

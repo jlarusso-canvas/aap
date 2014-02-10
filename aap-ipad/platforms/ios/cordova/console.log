@@ -58,3 +58,14 @@ Terminating in response to SpringBoard's termination.
 2014-02-10 11:30:59.712 Aerial[934:80b] Resetting plugins due to page load.
 2014-02-10 11:30:59.757 Aerial[934:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
 2014-02-10 11:30:59.901 Aerial[934:80b] THREAD WARNING: ['Notification'] took '100.876953' ms. Plugin should use a background thread.
+2014-02-10 12:30:46.538 HelloCordova[59275:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 12:30:46.584 HelloCordova[59275:80b] Unlimited access to network resources
+2014-02-10 12:30:47.023 HelloCordova[59275:80b] Resetting plugins due to page load.
+2014-02-10 12:30:47.173 HelloCordova[59275:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1DCC416B-7F50-4C50-8CEB-4088E5A63421/HelloCordova.app/www/index.html
+2014-02-10 12:30:47.220 HelloCordova[59275:80b] Received Event: deviceready
+2014-02-10 12:35:18.513 Aerial[60075:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 12:35:18.524 Aerial[60075:80b] Unlimited access to network resources
+2014-02-10 12:35:18.530 Aerial[60075:80b] Fix applied for database locations?: YES
+2014-02-10 12:35:18.713 Aerial[60075:80b] Resetting plugins due to page load.
+2014-02-10 12:35:18.814 Aerial[60075:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/62B95740-28B8-4A2F-A2A2-624949F11040/Aerial.app/www/index.html
+2014-02-10 12:35:19.472 Aerial[60075:80b] THREAD WARNING: ['Notification'] took '597.043945' ms. Plugin should use a background thread.

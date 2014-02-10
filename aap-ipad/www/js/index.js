@@ -43,5 +43,6 @@ var app = {
         console.log('Received Event: ' + id);
         window.AAL.device_uid = device.uuid;
 
+
     }
 };

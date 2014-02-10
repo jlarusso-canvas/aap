@@ -140,3 +140,10 @@ class @Router
     @clearHeaderCountdown()
     template = @_mainTemplate()
     $('#content').append(template)
+    $('#container').addClass("final-results")
+
+  # Phase 5
+  _post_game: ->
+    template = @_mainTemplate()
+    $('#content').append(template)
+    $('#container').addClass("promo-page")

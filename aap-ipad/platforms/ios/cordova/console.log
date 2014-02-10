@@ -1,0 +1,49 @@
+2014-02-10 10:15:30.751 Aerial[91857:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:15:30.763 Aerial[91857:80b] Unlimited access to network resources
+2014-02-10 10:15:30.981 Aerial[91857:80b] Resetting plugins due to page load.
+2014-02-10 10:15:31.087 Aerial[91857:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:15:31.147 Aerial[91857:80b] Received Event: deviceready
+2014-02-10 10:17:44.318 Aerial[92605:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:17:44.331 Aerial[92605:80b] Unlimited access to network resources
+2014-02-10 10:17:44.442 Aerial[92605:80b] Resetting plugins due to page load.
+2014-02-10 10:17:44.554 Aerial[92605:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:17:44.604 Aerial[92605:80b] Received Event: deviceready
+2014-02-10 10:19:59.424 Aerial[93125:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:19:59.435 Aerial[93125:80b] Unlimited access to network resources
+2014-02-10 10:19:59.628 Aerial[93125:80b] Resetting plugins due to page load.
+2014-02-10 10:19:59.675 Aerial[93125:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:21:07.626 Aerial[93672:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:21:07.637 Aerial[93672:80b] Unlimited access to network resources
+2014-02-10 10:21:07.885 Aerial[93672:80b] Resetting plugins due to page load.
+2014-02-10 10:21:07.986 Aerial[93672:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:22:00.066 Aerial[94179:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:22:00.077 Aerial[94179:80b] Unlimited access to network resources
+2014-02-10 10:22:00.269 Aerial[94179:80b] Resetting plugins due to page load.
+2014-02-10 10:22:00.376 Aerial[94179:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:23:14.392 Aerial[94687:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:23:14.400 Aerial[94687:80b] Unlimited access to network resources
+2014-02-10 10:23:14.632 Aerial[94687:80b] Resetting plugins due to page load.
+2014-02-10 10:23:14.686 Aerial[94687:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:24:05.475 Aerial[95192:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:24:05.487 Aerial[95192:80b] Unlimited access to network resources
+2014-02-10 10:24:05.698 Aerial[95192:80b] Resetting plugins due to page load.
+2014-02-10 10:24:05.786 Aerial[95192:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:25:11.788 Aerial[95697:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:25:11.800 Aerial[95697:80b] Unlimited access to network resources
+2014-02-10 10:25:12.005 Aerial[95697:80b] Resetting plugins due to page load.
+2014-02-10 10:25:12.106 Aerial[95697:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:28:05.574 Aerial[96267:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:28:05.584 Aerial[96267:80b] Unlimited access to network resources
+2014-02-10 10:28:05.812 Aerial[96267:80b] Resetting plugins due to page load.
+2014-02-10 10:28:05.916 Aerial[96267:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:28:06.522 Aerial[96267:80b] THREAD WARNING: ['Notification'] took '525.980957' ms. Plugin should use a background thread.
+2014-02-10 10:29:21.870 Aerial[97065:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:29:21.881 Aerial[97065:80b] Unlimited access to network resources
+2014-02-10 10:29:22.068 Aerial[97065:80b] Resetting plugins due to page load.
+2014-02-10 10:29:22.153 Aerial[97065:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:29:22.294 Aerial[97065:80b] THREAD WARNING: ['Notification'] took '88.131104' ms. Plugin should use a background thread.
+2014-02-10 10:30:34.411 Aerial[97590:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-10 10:30:34.422 Aerial[97590:80b] Unlimited access to network resources
+2014-02-10 10:30:34.674 Aerial[97590:80b] Resetting plugins due to page load.
+2014-02-10 10:30:34.718 Aerial[97590:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/53273518-66A9-471A-ACAB-47A2FC6422F5/Aerial.app/www/index.html
+2014-02-10 10:30:34.845 Aerial[97590:80b] THREAD WARNING: ['Notification'] took '86.770996' ms. Plugin should use a background thread.

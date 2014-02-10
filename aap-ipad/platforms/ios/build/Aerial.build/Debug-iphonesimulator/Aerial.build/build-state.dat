@@ -1,0 +1,979 @@
+TAerial
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Aerial/config.xml build/emulator/Aerial.app/config.xml
+cCpResource Aerial/Resources/icons/icon-76.png build/emulator/Aerial.app/icon-76.png
+cCpResource Aerial/Resources/icons/icon-40@2x.png build/emulator/Aerial.app/icon-40@2x.png
+cCpResource Aerial/Resources/icons/icon-72.png build/emulator/Aerial.app/icon-72.png
+cCpResource Aerial/Resources/icons/icon.png build/emulator/Aerial.app/icon.png
+cCpResource Aerial/Resources/icons/icon@2x.png build/emulator/Aerial.app/icon@2x.png
+cCompileXIB /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib
+cCopyStringsFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/en.lproj/Localizable.strings Aerial/Resources/en.lproj/Localizable.strings
+cCpResource Aerial/Resources/icons/icon-50.png build/emulator/Aerial.app/icon-50.png
+cCpResource Aerial/Resources/icons/icon-60@2x.png build/emulator/Aerial.app/icon-60@2x.png
+cCopyStringsFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/de.lproj/Localizable.strings Aerial/Resources/de.lproj/Localizable.strings
+cCpResource Aerial/Resources/icons/icon-small.png build/emulator/Aerial.app/icon-small.png
+cCpResource Aerial/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Aerial.app/Default-Landscape@2x~ipad.png
+cCpResource Aerial/Resources/splash/Default-Landscape~ipad.png build/emulator/Aerial.app/Default-Landscape~ipad.png
+cCpResource Aerial/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Aerial.app/Default-Portrait@2x~ipad.png
+cCpResource Aerial/Resources/icons/icon-small@2x.png build/emulator/Aerial.app/icon-small@2x.png
+cCpResource Aerial/Resources/splash/Default-Portrait~ipad.png build/emulator/Aerial.app/Default-Portrait~ipad.png
+cCpResource Aerial/Resources/icons/icon-40.png build/emulator/Aerial.app/icon-40.png
+cCpResource Aerial/Resources/splash/Default@2x~iphone.png build/emulator/Aerial.app/Default@2x~iphone.png
+cCpResource Aerial/Resources/icons/icon-60.png build/emulator/Aerial.app/icon-60.png
+cCpResource Aerial/Resources/splash/Default~iphone.png build/emulator/Aerial.app/Default~iphone.png
+cCpResource Aerial/Resources/splash/Default-568h@2x~iphone.png build/emulator/Aerial.app/Default-568h@2x~iphone.png
+cCpResource Aerial/Resources/icons/icon-50@2x.png build/emulator/Aerial.app/icon-50@2x.png
+cCpResource Aerial/Resources/icons/icon-76@2x.png build/emulator/Aerial.app/icon-76@2x.png
+cCpResource Aerial/Resources/icons/icon-72@2x.png build/emulator/Aerial.app/icon-72@2x.png
+cCpResource Aerial/Resources/CDVNotification.bundle build/emulator/Aerial.app/CDVNotification.bundle
+cProcessPCH /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch.pch Aerial/Aerial-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial normal i386
+cGenerateDSYMFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
+cTouch /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052EFEBF300000000000003B5
+t1391455219
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052EFEBFA00000000000001A0
+t1391455226
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052EFEBFB0000000000059350
+t1391455227
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052EFEBFC00000000009040F0
+t1391455228
+s9453808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052EFEBFC0000000000445870
+t1391455228
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052EFEBFC00000000000EC820
+t1391455228
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052EFEBFF00000000001BA530
+t1391455231
+s1811760
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
+c0000000052F8F8740000000000000A0A
+t1392048244
+s2570
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Prefix.pch
+c0000000052F8ECBE00000000000003BD
+t1392045246
+s957
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m
+c0000000052F8ECBE00000000000013A3
+t1392045246
+s5027
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m
+c0000000052F8ECBE0000000000001267
+t1392045246
+s4711
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib
+c0000000052F8ECBE0000000000001759
+t1392045246
+s5977
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m
+c0000000052F8ECCD0000000000000490
+t1392045261
+s1168
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m
+c0000000052F8ECC50000000000000C22
+t1392045253
+s3106
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+c0000000052F8EFCB000000000000166C
+t1392046027
+s5740
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/CDVNotification.bundle
+c0000000052F8EFCB0000000000000066
+t1392046027
+s102
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/de.lproj/Localizable.strings
+c0000000052F8ECBE00000000000004BF
+t1392045246
+s1215
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/en.lproj/Localizable.strings
+c0000000052F8ECBE00000000000004AA
+t1392045246
+s1194
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-40.png
+c0000000052F8ECBE0000000000000FF2
+t1392045246
+s4082
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-40@2x.png
+c0000000052F8ECBE0000000000001CF3
+t1392045246
+s7411
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-50.png
+c0000000052F8ECBE000000000000130A
+t1392045246
+s4874
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-50@2x.png
+c0000000052F8ECBE000000000000258B
+t1392045246
+s9611
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-60.png
+c0000000052F8ECBE00000000000016B3
+t1392045246
+s5811
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-60@2x.png
+c0000000052F8ECBE0000000000002E94
+t1392045246
+s11924
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-72.png
+c0000000052F8ECBE0000000000001350
+t1392045246
+s4944
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-72@2x.png
+c0000000052F8ECBE0000000000002DBA
+t1392045246
+s11706
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-76.png
+c0000000052F8ECBE0000000000001B71
+t1392045246
+s7025
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-76@2x.png
+c0000000052F8ECBE0000000000003B9E
+t1392045246
+s15262
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-small.png
+c0000000052F8ECBE0000000000000CDE
+t1392045246
+s3294
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-small@2x.png
+c0000000052F8ECBE00000000000015E8
+t1392045246
+s5608
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon.png
+c0000000052F8ECBE0000000000000F3E
+t1392045246
+s3902
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon@2x.png
+c0000000052F8ECBE0000000000001EBD
+t1392045246
+s7869
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-568h@2x~iphone.png
+c0000000052F8ECBE00000000000085B1
+t1392045246
+s34225
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052F8ECBE0000000000012DF4
+t1392045246
+s77300
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Landscape~ipad.png
+c0000000052F8ECBE0000000000008877
+t1392045246
+s34935
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052F8ECBE0000000000012B02
+t1392045246
+s76546
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Portrait~ipad.png
+c0000000052F8ECBE00000000000085E6
+t1392045246
+s34278
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default@2x~iphone.png
+c0000000052F8ECBE0000000000007323
+t1392045246
+s29475
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default~iphone.png
+c0000000052F8ECBE000000000000289A
+t1392045246
+s10394
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/config.xml
+c0000000052F8F874000000000000068E
+t1392048244
+s1678
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m
+c0000000052F8ECBE0000000000000458
+t1392045246
+s1112
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial.LinkFileList
+c0000000052F8F879000000000000033C
+t1392048249
+s828
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o
+t1392048251
+s77560
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o
+t1392048251
+s53128
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o
+t1392048251
+s43916
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o
+t1392048251
+s71580
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o
+t1392048251
+s53520
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o
+t1392048251
+s3076
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh
+c0000000052F8F879000000000000002D
+t1392048249
+s45
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
+t1392048251
+s1054
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
+t2
+s0
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
+t1392048251
+s296408
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/CDVNotification.bundle
+t1392048249
+s102
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-568h@2x~iphone.png
+t1392048249
+s34225
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Landscape@2x~ipad.png
+t1392048249
+s77300
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Landscape~ipad.png
+t1392048249
+s34935
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Portrait@2x~ipad.png
+t1392048249
+s76546
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Portrait~ipad.png
+t1392048249
+s34278
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default@2x~iphone.png
+t1392048249
+s29475
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default~iphone.png
+t1392048249
+s10394
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
+t1392048249
+s1268
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/MainViewController.nib
+t1392048250
+s1332
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo
+t2
+s0
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml
+t1392048249
+s1678
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/de.lproj/Localizable.strings
+t1392048249
+s280
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/en.lproj/Localizable.strings
+t1392048249
+s166
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40.png
+t1392048249
+s4082
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40@2x.png
+t1392048249
+s7411
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-50.png
+t1392048249
+s4874
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-50@2x.png
+t1392048249
+s9611
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-60.png
+t1392048249
+s5811
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-60@2x.png
+t1392048249
+s11924
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72.png
+t1392048249
+s4944
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72@2x.png
+t1392048249
+s11706
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76.png
+t1392048249
+s7025
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76@2x.png
+t1392048249
+s15262
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-small.png
+t1392048249
+s3294
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-small@2x.png
+t1392048249
+s5608
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon.png
+t1392048249
+s3902
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon@2x.png
+t1392048249
+s7869
+
+N/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a
+c0000000052F8F87900000000000D6EC0
+t1392048249
+s880320
+
+N/var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch.pch
+t1392045289
+s5342336
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies02d498f92fa9b841^8b8d99f92fa9b841^---0#1#1#--18"Check dependencies36"7237689E-F09A-450D-88FA-6768D4C62085-
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.131050
+e413741051.236242
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m193"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o Aerial/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler16bf21fb2fa9b841^bb7b3cfb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m0000000000000000^3722"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o Aerial/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/AppDelegate.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o36"8A071DE8-2242-4F09-B47B-3B2D9E789B66-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.132808
+e413741051.230856
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m215"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o Aerial/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf12b22fb2fa9b841^86373bfb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^3762"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o Aerial/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o36"918D4A3A-8D58-4E8D-AA17-A871872B58AE-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.159887
+e413741051.233701
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m216"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o Aerial/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc91e29fb2fa9b841^28d43bfb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m0000000000000000^3764"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o Aerial/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.console/CDVLogger.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o36"F60F0236-A159-4820-874D-C2497AFBC284-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.213393
+e413741051.283065
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m228"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbfd536fb2fa9b841^cd7748fb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m0000000000000000^3800"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Plugins/org.apache.cordova.dialogs/CDVNotification.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o36"3437796E-6E12-4231-98CA-B5C285DB1E75-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.131432
+e413741051.213054
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m207"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o Aerial/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7ade21fb2fa9b841^b98936fb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m0000000000000000^3764"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o Aerial/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o36"DE236D1A-0DAA-4940-BDBC-8CD1B02634BC-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413741051.130631
+e413741051.159432
+r1
+xCompileC
+xbuild/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m171"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o Aerial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler929721fb2fa9b841^ae2829fb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m0000000000000000^3664"CompileC build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o Aerial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-generated-files.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-own-target-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-all-target-headers.hmap -iquote /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-project-headers.hmap -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources/i386 -I/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -include /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch -MMD -MT dependencies -MF /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.dia -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/main.m -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o36"D7DE8871-08BA-45A2-9D36-27A10EE26DF3-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCompileXIB /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib
+s413741049.716572
+e413741051.129314
+r1
+xCompileXIB
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib
+o2014-02-10 11:04:10.609 Interface Builder Cocoa Touch Tool[99521:303] CFPreferences: user home directory at file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib48"CompileXIB Aerial/Classes/MainViewController.xib29d0b7f92fa9b841^e31c21fb2fa9b841^-231"2014-02-10 11:04:10.609 Interface Builder Cocoa Touch Tool[99521:303] CFPreferences: user home directory at file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib0000000000000000^899"CompileXIB Aerial/Classes/MainViewController.xib    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/MainViewController.nib /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.xib36"CF09ACA6-2C20-4FF9-B6E5-0567410EACCA-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCopyStringsFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/de.lproj/Localizable.strings Aerial/Resources/de.lproj/Localizable.strings
+s413741049.721540
+e413741049.724577
+r1
+xCopyStringsFile
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/de.lproj/Localizable.strings
+xAerial/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Aerial/Resources/de.lproj/Localizable.strings116"CopyStringsFile build/emulator/Aerial.app/de.lproj/Localizable.strings Aerial/Resources/de.lproj/Localizable.stringse9f0b8f92fa9b841^39d2b9f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/de.lproj/Localizable.strings0000000000000000^699"CopyStringsFile build/emulator/Aerial.app/de.lproj/Localizable.strings Aerial/Resources/de.lproj/Localizable.strings    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/de.lproj -- Aerial/Resources/de.lproj/Localizable.strings36"B7B698BE-C1A0-4CA2-915F-FB21880FF876-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCopyStringsFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/en.lproj/Localizable.strings Aerial/Resources/en.lproj/Localizable.strings
+s413741049.716898
+e413741049.720899
+r1
+xCopyStringsFile
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/en.lproj/Localizable.strings
+xAerial/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Aerial/Resources/en.lproj/Localizable.strings116"CopyStringsFile build/emulator/Aerial.app/en.lproj/Localizable.strings Aerial/Resources/en.lproj/Localizable.strings83dab7f92fa9b841^44a2b8f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/en.lproj/Localizable.strings0000000000000000^699"CopyStringsFile build/emulator/Aerial.app/en.lproj/Localizable.strings Aerial/Resources/en.lproj/Localizable.strings    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/en.lproj -- Aerial/Resources/en.lproj/Localizable.strings36"FC78921C-DA07-42F4-ABDE-6703CC39395D-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/CDVNotification.bundle build/emulator/Aerial.app/CDVNotification.bundle
+s413741049.739836
+e413741049.742425
+r1
+xCpResource
+xAerial/Resources/CDVNotification.bundle
+xbuild/emulator/Aerial.app/CDVNotification.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/Aerial.app/CDVNotification.bundle99"CpResource Aerial/Resources/CDVNotification.bundle build/emulator/Aerial.app/CDVNotification.bundle639abdf92fa9b841^041cbef92fa9b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/CDVNotification.bundle0034ec43ddffdf42^736"CpResource Aerial/Resources/CDVNotification.bundle build/emulator/Aerial.app/CDVNotification.bundle    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/CDVNotification.bundle /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"D9E0F70D-4DE7-42DB-8D43-E26D2933318D-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-40.png build/emulator/Aerial.app/icon-40.png
+s413741049.729501
+e413741049.732804
+r1
+xCpResource
+xAerial/Resources/icons/icon-40.png
+xbuild/emulator/Aerial.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon-40.png83"CpResource Aerial/Resources/icons/icon-40.png build/emulator/Aerial.app/icon-40.png4ce0baf92fa9b841^c2fabbf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon-40.png build/emulator/Aerial.app/icon-40.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-40.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"C481DA12-F2BC-4EE5-92D0-B65065A22750-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-40@2x.png build/emulator/Aerial.app/icon-40@2x.png
+s413741049.711828
+e413741049.714058
+r1
+xCpResource
+xAerial/Resources/icons/icon-40@2x.png
+xbuild/emulator/Aerial.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-40@2x.png89"CpResource Aerial/Resources/icons/icon-40@2x.png build/emulator/Aerial.app/icon-40@2x.pngfb57b6f92fa9b841^ec69b7f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40@2x.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-40@2x.png build/emulator/Aerial.app/icon-40@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-40@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"90A012BA-46C6-4872-82D0-3F605A37BD67-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-50.png build/emulator/Aerial.app/icon-50.png
+s413741049.718117
+e413741049.721637
+r1
+xCpResource
+xAerial/Resources/icons/icon-50.png
+xbuild/emulator/Aerial.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon-50.png83"CpResource Aerial/Resources/icons/icon-50.png build/emulator/Aerial.app/icon-50.pngea08b8f92fa9b841^f0dbb8f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-50.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon-50.png build/emulator/Aerial.app/icon-50.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-50.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"424587DD-B911-428B-9D0C-671198EAB9A8-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-50@2x.png build/emulator/Aerial.app/icon-50@2x.png
+s413741049.736437
+e413741049.737987
+r1
+xCpResource
+xAerial/Resources/icons/icon-50@2x.png
+xbuild/emulator/Aerial.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-50@2x.png89"CpResource Aerial/Resources/icons/icon-50@2x.png build/emulator/Aerial.app/icon-50@2x.pngc5abbcf92fa9b841^921fbdf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-50@2x.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-50@2x.png build/emulator/Aerial.app/icon-50@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-50@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"72589CDF-D6C7-4BEA-8D7D-36B749489EE7-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-60.png build/emulator/Aerial.app/icon-60.png
+s413741049.733008
+e413741049.734726
+r1
+xCpResource
+xAerial/Resources/icons/icon-60.png
+xbuild/emulator/Aerial.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon-60.png83"CpResource Aerial/Resources/icons/icon-60.png build/emulator/Aerial.app/icon-60.png86cabbf92fa9b841^2d5abcf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-60.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon-60.png build/emulator/Aerial.app/icon-60.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-60.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"0A9C9753-111C-4DF8-9CAF-EAB033D64FD5-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-60@2x.png build/emulator/Aerial.app/icon-60@2x.png
+s413741049.719278
+e413741049.721335
+r1
+xCpResource
+xAerial/Resources/icons/icon-60@2x.png
+xbuild/emulator/Aerial.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-60@2x.png89"CpResource Aerial/Resources/icons/icon-60@2x.png build/emulator/Aerial.app/icon-60@2x.png7b67b8f92fa9b841^56d8b8f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-60@2x.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-60@2x.png build/emulator/Aerial.app/icon-60@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-60@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"33E03D71-EB41-4BA7-B5B1-754EE7F39532-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-72.png build/emulator/Aerial.app/icon-72.png
+s413741049.713079
+e413741049.716115
+r1
+xCpResource
+xAerial/Resources/icons/icon-72.png
+xbuild/emulator/Aerial.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon-72.png83"CpResource Aerial/Resources/icons/icon-72.png build/emulator/Aerial.app/icon-72.pngb9c3b6f92fa9b841^0075b7f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon-72.png build/emulator/Aerial.app/icon-72.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-72.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"D2A90426-222D-41B4-8C13-AD2F8800802A-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-72@2x.png build/emulator/Aerial.app/icon-72@2x.png
+s413741049.738966
+e413741049.741760
+r1
+xCpResource
+xAerial/Resources/icons/icon-72@2x.png
+xbuild/emulator/Aerial.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-72@2x.png89"CpResource Aerial/Resources/icons/icon-72@2x.png build/emulator/Aerial.app/icon-72@2x.png4b5abdf92fa9b841^c6f7bdf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72@2x.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-72@2x.png build/emulator/Aerial.app/icon-72@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-72@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"A0512F81-DCB5-43D8-B3EE-0D55605F9C8C-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-76.png build/emulator/Aerial.app/icon-76.png
+s413741049.711588
+e413741049.713562
+r1
+xCpResource
+xAerial/Resources/icons/icon-76.png
+xbuild/emulator/Aerial.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon-76.png83"CpResource Aerial/Resources/icons/icon-76.png build/emulator/Aerial.app/icon-76.png274ab6f92fa9b841^452fb7f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon-76.png build/emulator/Aerial.app/icon-76.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-76.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"D963187F-CD35-456A-AF95-1E5FACFD4947-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-76@2x.png build/emulator/Aerial.app/icon-76@2x.png
+s413741049.738092
+e413741049.739974
+r1
+xCpResource
+xAerial/Resources/icons/icon-76@2x.png
+xbuild/emulator/Aerial.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-76@2x.png89"CpResource Aerial/Resources/icons/icon-76@2x.png build/emulator/Aerial.app/icon-76@2x.png7d24bdf92fa9b841^c075bdf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76@2x.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-76@2x.png build/emulator/Aerial.app/icon-76@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-76@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"DBEE8CE9-0BE0-48EE-AC6F-76C9920AAA05-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-small.png build/emulator/Aerial.app/icon-small.png
+s413741049.721741
+e413741049.725311
+r1
+xCpResource
+xAerial/Resources/icons/icon-small.png
+xbuild/emulator/Aerial.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Aerial.app/icon-small.png89"CpResource Aerial/Resources/icons/icon-small.png build/emulator/Aerial.app/icon-small.png4207b9f92fa9b841^42ccb9f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-small.png0034ec43ddffdf42^724"CpResource Aerial/Resources/icons/icon-small.png build/emulator/Aerial.app/icon-small.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-small.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"02D65C8C-4F05-4643-8F75-CFAE261962AE-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon-small@2x.png build/emulator/Aerial.app/icon-small@2x.png
+s413741049.727106
+e413741049.730416
+r1
+xCpResource
+xAerial/Resources/icons/icon-small@2x.png
+xbuild/emulator/Aerial.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Aerial.app/icon-small@2x.png95"CpResource Aerial/Resources/icons/icon-small@2x.png build/emulator/Aerial.app/icon-small@2x.png3a3ebaf92fa9b841^e866bbf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-small@2x.png0034ec43ddffdf42^733"CpResource Aerial/Resources/icons/icon-small@2x.png build/emulator/Aerial.app/icon-small@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon-small@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"D6947511-4D43-4BC7-BAC8-7EC7AE455C65-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon.png build/emulator/Aerial.app/icon.png
+s413741049.713811
+e413741049.716982
+r1
+xCpResource
+xAerial/Resources/icons/icon.png
+xbuild/emulator/Aerial.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/emulator/Aerial.app/icon.png77"CpResource Aerial/Resources/icons/icon.png build/emulator/Aerial.app/icon.png6f29b7f92fa9b841^0f9cb7f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon.png0034ec43ddffdf42^706"CpResource Aerial/Resources/icons/icon.png build/emulator/Aerial.app/icon.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"7B1C3B4C-C156-412E-B24F-929D661BE4A5-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/icons/icon@2x.png build/emulator/Aerial.app/icon@2x.png
+s413741049.715613
+e413741049.718965
+r1
+xCpResource
+xAerial/Resources/icons/icon@2x.png
+xbuild/emulator/Aerial.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Aerial.app/icon@2x.png83"CpResource Aerial/Resources/icons/icon@2x.png build/emulator/Aerial.app/icon@2x.png31b3b7f92fa9b841^c618b8f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon@2x.png0034ec43ddffdf42^715"CpResource Aerial/Resources/icons/icon@2x.png build/emulator/Aerial.app/icon@2x.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/icons/icon@2x.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"48105CAE-C256-42C0-AF73-6C944F1BB5BD-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default-568h@2x~iphone.png build/emulator/Aerial.app/Default-568h@2x~iphone.png
+s413741049.735964
+e413741049.738531
+r1
+xCpResource
+xAerial/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Aerial.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Aerial.app/Default-568h@2x~iphone.png114"CpResource Aerial/Resources/splash/Default-568h@2x~iphone.png build/emulator/Aerial.app/Default-568h@2x~iphone.pnge980bcf92fa9b841^2540bdf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-568h@2x~iphone.png0034ec43ddffdf42^762"CpResource Aerial/Resources/splash/Default-568h@2x~iphone.png build/emulator/Aerial.app/Default-568h@2x~iphone.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-568h@2x~iphone.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"3E7707B0-62D4-439A-9037-1E6D4A470A44-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Aerial.app/Default-Landscape@2x~ipad.png
+s413741049.722574
+e413741049.726695
+r1
+xCpResource
+xAerial/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Aerial.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/Aerial.app/Default-Landscape@2x~ipad.png120"CpResource Aerial/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Aerial.app/Default-Landscape@2x~ipad.png2c2bb9f92fa9b841^6003baf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Landscape@2x~ipad.png0034ec43ddffdf42^771"CpResource Aerial/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Aerial.app/Default-Landscape@2x~ipad.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Landscape@2x~ipad.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"2FEC7056-A512-4658-BD34-F941BE46474E-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default-Landscape~ipad.png build/emulator/Aerial.app/Default-Landscape~ipad.png
+s413741049.724876
+e413741049.728022
+r1
+xCpResource
+xAerial/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Aerial.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Aerial.app/Default-Landscape~ipad.png114"CpResource Aerial/Resources/splash/Default-Landscape~ipad.png build/emulator/Aerial.app/Default-Landscape~ipad.png2de8b9f92fa9b841^7557baf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Landscape~ipad.png0034ec43ddffdf42^762"CpResource Aerial/Resources/splash/Default-Landscape~ipad.png build/emulator/Aerial.app/Default-Landscape~ipad.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Landscape~ipad.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"99D57510-606B-41FE-90F9-B38C3FD9EC17-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Aerial.app/Default-Portrait@2x~ipad.png
+s413741049.726744
+e413741049.729162
+r1
+xCpResource
+xAerial/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Aerial.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/emulator/Aerial.app/Default-Portrait@2x~ipad.png118"CpResource Aerial/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Aerial.app/Default-Portrait@2x~ipad.pngd42abaf92fa9b841^7234bbf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Portrait@2x~ipad.png0034ec43ddffdf42^768"CpResource Aerial/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Aerial.app/Default-Portrait@2x~ipad.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Portrait@2x~ipad.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"CF823831-4866-4952-9AFC-DC6BBCB4AA02-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default-Portrait~ipad.png build/emulator/Aerial.app/Default-Portrait~ipad.png
+s413741049.728261
+e413741049.732882
+r1
+xCpResource
+xAerial/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Aerial.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/Aerial.app/Default-Portrait~ipad.png112"CpResource Aerial/Resources/splash/Default-Portrait~ipad.png build/emulator/Aerial.app/Default-Portrait~ipad.png3195baf92fa9b841^494cbcf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default-Portrait~ipad.png0034ec43ddffdf42^759"CpResource Aerial/Resources/splash/Default-Portrait~ipad.png build/emulator/Aerial.app/Default-Portrait~ipad.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default-Portrait~ipad.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"C24B5AD5-4EF1-407E-B074-F4ADB71D739D-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default@2x~iphone.png build/emulator/Aerial.app/Default@2x~iphone.png
+s413741049.731835
+e413741049.734434
+r1
+xCpResource
+xAerial/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Aerial.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/Aerial.app/Default@2x~iphone.png104"CpResource Aerial/Resources/splash/Default@2x~iphone.png build/emulator/Aerial.app/Default@2x~iphone.png508dbbf92fa9b841^7555bcf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default@2x~iphone.png0034ec43ddffdf42^747"CpResource Aerial/Resources/splash/Default@2x~iphone.png build/emulator/Aerial.app/Default@2x~iphone.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default@2x~iphone.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"22EA79F8-4D84-4AB8-883E-CE387FF37A71-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/Resources/splash/Default~iphone.png build/emulator/Aerial.app/Default~iphone.png
+s413741049.735266
+e413741049.737881
+r1
+xCpResource
+xAerial/Resources/splash/Default~iphone.png
+xbuild/emulator/Aerial.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/Aerial.app/Default~iphone.png98"CpResource Aerial/Resources/splash/Default~iphone.png build/emulator/Aerial.app/Default~iphone.png5c72bcf92fa9b841^f305bdf92fa9b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Default~iphone.png0034ec43ddffdf42^738"CpResource Aerial/Resources/splash/Default~iphone.png build/emulator/Aerial.app/Default~iphone.png    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Resources/splash/Default~iphone.png /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"2CFDF3CC-E1B7-4627-AEDD-6AAD79BEF932-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CCpResource Aerial/config.xml build/emulator/Aerial.app/config.xml
+s413741049.711369
+e413741049.713459
+r1
+xCpResource
+xAerial/config.xml
+xbuild/emulator/Aerial.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/emulator/Aerial.app/config.xml65"CpResource Aerial/config.xml build/emulator/Aerial.app/config.xmld13eb6f92fa9b841^abafb6f92fa9b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml0034ec43ddffdf42^680"CpResource Aerial/config.xml build/emulator/Aerial.app/config.xml    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/config.xml /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"27218142-6074-41EB-BDB4-747709B8D834-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CGenerateDSYMFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
+s413741051.345732
+e413741051.388997
+r1
+xGenerateDSYMFile
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generate /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM80"GenerateDSYMFile build/emulator/Aerial.app.dSYM build/emulator/Aerial.app/Aerial5da458fb2fa9b841^c89863fb2fa9b841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM0034ec43ddffdf42^706"GenerateDSYMFile build/emulator/Aerial.app.dSYM build/emulator/Aerial.app/Aerial    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM36"171F9F0F-1B8C-422D-ACE1-44A5777BDA3B-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CLd /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial normal i386
+s413741051.284840
+e413741051.342914
+r1
+xLd
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
+xnormal
+xi386
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial.LinkFileList
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/main.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/AppDelegate.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/MainViewController.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVDevice.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o
+d/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial47"Ld build/emulator/Aerial.app/Aerial normal i3863b1c49fb2fa9b841^250358fb2fa9b841^---0#0#1#--1800"Ld build/emulator/Aerial.app/Aerial normal i386    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -F/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator -filelist /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -weak_framework AudioToolbox -Xlinker -dependency_info -Xlinker /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial_dependency_info.dat -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial36"17D88F54-8F24-479F-960B-2190A9980B3E-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CPhaseScriptExecution Copy\ www\ directory /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh
+s413741049.604282
+e413741049.710806
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.079s
+ouser	0m0.028s
+osys	0m0.043s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'130"PhaseScriptExecution Copy\ www\ directory build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh228c9bf92fa9b841^6c04b6f92fa9b841^-42"real	0m0.079suser	0m0.028ssys	0m0.043s3(21%IDEActivityLogMessage2@14"real	0m0.079s-413741049#1#14#-0#-----2@14"user	0m0.028s-413741049#15#14#-0#-----2@13"sys	0m0.043s-413741049#29#13#-0#-----0#0#1#--21935"PhaseScriptExecution Copy\ www\ directory build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER mayala    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv BUILD_ROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator    setenv CACHE_ROOT /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator    setenv CONFIGURATION_TEMP_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Aerial.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Aerial.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Aerial.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Aerial.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Aerial.app/Executables    setenv EXECUTABLE_FOLDER_PATH Aerial.app    setenv EXECUTABLE_NAME Aerial    setenv EXECUTABLE_PATH Aerial.app/Aerial    setenv FILE_LIST /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Aerial.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Aerial.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Aerial/Aerial-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include \"/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/usr/local/lib/include\" \"/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/UninstalledProducts/include\" \"/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Aerial/Aerial-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Aerial.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Aerial.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Aerial.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER mayala    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Aerial.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Aerial.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Aerial-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/Aerial.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Aerial.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B42    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal    setenv OBJROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Aerial.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/PkgInfo    setenv PKGINFO_PATH Aerial.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Aerial.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Aerial.app/PrivateHeaders    setenv PRODUCT_NAME Aerial    setenv PRODUCT_SETTINGS_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Aerial    setenv PROJECT_DERIVED_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/DerivedSources    setenv PROJECT_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PROJECT_FILE_PATH /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial.xcodeproj    setenv PROJECT_NAME Aerial    setenv PROJECT_TEMP_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build    setenv PROJECT_TEMP_ROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH Aerial.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Aerial.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Aerial.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Aerial.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv SRCROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Aerial    setenv TARGET_BUILD_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator    setenv TARGET_NAME Aerial    setenv TARGET_TEMP_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build    setenv TEMP_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build    setenv TEMP_FILES_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build    setenv TEMP_FILE_DIR /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build    setenv TEMP_ROOT /Users/mayala/projects/aap/aap-ipad/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 503    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Aerial.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER mayala    setenv USER_APPS_DIR /Users/mayala/Applications    setenv USER_LIBRARY_DIR /Users/mayala/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Aerial.app/version.plist    setenv VERSION_INFO_BUILDER mayala    setenv VERSION_INFO_FILE Aerial_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Aerial  PROJECT:Aerial-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Aerial.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Aerial.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Script-304B58A110DAC018002A0835.sh36"A465110C-4E18-44D3-AACB-9592DD059F2E-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CProcessInfoPlistFile /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
+s413741049.600626
+e413741049.603138
+r1
+xProcessInfoPlistFile
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist82"ProcessInfoPlistFile build/emulator/Aerial.app/Info.plist Aerial/Aerial-Info.plistd6e499f92fa9b841^1b689af92fa9b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist0000000000000000^793"ProcessInfoPlistFile build/emulator/Aerial.app/Info.plist Aerial/Aerial-Info.plist    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    builtin-infoPlistUtility /Users/mayala/projects/aap/aap-ipad/platforms/ios/Aerial/Aerial-Info.plist -genpkginfo /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist36"0CCF66DC-CC4C-465A-8929-1404D326CE44-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+
+CProcessPCH /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Aerial-Prefix-claldbmziqrsjthhncfuhstooggg/Aerial-Prefix.pch.pch Aerial/Aerial-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
+s413741051.390591
+e413741051.396648
+r1
+xTouch
+x/Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app31"Touch build/emulator/Aerial.appa11164fb2fa9b841^2a8c65fb2fa9b841^---0#0#1#--488"Touch build/emulator/Aerial.app    cd /Users/mayala/projects/aap/aap-ipad/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mayala/.rvm/bin:/Users/mayala/.rvm/bin"    /usr/bin/touch -c /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app36"5F13C314-BC57-4FFF-9B65-360CE9B11AF6-
+b4EF2AB72-E6FE-4EBA-9BF5-4C0829E38DF0
+

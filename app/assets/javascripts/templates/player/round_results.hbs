@@ -2,8 +2,8 @@
 <div class="main-content">
   <div id="overlay">
     <div class="round-results">
-<!-- if Answer is correct, attach .is-correct class -->
-<!-- else attach .is-incorrect -->
+      <!-- if Answer is correct, attach .is-correct class -->
+      <!-- else attach .is-incorrect -->
 
       {{#if has_answer}}
         <h4 class="points {{answer_class}}">
@@ -14,7 +14,7 @@
           {{/if}} points</h4>
         <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
       {{else}}
-        <h2><span>You didn't answer!</span> {{answer_name}}</h2>
+        <h2><span>You didn't answer!</span> It's {{answer_name}}</h2>
       {{/if}}
 
     {{#if has_answer}}
@@ -30,7 +30,6 @@
 
     </div>
   </div>
-  <!-- TODO: Replace US Map with SVG -->
   <div class="map-content" data-id="{{ choices }}">
   </div>
 </div>

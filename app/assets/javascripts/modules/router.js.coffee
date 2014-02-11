@@ -6,8 +6,6 @@ class @Router
     @countdown_template = HandlebarsTemplates["shared/countdown"]()
     @wait_template = HandlebarsTemplates["player/wait"]()
     @map_template = HandlebarsTemplates["player/map"]()
-    @staticmap_template = HandlebarsTemplates["player/staticmap"]()
-
 
   #############################################################################
   # Public
@@ -36,7 +34,7 @@ class @Router
     window.AAL.map.buildMap()
 
   staticMap: ->
-    $('.map-content').append(@staticmap_template)
+    $('.map-content').append(@map_template)
     window.AAL.map.staticMap()
 
 
@@ -59,6 +57,7 @@ class @Router
             exclamation: "Correct!"
             choice_name: choice_name
             has_answer: true
+            choice_id: answer_choice
         else
           window.AAL.router.answer_data =
             answer_is_correct: false
@@ -66,6 +65,7 @@ class @Router
             exclamation: "Incorrect!"
             choice_name: choice_name
             has_answer: true
+            choice_id: answer_choice
 
         params =
           #TODO: make device uuid dynamic
@@ -130,13 +130,12 @@ class @Router
       @answer_data = {has_answer: false} unless @answer_data
       updated_question = $.extend(@current_question, @answer_data)
       template = @_mainTemplate(updated_question)
-      if window.AAL.map.map_data
-        @staticMap()
-
     else
       template = @wait_template
 
     $('#content').append(template)
+    if window.AAL.map.map_data
+      @staticMap()
 
 
   # Phase 4

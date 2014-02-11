@@ -1,8 +1,9 @@
 $ ->
   window.AAL = {}
 
-  uuid = Math.floor(Math.random() * 10000000000000001)
-  window.localStorage.uuid = uuid unless window.localStorage.uuid
+  if !window.localStorage.uuid
+    uuid = Math.floor(Math.random() * 10000000000000001)
+    window.localStorage.uuid = uuid
 
   window.AAL.pre_game_slider = new PreGameSlider
   window.AAL.map = new Map

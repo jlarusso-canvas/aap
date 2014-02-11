@@ -1,12 +1,13 @@
 class @PlayerController
   constructor: ->
     @dispatcher = window.AAL.dispatcher.dispatcher
+    @server_url = "192.168.1.34"
     @_bindEvents()
 
   _bindEvents: =>
-    $('.state').on 'click', ->
-      # unhighlight all states
-      # highlight 'this'
-      # use jquery to update the dom "youve selected north carolina blah blah"
+    $('#sweepstakes-submit').on 'click', (e) ->
+      e.preventDefault()
 
-    # Submit contact info to the server for raffle
+      form_data = $('#sweepstakes-form').serialize()
+
+      $.post "#{@server_url}/sweepstakes", form_data

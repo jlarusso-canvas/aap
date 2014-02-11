@@ -8,6 +8,7 @@ class @PlayerController
     $('#sweepstakes-submit').on 'click', (e) ->
       e.preventDefault()
 
-      form_data = $('#sweepstakes-form').serialize()
+      form_data = $('#sweep-input').serialize()
+      console.log form_data
 
-      $.post "#{@server_url}/sweepstakes", form_data
+      # $.post "#{@server_url}/sweepstakes", form_data

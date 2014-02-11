@@ -10,21 +10,30 @@ class @Map
       "stroke-dasharray": "none"
 
   staticMap: =>
-    @paper = Raphael($('#map1'), 900, 700)
+    @paper = Raphael("map", 1000, 700)
+    @choices = window.AAL.router.current_question.choices
     answer_id = window.AAL.router.current_question?.answer_index
+    picked_id = window.AAL.router.answer_data.choice_id
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
       path.attr @path_attrs
 
-      if state.id == answer_id
+      # Choices highlighted Green
+      if state.id in @choices
         path[0].setAttribute "class", "is-choice"
         path.attr
           fill: "#87a347"
 
+      if state.id == answer_id
+        path.attr
+          fill: "#ef8301"
+      else if state.id == picked_id
+        path.attr
+          fill: "#960000"
+
   buildMap: =>
-    @paper = Raphael("map", 900, 700)
-    @choices = window.AAL.router.current_question.choices
+    @paper = Raphael("map", 1000, 700)
 
     $.each @map_data, (index, state) =>
       # Build each state as a path object

@@ -1,7 +1,8 @@
 window.appstarter =
-  # Application Constructor
+
   initialize: () ->
       this.bindEvents();
+
   # Bind Event Listeners
   #
   # Bind any events that are required on startup. Common events are:

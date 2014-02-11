@@ -1,4 +1,3 @@
-
 window.appstarter =
   # Application Constructor
   initialize: () ->
@@ -15,8 +14,3 @@ window.appstarter =
     DUUID = device.uuid
     navigator.notification.alert(DUUID)
     window.AAL.dispatcher = new Dispatcher DUUID
-
-
-
-
-

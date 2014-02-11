@@ -11,11 +11,16 @@ class @Map
 
   staticMap: =>
     @paper = Raphael($('#map1'), 900, 700)
-    console.log "hi-0"
+    answer_id = window.AAL.router.current_question?.answer_index
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
       path.attr @path_attrs
+
+      if state.id == answer_id
+        path[0].setAttribute "class", "is-choice"
+        path.attr
+          fill: "#87a347"
 
   buildMap: =>
     @paper = Raphael("map", 900, 700)

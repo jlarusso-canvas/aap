@@ -1,17 +1,10 @@
 class @Dispatcher
   constructor: (uuid) ->
     url = "192.168.1.34:3000/websocket"
-    connection_params = "?uuid=#{uuid}"
 
-    # fyi, you can do queried params in websocket requests
-    # we may want to do this for identifying particular clients
-    @dispatcher = new WebSocketRails(url + connection_params, true)
-    @_bindEvents()
-
-    # For now, client id is stubbed by setting it in the console.
-    # TODO: use an identifier from model number of device and send it
-    # to the server during the initial websocket connection (as queried param)
-    # The server will use this to allocate the proper score to the proper client.
+    if !!uuid
+      @dispatcher = new WebSocketRails("#{url}?uuid=#{uuid}", true)
+      @_bindEvents()
 
 
   #############################################################################

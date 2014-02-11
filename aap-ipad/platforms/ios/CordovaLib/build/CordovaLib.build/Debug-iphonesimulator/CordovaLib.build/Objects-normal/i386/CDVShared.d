@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.m \
-  /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h
+  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.m \
+  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h

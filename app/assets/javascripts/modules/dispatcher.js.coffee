@@ -1,6 +1,6 @@
 class @Dispatcher
   constructor: (uuid) ->
-    url = "192.168.72.112:3000/websocket"
+    url = "192.168.1.34:3000/websocket"
     connection_params = "?uuid=#{uuid}"
 
     navigator.notification.alert(uuid)

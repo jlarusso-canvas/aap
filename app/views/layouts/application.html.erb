@@ -7,8 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
   <body>
+    <p id="uuid"></p>
 
     <%= yield %>
 
+    <script>
+      var uuid = document.getElementById('uuid');
+      uuid.innerHTML = window.localStorage.uuid
+    </script>
   </body>
 </html>

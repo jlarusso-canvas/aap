@@ -1,7 +1,7 @@
 class @Dispatcher
-  constructor: (device_uuid) ->
+  constructor: (uuid) ->
     url = "192.168.72.112:3000/websocket"
-    connection_params = "?device_uuid=#{device_uuid}"
+    connection_params = "?uuid=#{uuid}"
 
     # fyi, you can do queried params in websocket requests
     # we may want to do this for identifying particular clients

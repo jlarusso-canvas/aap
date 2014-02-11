@@ -16,7 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+
 var app = {
+
+
+
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -37,12 +43,10 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+        //navigator.notification.alert(device.uuid);
+        window.appstarter.receivedEvent();
 
-        navigator.notification.alert(device.uuid);
-
-        console.log('Received Event: ' + id);
-        window.AAL.device_uid = device.uuid;
-
+        navigator.notification.alert('finished our stack');
 
     }
 };

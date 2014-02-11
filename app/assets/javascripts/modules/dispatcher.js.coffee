@@ -3,6 +3,8 @@ class @Dispatcher
     url = "192.168.72.112:3000/websocket"
     connection_params = "?uuid=#{uuid}"
 
+    navigator.notification.alert(uuid)
+
     # fyi, you can do queried params in websocket requests
     # we may want to do this for identifying particular clients
     @dispatcher = new WebSocketRails(url + connection_params, true)

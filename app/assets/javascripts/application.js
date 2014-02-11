@@ -10,14 +10,12 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require handlebars
+
+
 //= require websocket_rails/main
-//= require raphael-min
-//= require flexslider
 //= require_tree ./templates
 //= require_tree ./modules
 //= require_tree ./controllers
 //= require_tree .
+
+

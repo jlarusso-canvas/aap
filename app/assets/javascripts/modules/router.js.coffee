@@ -6,6 +6,7 @@ class @Router
     @countdown_template = HandlebarsTemplates["shared/countdown"]()
     @wait_template = HandlebarsTemplates["player/wait"]()
     @map_template = HandlebarsTemplates["player/map"]()
+    @staticmap_template = HandlebarsTemplates["player/staticmap"]()
 
 
   #############################################################################
@@ -33,6 +34,10 @@ class @Router
   createMap: ->
     $('.map-content').append(@map_template)
     window.AAL.map.buildMap()
+
+  staticMap: ->
+    $('.map-content').append(@staticmap_template)
+    window.AAL.map.staticMap()
 
 
   attachSubmitEvent: ->
@@ -99,7 +104,6 @@ class @Router
     $('#content').append(template)
     window.AAL.stopwatch.startCountdown('main')
 
-
   # Phase 2
   _question: ->
     @clearAnswer()
@@ -124,9 +128,10 @@ class @Router
   _round_results: ->
     if @current_question
       @answer_data = {has_answer: false} unless @answer_data
-      console.log @answer_data.has_answer
       updated_question = $.extend(@current_question, @answer_data)
       template = @_mainTemplate(updated_question)
+      if window.AAL.map.map_data
+        @staticMap()
 
     else
       template = @wait_template

@@ -9,7 +9,15 @@ class @Map
       "stroke-width": "0.75"
       "stroke-dasharray": "none"
 
-  buildMap: (map_data) =>
+  staticMap: =>
+    @paper = Raphael($('#map1'), 900, 700)
+    console.log "hi-0"
+
+    $.each @map_data, (index, state) =>
+      path = @paper.path(state.path_data)
+      path.attr @path_attrs
+
+  buildMap: =>
     @paper = Raphael("map", 900, 700)
     @choices = window.AAL.router.current_question.choices
 

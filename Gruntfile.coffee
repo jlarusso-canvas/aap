@@ -16,5 +16,5 @@ module.exports = (grunt) ->
   )
 
 
-
+  grunt.registerTask 'build-ipad', ['exec:build_assets']
   grunt.registerTask 'default', 'exec:build_assets'

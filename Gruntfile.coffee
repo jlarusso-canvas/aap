@@ -67,5 +67,5 @@ module.exports = (grunt) ->
   )
 
 
-  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss']
-  grunt.registerTask 'default', 'exec:deleteAssetsDir'
+  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss', 'copy:moveJs']
+  grunt.registerTask 'default', ['exec:deleteAssetsDir', 'exec:build_assets', 'build-ipad']

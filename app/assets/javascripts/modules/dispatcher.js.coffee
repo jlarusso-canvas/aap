@@ -22,7 +22,6 @@ class @Dispatcher
   # Events execute an action when a binding is activated
   _currentQuestion: (message) =>
     window.AAL.router.current_question = @_unSerialize message['current_question']
-    console.log window.AAL.router.current_question
 
   _currentPhase: (message) =>
     @current_phase = message['current_phase']

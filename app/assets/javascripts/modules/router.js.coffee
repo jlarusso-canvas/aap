@@ -3,10 +3,9 @@ class @Router
     @clearHeaderCountdown()
     @user_type = "player"
 
-    @countdown_template = HandlebarsTemplates["shared/countdown"]()
-    @wait_template = HandlebarsTemplates["player/wait"]()
-    @map_template = HandlebarsTemplates["player/map"]()
-
+    @countdown_template = Handlebars.compile($('#countdown').html())()
+    @wait_template = Handlebars.compile($('#wait').html())()
+    @map_template = Handlebars.compile($('#map').html())()
   #############################################################################
   # Public
   #############################################################################
@@ -83,8 +82,8 @@ class @Router
 
 
   _mainTemplate: (json) ->
-    HandlebarsTemplates["#{@user_type}/#{@current_phase}"](json)
-
+    template = Handlebars.compile $("##{@current_phase}").html()
+    template(json)
 
   #############################################################################
   # Game Phases
@@ -93,7 +92,7 @@ class @Router
   # Phase 0
   _pre_game: ->
     @clearHeaderCountdown()
-    window.AAL.pre_game_slider.create_pre_game_slider()
+    # window.AAL.pre_game_slider.create_pre_game_slider()
     template = @_mainTemplate()
     $('#content').append(template)
 

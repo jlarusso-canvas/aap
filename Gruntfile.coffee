@@ -58,9 +58,10 @@ module.exports = (grunt) ->
         command : 'rake assets:precompile'
       build:
         command: 'cd aap-ipad && cordova build'
+      # emulate:
+      #   command: 'cd aap-ipad && cordova emulate ios'
       emulate:
-        command: 'cd aap-ipad && cordova emulate ios'
-
+        command: 'cd aap-ipad/ && cordova build && open platforms/ios/Aerial.xcodeproj && cd ../'
       deleteAssetsDir :
         command: 'rm -rf public/assets'
 
@@ -68,4 +69,4 @@ module.exports = (grunt) ->
 
 
   grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss']
-  grunt.registerTask 'default', ['exec:deleteAssetsDir', 'exec:build_assets', 'build-ipad']
+  grunt.registerTask 'default', ['exec:deleteAssetsDir', 'exec:build_assets', 'build-ipad', 'exec:emulate']

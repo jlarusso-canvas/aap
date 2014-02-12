@@ -656,6 +656,8 @@ this.Dispatcher = (function() {
     if (!!uuid) {
       this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
       this._bindEvents();
+    } else {
+      navigator.notification.alert("Please reconnect; no uuid found.");
     }
   }
 
@@ -667,8 +669,7 @@ this.Dispatcher = (function() {
   };
 
   Dispatcher.prototype._currentQuestion = function(message) {
-    window.AAL.router.current_question = this._unSerialize(message['current_question']);
-    return console.log(window.AAL.router.current_question);
+    return window.AAL.router.current_question = this._unSerialize(message['current_question']);
   };
 
   Dispatcher.prototype._currentPhase = function(message) {
@@ -816,9 +817,9 @@ this.Router = (function() {
   function Router() {
     this.clearHeaderCountdown();
     this.user_type = "player";
-    this.countdown_template = HandlebarsTemplates["shared/countdown"]();
-    this.wait_template = HandlebarsTemplates["player/wait"]();
-    this.map_template = HandlebarsTemplates["player/map"]();
+    this.countdown_template = Handlebars.compile($('#countdown').html())();
+    this.wait_template = Handlebars.compile($('#wait').html())();
+    this.map_template = Handlebars.compile($('#map').html())();
   }
 
   Router.prototype.loadCurrentTemplate = function() {
@@ -890,7 +891,9 @@ this.Router = (function() {
   };
 
   Router.prototype._mainTemplate = function(json) {
-    return HandlebarsTemplates["" + this.user_type + "/" + this.current_phase](json);
+    var template;
+    template = Handlebars.compile($("#" + this.current_phase).html());
+    return template(json);
   };
 
   Router.prototype._pre_game = function() {
@@ -1037,16 +1040,12 @@ this.PlayerController = (function() {
 })();
 
 window.appstarter = {
-  initialize: function() {
-    return this.bindEvents();
-  },
-  bindEvents: function() {
-    return document.addEventListener('deviceready', this.receivedEvent, false);
-  },
-  receivedEvent: function(id) {
-    var DUUID;
-    DUUID = device.uuid;
-    navigator.notification.alert(DUUID);
-    return window.AAL.dispatcher = new Dispatcher(DUUID);
+  start: function() {
+    window.AAL = {};
+    window.AAL.map = new Map;
+    window.AAL.dispatcher = new Dispatcher(device.uuid);
+    window.AAL.router = new Router;
+    window.AAL.stopwatch = new Stopwatch;
+    return window.AAL.playerController = new PlayerController;
   }
 };

@@ -547,68 +547,64 @@ For instance:
 
 
 
-(function() {
-  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
-  this.Dispatcher = (function() {
-    function Dispatcher(uuid) {
-      this._unSerialize = __bind(this._unSerialize, this);
-      this._answerResponse = __bind(this._answerResponse, this);
-      this._mapData = __bind(this._mapData, this);
-      this._currentPhase = __bind(this._currentPhase, this);
-      this._currentQuestion = __bind(this._currentQuestion, this);
-      this._bindEvents = __bind(this._bindEvents, this);
-      var url;
-      url = "192.168.72.112:3000/websocket";
-      if (!!uuid) {
-        this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
-        this._bindEvents();
-      } else {
-        navigator.notification.alert("Please reconnect; no uuid found.");
-      }
+this.Dispatcher = (function() {
+  function Dispatcher(uuid) {
+    this._unSerialize = __bind(this._unSerialize, this);
+    this._answerResponse = __bind(this._answerResponse, this);
+    this._mapData = __bind(this._mapData, this);
+    this._currentPhase = __bind(this._currentPhase, this);
+    this._currentQuestion = __bind(this._currentQuestion, this);
+    this._bindEvents = __bind(this._bindEvents, this);
+    var url;
+    url = "192.168.72.112:3000/websocket";
+    if (!!uuid) {
+      this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
+      this._bindEvents();
+    } else {
+      navigator.notification.alert("Please reconnect; no uuid found.");
     }
+  }
 
-    Dispatcher.prototype._bindEvents = function() {
-      this.dispatcher.bind('current_question', this._currentQuestion);
-      this.dispatcher.bind('current_phase', this._currentPhase);
-      this.dispatcher.bind('map_data', this._mapData);
-      return this.dispatcher.bind('answer_response', this._answerResponse);
-    };
+  Dispatcher.prototype._bindEvents = function() {
+    this.dispatcher.bind('current_question', this._currentQuestion);
+    this.dispatcher.bind('current_phase', this._currentPhase);
+    this.dispatcher.bind('map_data', this._mapData);
+    return this.dispatcher.bind('answer_response', this._answerResponse);
+  };
 
-    Dispatcher.prototype._currentQuestion = function(message) {
-      window.AAL.router.current_question = this._unSerialize(message['current_question']);
-      return console.log(window.AAL.router.current_question);
-    };
+  Dispatcher.prototype._currentQuestion = function(message) {
+    return window.AAL.router.current_question = this._unSerialize(message['current_question']);
+  };
 
-    Dispatcher.prototype._currentPhase = function(message) {
-      this.current_phase = message['current_phase'];
-      window.AAL.router.current_phase = this.current_phase;
-      window.AAL.router.clearContent();
-      return window.AAL.router.loadCurrentTemplate();
-    };
+  Dispatcher.prototype._currentPhase = function(message) {
+    this.current_phase = message['current_phase'];
+    window.AAL.router.current_phase = this.current_phase;
+    window.AAL.router.clearContent();
+    return window.AAL.router.loadCurrentTemplate();
+  };
 
-    Dispatcher.prototype._mapData = function(message) {
-      return window.AAL.map.map_data = message['map_data'];
-    };
+  Dispatcher.prototype._mapData = function(message) {
+    return window.AAL.map.map_data = message['map_data'];
+  };
 
-    Dispatcher.prototype._answerResponse = function(message) {
-      return window.AAL.router.has_correct_answer = message['is_correct'];
-    };
+  Dispatcher.prototype._answerResponse = function(message) {
+    return window.AAL.router.has_correct_answer = message['is_correct'];
+  };
 
-    Dispatcher.prototype._unSerialize = function(question) {
-      var choice_ary;
-      choice_ary = question.choices.split(",");
-      question.choices = $.map(choice_ary, function(id) {
-        return parseInt(id);
-      });
-      return question;
-    };
+  Dispatcher.prototype._unSerialize = function(question) {
+    var choice_ary;
+    choice_ary = question.choices.split(",");
+    question.choices = $.map(choice_ary, function(id) {
+      return parseInt(id);
+    });
+    return question;
+  };
 
-    return Dispatcher;
+  return Dispatcher;
 
-  })();
-
-}).call(this);
+})();
 (function() {
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
@@ -728,162 +724,161 @@ For instance:
   })();
 
 }).call(this);
-(function() {
-  this.Router = (function() {
-    function Router() {
-      this.clearHeaderCountdown();
-      this.user_type = "player";
-      this.countdown_template = HandlebarsTemplates["shared/countdown"]();
-      this.wait_template = HandlebarsTemplates["player/wait"]();
-      this.map_template = HandlebarsTemplates["player/map"]();
-    }
+this.Router = (function() {
+  function Router() {
+    this.clearHeaderCountdown();
+    this.user_type = "player";
+    this.countdown_template = Handlebars.compile($('#countdown').html())();
+    this.wait_template = Handlebars.compile($('#wait').html())();
+    this.map_template = Handlebars.compile($('#map').html())();
+  }
 
-    Router.prototype.loadCurrentTemplate = function() {
-      return this["_" + this.current_phase]();
-    };
+  Router.prototype.loadCurrentTemplate = function() {
+    return this["_" + this.current_phase]();
+  };
 
-    Router.prototype.clearContent = function() {
-      return $('#content').empty();
-    };
+  Router.prototype.clearContent = function() {
+    return $('#content').empty();
+  };
 
-    Router.prototype.clearMap = function() {
-      return $('#map').remove();
-    };
+  Router.prototype.clearMap = function() {
+    return $('#map').remove();
+  };
 
-    Router.prototype.clearHeaderCountdown = function() {
-      return $('.header-countdown').remove();
-    };
+  Router.prototype.clearHeaderCountdown = function() {
+    return $('.header-countdown').remove();
+  };
 
-    Router.prototype.clearAnswer = function() {
-      return this.answer_data = null;
-    };
+  Router.prototype.clearAnswer = function() {
+    return this.answer_data = null;
+  };
 
-    Router.prototype.createMap = function() {
-      $('.map-content').append(this.map_template);
-      return window.AAL.map.buildMap();
-    };
+  Router.prototype.createMap = function() {
+    $('.map-content').append(this.map_template);
+    return window.AAL.map.buildMap();
+  };
 
-    Router.prototype.staticMap = function() {
-      $('.map-content').append(this.map_template);
-      return window.AAL.map.staticMap();
-    };
+  Router.prototype.staticMap = function() {
+    $('.map-content').append(this.map_template);
+    return window.AAL.map.staticMap();
+  };
 
-    Router.prototype.attachSubmitEvent = function() {
-      return $('.submit').on('click', function() {
-        var answer_choice, answer_index, answer_is_correct, choice_name, params;
-        answer_choice = parseInt($(this).attr('answer_choice'));
-        choice_name = $(this).attr('choice_name');
-        if (answer_choice) {
-          answer_index = window.AAL.router.current_question.answer_index;
-          answer_is_correct = answer_choice === answer_index;
-          if (answer_is_correct) {
-            window.AAL.router.answer_data = {
-              answer_is_correct: true,
-              answer_class: "is-correct",
-              exclamation: "Correct!",
-              choice_name: choice_name,
-              has_answer: true,
-              choice_id: answer_choice
-            };
-          } else {
-            window.AAL.router.answer_data = {
-              answer_is_correct: false,
-              answer_class: "is-incorrect",
-              exclamation: "Incorrect!",
-              choice_name: choice_name,
-              has_answer: true,
-              choice_id: answer_choice
-            };
-          }
-          params = {
-            device_uuid: 2,
-            answer_is_correct: answer_is_correct
+  Router.prototype.attachSubmitEvent = function() {
+    return $('.submit').on('click', function() {
+      var answer_choice, answer_index, answer_is_correct, choice_name, params;
+      answer_choice = parseInt($(this).attr('answer_choice'));
+      choice_name = $(this).attr('choice_name');
+      if (answer_choice) {
+        answer_index = window.AAL.router.current_question.answer_index;
+        answer_is_correct = answer_choice === answer_index;
+        if (answer_is_correct) {
+          window.AAL.router.answer_data = {
+            answer_is_correct: true,
+            answer_class: "is-correct",
+            exclamation: "Correct!",
+            choice_name: choice_name,
+            has_answer: true,
+            choice_id: answer_choice
           };
-          return window.AAL.dispatcher.dispatcher.trigger("send_answer", params);
         } else {
-
-        }
-      });
-    };
-
-    Router.prototype._mainTemplate = function(json) {
-      return HandlebarsTemplates["" + this.user_type + "/" + this.current_phase](json);
-    };
-
-    Router.prototype._pre_game = function() {
-      var template;
-      this.clearHeaderCountdown();
-      window.AAL.pre_game_slider.create_pre_game_slider();
-      template = this._mainTemplate();
-      return $('#content').append(template);
-    };
-
-    Router.prototype._game_start = function() {
-      var template;
-      template = this._mainTemplate();
-      $('#content').append(template);
-      return window.AAL.stopwatch.startCountdown('main');
-    };
-
-    Router.prototype._question = function() {
-      var template;
-      this.clearAnswer();
-      this.clearMap();
-      this.clearHeaderCountdown();
-      if (this.current_question) {
-        template = this._mainTemplate(this.current_question);
-        $('#header').append(this.countdown_template);
-      } else {
-        template = this.wait_template;
-      }
-      $('#content').append(template);
-      if (window.AAL.map.map_data) {
-        this.createMap();
-        this.attachSubmitEvent();
-      }
-      return window.AAL.stopwatch.startCountdown('header');
-    };
-
-    Router.prototype._round_results = function() {
-      var template, updated_question;
-      if (this.current_question) {
-        if (!this.answer_data) {
-          this.answer_data = {
-            has_answer: false
+          window.AAL.router.answer_data = {
+            answer_is_correct: false,
+            answer_class: "is-incorrect",
+            exclamation: "Incorrect!",
+            choice_name: choice_name,
+            has_answer: true,
+            choice_id: answer_choice
           };
         }
-        updated_question = $.extend(this.current_question, this.answer_data);
-        template = this._mainTemplate(updated_question);
+        params = {
+          device_uuid: 2,
+          answer_is_correct: answer_is_correct
+        };
+        return window.AAL.dispatcher.dispatcher.trigger("send_answer", params);
       } else {
-        template = this.wait_template;
+
       }
-      $('#content').append(template);
-      if (window.AAL.map.map_data) {
-        return this.staticMap();
+    });
+  };
+
+  Router.prototype._mainTemplate = function(json) {
+    var template;
+    template = Handlebars.compile($("#" + this.current_phase).html());
+    return template(json);
+  };
+
+  Router.prototype._pre_game = function() {
+    var template;
+    this.clearHeaderCountdown();
+    window.AAL.pre_game_slider.create_pre_game_slider();
+    template = this._mainTemplate();
+    return $('#content').append(template);
+  };
+
+  Router.prototype._game_start = function() {
+    var template;
+    template = this._mainTemplate();
+    $('#content').append(template);
+    return window.AAL.stopwatch.startCountdown('main');
+  };
+
+  Router.prototype._question = function() {
+    var template;
+    this.clearAnswer();
+    this.clearMap();
+    this.clearHeaderCountdown();
+    if (this.current_question) {
+      template = this._mainTemplate(this.current_question);
+      $('#header').append(this.countdown_template);
+    } else {
+      template = this.wait_template;
+    }
+    $('#content').append(template);
+    if (window.AAL.map.map_data) {
+      this.createMap();
+      this.attachSubmitEvent();
+    }
+    return window.AAL.stopwatch.startCountdown('header');
+  };
+
+  Router.prototype._round_results = function() {
+    var template, updated_question;
+    if (this.current_question) {
+      if (!this.answer_data) {
+        this.answer_data = {
+          has_answer: false
+        };
       }
-    };
+      updated_question = $.extend(this.current_question, this.answer_data);
+      template = this._mainTemplate(updated_question);
+    } else {
+      template = this.wait_template;
+    }
+    $('#content').append(template);
+    if (window.AAL.map.map_data) {
+      return this.staticMap();
+    }
+  };
 
-    Router.prototype._final_results = function() {
-      var template;
-      this.clearMap();
-      this.clearHeaderCountdown();
-      template = this._mainTemplate();
-      $('#content').append(template);
-      return $('#container').addClass("final-results");
-    };
+  Router.prototype._final_results = function() {
+    var template;
+    this.clearMap();
+    this.clearHeaderCountdown();
+    template = this._mainTemplate();
+    $('#content').append(template);
+    return $('#container').addClass("final-results");
+  };
 
-    Router.prototype._post_game = function() {
-      var template;
-      template = this._mainTemplate();
-      $('#content').append(template);
-      return $('#container').addClass("promo-page");
-    };
+  Router.prototype._post_game = function() {
+    var template;
+    template = this._mainTemplate();
+    $('#content').append(template);
+    return $('#container').addClass("promo-page");
+  };
 
-    return Router;
+  return Router;
 
-  })();
-
-}).call(this);
+})();
 (function() {
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
@@ -959,30 +954,16 @@ For instance:
   })();
 
 }).call(this);
-(function() {
-  window.appstarter = {
-    initialize: function() {
-      return this.bindEvents();
-    },
-    bindEvents: function() {
-      return document.addEventListener('deviceready', this.receivedEvent, false);
-    },
-    receivedEvent: function(id) {
-      var DUUID, data_object, pre_game_template, test;
-      DUUID = device.uuid;
-      navigator.notification.alert(DUUID);
-      window.AAL.dispatcher = new Dispatcher(DUUID);
-      data_object = {
-        one: "one",
-        two: "two"
-      };
-      pre_game_template = Handlebars.compile($('#pre_game').html());
-      test = pre_game_template(data_object);
-      return container.append(test);
-    }
-  };
-
-}).call(this);
+window.appstarter = {
+  start: function() {
+    window.AAL = {};
+    window.AAL.map = new Map;
+    window.AAL.dispatcher = new Dispatcher(device.uuid);
+    window.AAL.router = new Router;
+    window.AAL.stopwatch = new Stopwatch;
+    return window.AAL.playerController = new PlayerController;
+  }
+};
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //

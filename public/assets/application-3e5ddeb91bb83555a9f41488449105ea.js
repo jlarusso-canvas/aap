@@ -548,218 +548,6 @@ For instance:
 
 
 (function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/final_results"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
-
-
-  return "<div class=\"main-content\">\n  You won/thanks for playing!!! blah blah blah\n</div>\n";
-  });
-  return this.HandlebarsTemplates["player/final_results"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/game_start"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
-
-
-  return "<div class=\"top-content\">\n  <h2>The game begins in...</h2>\n</div>\n<div class=\"main-content\">\n  <div class=\"main-countdown\">\n    <span class=\"seconds\"></span>\n  </div>\n</div>\n";
-  });
-  return this.HandlebarsTemplates["player/game_start"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/map"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
-
-
-  return "<div class=\"map-container\">\n  <div id=\"map\"></div>\n</div>\n";
-  });
-  return this.HandlebarsTemplates["player/map"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/pre_game"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
-
-
-  return "<!-- Start Pre-Game Carousel -->\n  <div class=\"pre-game-content\">\n    <div class=\"pre-game-slides\">\n      <ul class=\"slides\">\n        <!-- Slide 1 -->\n        <li>\n          <figure>\n            <img src=\"assets/illinois.png\", width=\"130\">\n          </figure>\n          <h2>Each question reveals 10 states <br>as possible answers</h2>\n        </li>\n        <!-- Slide 2 -->\n        <li>\n          <figure>\n            <img src=\"assets/florida.png\", width=\"250\">\n          </figure>\n          <h2>Feeling confident? Tap the state<br> and \"Submit\" your answer.</h2>\n        </li>\n        <!-- Slide 3 -->\n        <li>\n          <figure>\n            <img src=\"assets/timer.png\", width=\"220\">\n          </figure>\n          <h2>But hurry... you've got 10 seconds<br> for each question</h2>\n        </li>\n      </ul>\n    </div>\n  </div>\n<!-- End Pre-Game Carousel -->\n\n<script type=\"text/javascript\">\n  console.log('pre game slider starts')\n  $('.pre-game-slides').flexslider({\n    animation: 'slide',\n    slideshow: false,\n    selector: '.slides > li',\n    itemWidth: 1000,\n    directionNav: false,\n    start: function(){\n\n      // Make sure background is resized to accomodate for area occupied\n      // by the slider.\n      $(window).trigger('resize');\n    }\n  })\n\n</script>\n";
-  });
-  return this.HandlebarsTemplates["player/pre_game"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/question"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression;
-
-
-  buffer += "<!-- Map for Player Select -->\n<div class=\"map-content\" data-id=\"";
-  if (stack1 = helpers.choices) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.choices); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "\">\n</div>\n\n<!-- Footer for Player Submit -->\n<div class=\"selection\">\n  <footer class=\"select-bar\">\n    <h3 id=\"js-selected-state\">Select a State</h3>\n    <button class=\"submit answer\">SUBMIT</button>\n  </footer>\n</div>\n";
-  return buffer;
-  });
-  return this.HandlebarsTemplates["player/question"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/round_results"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression, self=this;
-
-function program1(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n        <h4 class=\"points ";
-  if (stack1 = helpers.answer_class) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.answer_class); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "\">\n          ";
-  stack1 = helpers['if'].call(depth0, (depth0 && depth0.answer_is_correct), {hash:{},inverse:self.program(4, program4, data),fn:self.program(2, program2, data),data:data});
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += " points</h4>\n        <h2><span>";
-  if (stack1 = helpers.exclamation) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.exclamation); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</span> ";
-  if (stack1 = helpers.answer_name) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.answer_name); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</h2>\n      ";
-  return buffer;
-  }
-function program2(depth0,data) {
-  
-  
-  return "\n            +10\n          ";
-  }
-
-function program4(depth0,data) {
-  
-  
-  return "\n            +0\n          ";
-  }
-
-function program6(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n        <h2><span>You didn't answer!</span> ";
-  if (stack1 = helpers.answer_name) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.answer_name); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</h2>\n      ";
-  return buffer;
-  }
-
-function program8(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n      ";
-  stack1 = helpers['if'].call(depth0, (depth0 && depth0.answer_is_correct), {hash:{},inverse:self.program(11, program11, data),fn:self.program(9, program9, data),data:data});
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n    ";
-  return buffer;
-  }
-function program9(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n        <p>";
-  if (stack1 = helpers.correct_headline) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.correct_headline); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</p>\n      ";
-  return buffer;
-  }
-
-function program11(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n        <p>";
-  if (stack1 = helpers.incorrect_headline) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.incorrect_headline); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</p>\n      ";
-  return buffer;
-  }
-
-function program13(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n      <p>";
-  if (stack1 = helpers.incorrect_headline) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.incorrect_headline); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</p>\n    ";
-  return buffer;
-  }
-
-function program15(depth0,data) {
-  
-  var buffer = "", stack1;
-  buffer += "\n      <h3>You Selected:\n        <strong>";
-  if (stack1 = helpers.choice_name) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.choice_name); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "</strong>\n      </h3>\n    ";
-  return buffer;
-  }
-
-  buffer += "<!-- Answer Explanation -->\n<div class=\"main-content\">\n  <div id=\"overlay\">\n    <div class=\"round-results\">\n<!-- if Answer is correct, attach .is-correct class -->\n<!-- else attach .is-incorrect -->\n\n      ";
-  stack1 = helpers['if'].call(depth0, (depth0 && depth0.has_answer), {hash:{},inverse:self.program(6, program6, data),fn:self.program(1, program1, data),data:data});
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n\n    ";
-  stack1 = helpers['if'].call(depth0, (depth0 && depth0.has_answer), {hash:{},inverse:self.program(13, program13, data),fn:self.program(8, program8, data),data:data});
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n\n\n    </div>\n  </div>\n  <!-- TODO: Replace US Map with SVG -->\n  <div class=\"map-content\" data-id=\"";
-  if (stack1 = helpers.choices) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = (depth0 && depth0.choices); stack1 = typeof stack1 === functionType ? stack1.call(depth0, {hash:{},data:data}) : stack1; }
-  buffer += escapeExpression(stack1)
-    + "\">\n  </div>\n</div>\n\n<!-- Player's Submited Answer -->\n<div class=\"selection\">\n  <footer class=\"select-bar\">\n\n    ";
-  stack1 = helpers['if'].call(depth0, (depth0 && depth0.has_answer), {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data});
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n\n  </footer>\n</div>\n\n";
-  return buffer;
-  });
-  return this.HandlebarsTemplates["player/round_results"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["player/wait"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
-
-
-  return "<div class=\"main-content\">\n  Please wait for the next round!\n</div>\n";
-  });
-  return this.HandlebarsTemplates["player/wait"];
-}).call(this);
-(function() {
-  this.HandlebarsTemplates || (this.HandlebarsTemplates = {});
-  this.HandlebarsTemplates["shared/countdown"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
-  this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "";
-
-
-  buffer += "\n<div class=\"header-countdown\">\n  <p><span class=\"seconds\"></span> Seconds Left</p>\n</div>\n";
-  return buffer;
-  });
-  return this.HandlebarsTemplates["shared/countdown"];
-}).call(this);
-(function() {
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
   this.Dispatcher = (function() {
@@ -770,11 +558,14 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       this._currentPhase = __bind(this._currentPhase, this);
       this._currentQuestion = __bind(this._currentQuestion, this);
       this._bindEvents = __bind(this._bindEvents, this);
-      var connection_params, url;
+      var url;
       url = "192.168.72.112:3000/websocket";
-      connection_params = "?uuid=" + uuid;
-      this.dispatcher = new WebSocketRails(url + connection_params, true);
-      this._bindEvents();
+      if (!!uuid) {
+        this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
+        this._bindEvents();
+      } else {
+        navigator.notification.alert("Please reconnect; no uuid found.");
+      }
     }
 
     Dispatcher.prototype._bindEvents = function() {
@@ -826,6 +617,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
     function Map() {
       this._makeClickable = __bind(this._makeClickable, this);
       this.buildMap = __bind(this.buildMap, this);
+      this.staticMap = __bind(this.staticMap, this);
       this.path_attrs = {
         fill: "#d3d3d3",
         stroke: "#fff",
@@ -837,9 +629,38 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       };
     }
 
-    Map.prototype.buildMap = function(map_data) {
-      this.paper = Raphael("map", 900, 700);
+    Map.prototype.staticMap = function() {
+      var answer_id, picked_id, _ref;
+      this.paper = Raphael("map", 1000, 700);
       this.choices = window.AAL.router.current_question.choices;
+      answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
+      picked_id = window.AAL.router.answer_data.choice_id;
+      return $.each(this.map_data, (function(_this) {
+        return function(index, state) {
+          var path, _ref1;
+          path = _this.paper.path(state.path_data);
+          path.attr(_this.path_attrs);
+          if (_ref1 = state.id, __indexOf.call(_this.choices, _ref1) >= 0) {
+            path[0].setAttribute("class", "is-choice");
+            path.attr({
+              fill: "#87a347"
+            });
+          }
+          if (state.id === answer_id) {
+            return path.attr({
+              fill: "#ef8301"
+            });
+          } else if (state.id === picked_id) {
+            return path.attr({
+              fill: "#960000"
+            });
+          }
+        };
+      })(this));
+    };
+
+    Map.prototype.buildMap = function() {
+      this.paper = Raphael("map", 1000, 700);
       return $.each(this.map_data, (function(_this) {
         return function(index, state) {
           var path, _ref;
@@ -942,6 +763,11 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       return window.AAL.map.buildMap();
     };
 
+    Router.prototype.staticMap = function() {
+      $('.map-content').append(this.map_template);
+      return window.AAL.map.staticMap();
+    };
+
     Router.prototype.attachSubmitEvent = function() {
       return $('.submit').on('click', function() {
         var answer_choice, answer_index, answer_is_correct, choice_name, params;
@@ -956,7 +782,8 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
               answer_class: "is-correct",
               exclamation: "Correct!",
               choice_name: choice_name,
-              has_answer: true
+              has_answer: true,
+              choice_id: answer_choice
             };
           } else {
             window.AAL.router.answer_data = {
@@ -964,7 +791,8 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
               answer_class: "is-incorrect",
               exclamation: "Incorrect!",
               choice_name: choice_name,
-              has_answer: true
+              has_answer: true,
+              choice_id: answer_choice
             };
           }
           params = {
@@ -1024,13 +852,15 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
             has_answer: false
           };
         }
-        console.log(this.answer_data.has_answer);
         updated_question = $.extend(this.current_question, this.answer_data);
         template = this._mainTemplate(updated_question);
       } else {
         template = this.wait_template;
       }
-      return $('#content').append(template);
+      $('#content').append(template);
+      if (window.AAL.map.map_data) {
+        return this.staticMap();
+      }
     };
 
     Router.prototype._final_results = function() {
@@ -1038,7 +868,15 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       this.clearMap();
       this.clearHeaderCountdown();
       template = this._mainTemplate();
-      return $('#content').append(template);
+      $('#content').append(template);
+      return $('#container').addClass("final-results");
+    };
+
+    Router.prototype._post_game = function() {
+      var template;
+      template = this._mainTemplate();
+      $('#content').append(template);
+      return $('#container').addClass("promo-page");
     };
 
     return Router;
@@ -1103,11 +941,17 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
     function PlayerController() {
       this._bindEvents = __bind(this._bindEvents, this);
       this.dispatcher = window.AAL.dispatcher.dispatcher;
+      this.server_url = "192.168.1.34";
       this._bindEvents();
     }
 
     PlayerController.prototype._bindEvents = function() {
-      return $('.state').on('click', function() {});
+      return $('#sweepstakes-submit').on('click', function(e) {
+        var form_data;
+        e.preventDefault();
+        form_data = $('#sweep-input').serialize();
+        return console.log(form_data);
+      });
     };
 
     return PlayerController;
@@ -1116,7 +960,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
 }).call(this);
 (function() {
-  window.app = {
+  window.appstarter = {
     initialize: function() {
       return this.bindEvents();
     },
@@ -1124,16 +968,17 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
       return document.addEventListener('deviceready', this.receivedEvent, false);
     },
     receivedEvent: function(id) {
-      $(function() {
-        navigator.notification.alert('this is the second item');
-        window.AAL.pre_game_slider = new PreGameSlider;
-        window.AAL.map = new Map;
-        window.AAL.dispatcher = new Dispatcher(dUUID);
-        window.AAL.router = new Router;
-        window.AAL.stopwatch = new Stopwatch;
-        return window.AAL.playerController = new PlayerController;
-      });
-      return this;
+      var DUUID, data_object, pre_game_template, test;
+      DUUID = device.uuid;
+      navigator.notification.alert(DUUID);
+      window.AAL.dispatcher = new Dispatcher(DUUID);
+      data_object = {
+        one: "one",
+        two: "two"
+      };
+      pre_game_template = Handlebars.compile($('#pre_game').html());
+      test = pre_game_template(data_object);
+      return container.append(test);
     }
   };
 
@@ -1151,8 +996,10 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 // about supported directives.
 //
 
-
-
+//= jquery-1.10.1.min
+//= handlebars
+//= flexslider
+//= raphael-min
 
 
 

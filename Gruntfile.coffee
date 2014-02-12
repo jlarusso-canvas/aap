@@ -10,14 +10,14 @@ module.exports = (grunt) ->
           'vendor/assets/javascripts/handlebars.js'
           'vendor/assets/javascripts/raphael-min.js'
           'vendor/assets/javascripts/flexslider.js'
-          'aap-ipad/www/js/compiled/app2.js'
+          'aap-ipad/www/js/compiled_app.js'
         ]
         dest: 'aap-ipad/www/js/aerialamericaplayer.js'
     coffee:
       compile:
         options:
           bare:true
-        files: 'aap-ipad/www/js/compiled/app2.js' : [
+        files: 'aap-ipad/www/js/compiled_app.js' : [
           'vendor/assets/javascripts/websockets-rails/websocket_rails.js.coffee'
           'vendor/assets/javascripts/websockets-rails/event.coffee'
           'vendor/assets/javascripts/websockets-rails/abstract_connection.js.coffee'
@@ -67,5 +67,5 @@ module.exports = (grunt) ->
   )
 
 
-  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss', 'copy:moveJs']
+  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss']
   grunt.registerTask 'default', ['exec:deleteAssetsDir', 'exec:build_assets', 'build-ipad']

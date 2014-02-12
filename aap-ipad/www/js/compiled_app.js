@@ -656,6 +656,8 @@ this.Dispatcher = (function() {
     if (!!uuid) {
       this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
       this._bindEvents();
+    } else {
+      navigator.notification.alert("Please reconnect; no uuid found.");
     }
   }
 
@@ -1044,9 +1046,16 @@ window.appstarter = {
     return document.addEventListener('deviceready', this.receivedEvent, false);
   },
   receivedEvent: function(id) {
-    var DUUID;
+    var DUUID, data_object, pre_game_template, test;
     DUUID = device.uuid;
     navigator.notification.alert(DUUID);
-    return window.AAL.dispatcher = new Dispatcher(DUUID);
+    window.AAL.dispatcher = new Dispatcher(DUUID);
+    data_object = {
+      one: "one",
+      two: "two"
+    };
+    pre_game_template = Handlebars.compile($('#pre_game').html());
+    test = pre_game_template(data_object);
+    return container.append(test);
   }
 };

@@ -810,7 +810,6 @@ this.Router = (function() {
   Router.prototype._pre_game = function() {
     var template;
     this.clearHeaderCountdown();
-    window.AAL.pre_game_slider.create_pre_game_slider();
     template = this._mainTemplate();
     return $('#content').append(template);
   };

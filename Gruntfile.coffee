@@ -39,8 +39,16 @@ module.exports = (grunt) ->
           dest: "aap-ipad/www/css/"
           rename:(dest, src) ->
             return dest + src.replace(/(.*)/, "app.css");
-
         ]
+
+      moveImages :
+        files: [
+          expand: true
+          cwd: "app/assets/images"
+          src: ["*.jpg", "*.png", "*.gif"]
+          dest: "aap-ipad/www/assets"
+        ]
+
       moveJs :
         files: [
           expand:true
@@ -63,10 +71,10 @@ module.exports = (grunt) ->
       emulate:
         command: 'cd aap-ipad/ && cordova build && open platforms/ios/Aerial.xcodeproj && cd ../'
       deleteAssetsDir :
-        command: 'rm -rf public/assets'
+        command: 'rm -rf public/assets && rm -rf aap-ipad/www/assets && mkdir aap-ipad/www/assets'
 
   )
 
 
-  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss']
+  grunt.registerTask 'build-ipad', ['coffee','concat','copy:moveCss', 'copy:moveImages']
   grunt.registerTask 'default', ['exec:deleteAssetsDir', 'exec:build_assets', 'build-ipad', 'exec:emulate']

@@ -6,6 +6,7 @@ class @Router
     @countdown_template = Handlebars.compile($('#countdown').html())()
     @wait_template = Handlebars.compile($('#wait').html())()
     @map_template = Handlebars.compile($('#map').html())()
+
   #############################################################################
   # Public
   #############################################################################

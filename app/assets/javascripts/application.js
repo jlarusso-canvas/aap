@@ -11,9 +11,11 @@
 // about supported directives.
 //
 
-
+//= jquery-1.10.1.min
+//= handlebars
+//= flexslider
+//= raphael-min
 //= require websocket_rails/main
-//= require_tree ./templates
 //= require_tree ./modules
 //= require_tree ./controllers
 //= require_tree .

@@ -15,3 +15,12 @@ window.appstarter =
     DUUID = device.uuid
     navigator.notification.alert(DUUID)
     window.AAL.dispatcher = new Dispatcher DUUID
+
+
+    data_object =
+      one: "one"
+      two: "two"
+    pre_game_template = Handlebars.compile $('#pre_game').html()
+    test = pre_game_template(data_object)
+    container.append test
+

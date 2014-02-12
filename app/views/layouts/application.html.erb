@@ -3,6 +3,244 @@
   <head>
     <title>AerialAmericaPlayer</title>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+
+
+
+    <!-- ====================================================================== -->
+    <!-- Pre Game -->
+    <!-- ====================================================================== -->
+    <script id="pre_game" type="text/x-handlebars-template">
+      <!-- start pre-game carousel -->
+        <div class="pre-game-content">
+          <div class="pre-game-slides">
+            <ul class="slides">
+              <!-- slide 1 -->
+              <li>
+                <figure>
+                  <img src="assets/illinois.png", width="130">
+                </figure>
+                <h2>each question reveals 10 states <br>as possible answers</h2>
+              </li>
+              <!-- slide 2 -->
+              <li>
+                <figure>
+                  <img src="assets/florida.png", width="250">
+                </figure>
+                <h2>feeling confident? tap the state<br> and "submit" your answer.</h2>
+              </li>
+              <!-- slide 3 -->
+              <li>
+                <figure>
+                  <img src="assets/timer.png", width="220">
+                </figure>
+                <h2>but hurry... you have got 10 seconds<br> for each question</h2>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <!-- End Pre-Game Carousel -->
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Game Start -->
+    <!-- ====================================================================== -->
+    <script id="game_start" type="text/x-handlebars-template">
+      <div class="top-content">
+        <h2>The game begins in...</h2>
+      </div>
+      <div class="main-content">
+        <div class="main-countdown">
+          <span class="seconds"></span>
+        </div>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Question -->
+    <!-- ====================================================================== -->
+    <script id="question" type="text/x-handlebars-template">
+      <!-- Map for Player Select -->
+      <div class="map-content" data-id="{{ choices }}">
+      </div>
+
+      <!-- Footer for Player Submit -->
+      <div class="selection">
+        <footer class="select-bar">
+          <h3 id="js-selected-state">Select a State</h3>
+          <button class="submit answer">SUBMIT</button>
+        </footer>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Round Results -->
+    <!-- ====================================================================== -->
+    <script id="round_results" type="text/x-handlebars-template">
+      <!-- Answer Explanation -->
+      <div class="main-content">
+        <div id="overlay">
+          <div class="round-results">
+            <!-- if Answer is correct, attach .is-correct class -->
+            <!-- else attach .is-incorrect -->
+
+            {{#if has_answer}}
+              <h4 class="points {{answer_class}}">
+                {{#if answer_is_correct}}
+                  +10
+                {{else}}
+                  +0
+                {{/if}} points</h4>
+              <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
+            {{else}}
+              <h2><span>You didn't answer!</span> It's {{answer_name}}</h2>
+            {{/if}}
+
+          {{#if has_answer}}
+            {{#if answer_is_correct}}
+              <p>{{correct_headline}}</p>
+            {{else}}
+              <p>{{incorrect_headline}}</p>
+            {{/if}}
+          {{else}}
+            <p>{{incorrect_headline}}</p>
+          {{/if}}
+
+
+          </div>
+        </div>
+        <div class="map-content" data-id="{{ choices }}">
+        </div>
+      </div>
+
+      <!-- Players Submited Answer -->
+      <div class="selection">
+        <footer class="select-bar">
+
+          {{#if has_answer}}
+            <h3>You Selected:
+              <strong>{{choice_name}}</strong>
+            </h3>
+          {{/if}}
+
+        </footer>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Final Results -->
+    <!-- ====================================================================== -->
+    <script id="final_results" type="text/x-handlebars-template">
+      <div class="main-content">
+        <div id="content">
+          <div id="logo-column"><div class="wia-logo"></div></div>
+          <div id="form-column">
+            <h3>You Won! Thanks for Playing!</h3>
+            <h1>Enter for a chance to win $5,000!</h1>
+            <p>Enter your information below for your chance to win.</p>
+
+            <!-- Form -->
+            <section id="sweep-form">
+              <section id="sweep-label-left">
+                <div class="label">First Name:</div>
+                <div class="label">Last Name:</div>
+                <div class="label">Email:</div>
+                <div class="label">Phone:</div>
+              </section>
+              <form name="sweepstakes" id="sweepstakes-form">
+                <input type="text" name="first_name" id="first_name">
+                <input type="text" name="last_name" id="last_name">
+                <input type="text" name="email" id="email">
+                <input type="tel" name="phone" id="phone">
+                <div id="checkbox-group">
+                  <input type="checkbox" id="age_check">
+                  <label class="checkbox" for="age_check">I am 18 or older</label>
+                  <br>
+                  <input type="checkbox" id="signup_check">
+                  <label class="checkbox" for="signup_check">Yes, sign me up for e-mail updates from the Smithsonian Channel.</label>
+                  <br>
+                  <input type="checkbox" id="terms_check">
+                  <label class="checkbox" for="terms_check">
+                    By checking this box, I understand and agree to the terms and conditions of the attached <a href="#">Official Rules.</a>
+                  </label>
+                </div>
+                <div class="submit-form">
+                  <input type="submit" class="submit is-active">
+                  <a href="#">No Thanks</a>
+                </div>
+              </form>
+            </section>
+            <!-- End Form -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="selection">
+        <footer class="select-bar" id="final-results-footer">
+          <h3 class="aerial-social">#AerialAmerica</h3>
+          <h4 class="smithsonian-logo">
+            <img src="assets/smithsonian-logo.png">
+          </h4>
+        </footer>
+      </div>
+      <!-- End Footer -->
+
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Post Game -->
+    <!-- ====================================================================== -->
+    <script id="post_game" type="text/x-handlebars-template">
+      <div class="main-content">
+        <div class="aerial-promo-logo">
+          <div class="inner">
+            <img src="assets/aerial-promo-logo.png">
+          </div>
+        </div>
+        <div class="promo-bottom">
+          <img src="logo-footer.png">
+        </div>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Countdown -->
+    <!-- ====================================================================== -->
+    <script id="countdown" type="text/x-handlebars-template">
+      <div class="header-countdown">
+        <p><span class="seconds"></span> Seconds Left</p>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Map -->
+    <!-- ====================================================================== -->
+    <script id="map" type="text/x-handlebars-template">
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
+    </script>
+
+
+    <!-- ====================================================================== -->
+    <!-- Wait -->
+    <!-- ====================================================================== -->
+    <script id="wait" type="text/x-handlebars-template">
+      <div class="main-content">
+        Please wait for the next round!
+      </div>
+    </script>
+
+
+
+
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
   </head>

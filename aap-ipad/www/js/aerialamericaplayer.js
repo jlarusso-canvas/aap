@@ -1813,12 +1813,12 @@ this.Dispatcher = (function() {
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
-    var connection_params, url;
+    var url;
     url = "192.168.72.112:3000/websocket";
-    connection_params = "?uuid=" + uuid;
-    navigator.notification.alert(uuid);
-    this.dispatcher = new WebSocketRails(url + connection_params, true);
-    this._bindEvents();
+    if (!!uuid) {
+      this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
+      this._bindEvents();
+    }
   }
 
   Dispatcher.prototype._bindEvents = function() {
@@ -1868,6 +1868,7 @@ this.Map = (function() {
   function Map() {
     this._makeClickable = __bind(this._makeClickable, this);
     this.buildMap = __bind(this.buildMap, this);
+    this.staticMap = __bind(this.staticMap, this);
     this.path_attrs = {
       fill: "#d3d3d3",
       stroke: "#fff",
@@ -1879,10 +1880,38 @@ this.Map = (function() {
     };
   }
 
-  Map.prototype.buildMap = function(map_data) {
-    var _this = this;
-    this.paper = Raphael("map", 900, 700);
+  Map.prototype.staticMap = function() {
+    var answer_id, picked_id, _ref,
+      _this = this;
+    this.paper = Raphael("map", 1000, 700);
     this.choices = window.AAL.router.current_question.choices;
+    answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
+    picked_id = window.AAL.router.answer_data.choice_id;
+    return $.each(this.map_data, function(index, state) {
+      var path, _ref1;
+      path = _this.paper.path(state.path_data);
+      path.attr(_this.path_attrs);
+      if (_ref1 = state.id, __indexOf.call(_this.choices, _ref1) >= 0) {
+        path[0].setAttribute("class", "is-choice");
+        path.attr({
+          fill: "#87a347"
+        });
+      }
+      if (state.id === answer_id) {
+        return path.attr({
+          fill: "#ef8301"
+        });
+      } else if (state.id === picked_id) {
+        return path.attr({
+          fill: "#960000"
+        });
+      }
+    });
+  };
+
+  Map.prototype.buildMap = function() {
+    var _this = this;
+    this.paper = Raphael("map", 1000, 700);
     return $.each(this.map_data, function(index, state) {
       var path, _ref;
       path = _this.paper.path(state.path_data);
@@ -1979,6 +2008,11 @@ this.Router = (function() {
     return window.AAL.map.buildMap();
   };
 
+  Router.prototype.staticMap = function() {
+    $('.map-content').append(this.map_template);
+    return window.AAL.map.staticMap();
+  };
+
   Router.prototype.attachSubmitEvent = function() {
     return $('.submit').on('click', function() {
       var answer_choice, answer_index, answer_is_correct, choice_name, params;
@@ -1993,7 +2027,8 @@ this.Router = (function() {
             answer_class: "is-correct",
             exclamation: "Correct!",
             choice_name: choice_name,
-            has_answer: true
+            has_answer: true,
+            choice_id: answer_choice
           };
         } else {
           window.AAL.router.answer_data = {
@@ -2001,7 +2036,8 @@ this.Router = (function() {
             answer_class: "is-incorrect",
             exclamation: "Incorrect!",
             choice_name: choice_name,
-            has_answer: true
+            has_answer: true,
+            choice_id: answer_choice
           };
         }
         params = {
@@ -2061,13 +2097,15 @@ this.Router = (function() {
           has_answer: false
         };
       }
-      console.log(this.answer_data.has_answer);
       updated_question = $.extend(this.current_question, this.answer_data);
       template = this._mainTemplate(updated_question);
     } else {
       template = this.wait_template;
     }
-    return $('#content').append(template);
+    $('#content').append(template);
+    if (window.AAL.map.map_data) {
+      return this.staticMap();
+    }
   };
 
   Router.prototype._final_results = function() {
@@ -2075,7 +2113,15 @@ this.Router = (function() {
     this.clearMap();
     this.clearHeaderCountdown();
     template = this._mainTemplate();
-    return $('#content').append(template);
+    $('#content').append(template);
+    return $('#container').addClass("final-results");
+  };
+
+  Router.prototype._post_game = function() {
+    var template;
+    template = this._mainTemplate();
+    $('#content').append(template);
+    return $('#container').addClass("promo-page");
   };
 
   return Router;
@@ -2135,11 +2181,17 @@ this.PlayerController = (function() {
   function PlayerController() {
     this._bindEvents = __bind(this._bindEvents, this);
     this.dispatcher = window.AAL.dispatcher.dispatcher;
+    this.server_url = "192.168.1.34";
     this._bindEvents();
   }
 
   PlayerController.prototype._bindEvents = function() {
-    return $('.state').on('click', function() {});
+    return $('#sweepstakes-submit').on('click', function(e) {
+      var form_data;
+      e.preventDefault();
+      form_data = $('#sweep-input').serialize();
+      return console.log(form_data);
+    });
   };
 
   return PlayerController;
@@ -2156,11 +2208,7 @@ window.appstarter = {
   receivedEvent: function(id) {
     var DUUID;
     DUUID = device.uuid;
-    navigator.notification.alert('Jesse this is proof of this working');
     navigator.notification.alert(DUUID);
-    window.AAL.dispatcher = new Dispatcher(DUUID);
-    window.AAL.router = new Router;
-    window.AAL.stopwatch = new Stopwatch;
-    return window.AAL.playerController = new PlayerController;
+    return window.AAL.dispatcher = new Dispatcher(DUUID);
   }
 };

@@ -2,67 +2,67 @@ TCordovaLib
 v6
 r1
 cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVLocalStorage.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-cProcessPCH /var/folders/c2/887j41ns21b4pgwxhq82hnkm0000gq/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-gkvebsagifpwykailaqynmhcbyim/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/mayala/projects/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
+cCpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/5p/h_jrpv9x17qg7b1gw5k1rbgr0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bqddbmcczicniwcyxblfemuszfxb/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
-c00000000525642F10000000000000176
-t1381384945
+c0000000052824FA30000000000000176
+t1384271779
 s374
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
-c0000000052EFEBF300000000000003B5
-t1391455219
+c000000005240BCF300000000000003B5
+t1379974387
 s949
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052EFEBFA00000000000001A0
-t1391455226
+c000000005270275000000000000001A0
+t1383081808
 s416
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDV.h
@@ -296,88 +296,88 @@ t1392053118
 s838
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1392053285
+t1392162568
 s63180
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1392053285
+t1392162568
 s60188
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1392053285
+t1392162568
 s27772
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1392053284
+t1392162568
 s18728
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1392053285
+t1392162568
 s10884
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1392053285
+t1392162568
 s109656
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1392053285
+t1392162568
 s59532
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1392053284
+t1392162568
 s37244
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-t1392053285
+t1392162568
 s9408
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1392053285
+t1392162568
 s22956
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1392053285
+t1392162568
 s71252
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1392053285
+t1392162568
 s52736
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1392053285
+t1392162568
 s162584
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1392053285
+t1392162568
 s71324
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1392053284
+t1392162568
 s42372
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000052F90C240000000000000CF3
-t1392053284
+c0000000052FABAD40000000000000CF3
+t1392163540
 s3315
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1392053285
+t1392162568
 s7488
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1392053284
+t1392162568
 s11152
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1392053284
+t1392162568
 s17864
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1392053284
+t1392162568
 s7000
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1392053285
+t1392162568
 s9620
 
 N/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
@@ -913,7 +913,7 @@ s3202204
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0f2a711decaab841^4981851decaab841^---0#1#1#--18"Check dependencies36"6CECEBC6-3CE9-4056-9C95-954E2CF43D49-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf5d8e292f2aab841^26e4f792f2aab841^---0#1#1#--18"Check dependencies36"161F1461-EEF0-419D-9700-9E2B75A26A5C-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s413746085.074077
@@ -1744,14 +1744,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile
 bB50185DD-C909-43F2-AFD3-35469449544A
 
 CCpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
-s413746511.962793
-e413746511.965579
+s413856402.980149
+e413856402.981907
 r1
 xCpHeader
 xClasses/CDV.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h113"CpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h1de7f64f45a9b841^3832f74f45a9b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h0034a8bddeffdf42^1158"CpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"0B338882-156B-43D5-AF82-F510D1E7A545-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h113"CpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h151bfb92f2aab841^71acfb92f2aab841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h00348cdddcffdf42^1158"CpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"5E23BDC0-EC07-481A-9ADC-31D08997901D-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDV.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
 s413854749.532467
@@ -1764,14 +1764,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-s413746511.963692
-e413746511.966219
+s413856402.981807
+e413856402.984153
 r1
 xCpHeader
 xClasses/CDVAvailability.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h137"CpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h2afff64f45a9b841^7462f74f45a9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034a8bddeffdf42^1194"CpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"62307380-1D51-4A83-80F3-C08B9235B308-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h137"CpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.ha99ffb92f2aab841^2deefb92f2aab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00348cdddcffdf42^1194"CpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"900F165F-5AA9-4F3C-8E26-08E3098FA234-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVAvailability.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
 s413854749.533318
@@ -1784,14 +1784,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-s413746511.961847
-e413746511.963947
+s413856402.979730
+e413856402.981853
 r1
 xCpHeader
 xClasses/CDVCommandDelegate.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h143"CpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h9c6df64f45a9b841^2debf64f45a9b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034a8bddeffdf42^1203"CpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"589E6B89-6506-44BB-9C21-5EBA2B89F424-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h143"CpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h7710fb92f2aab841^f776fb92f2aab841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00348cdddcffdf42^1203"CpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"768B905F-B308-4671-9590-4152AA095BF0-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVCommandDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
 s413854749.531655
@@ -1804,14 +1804,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-s413746511.967151
-e413746511.969435
+s413856402.985414
+e413856402.987967
 r1
 xCpHeader
 xClasses/CDVCommandDelegateImpl.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h151"CpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h7bd8f74f45a9b841^2f88f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034a8bddeffdf42^1215"CpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"A000EEF7-C053-4703-888B-C9323563D249-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h151"CpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h6aa5fc92f2aab841^321efd92f2aab841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00348cdddcffdf42^1215"CpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"D78988A8-7FE6-436D-8A06-996BCADF6B11-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVCommandDelegateImpl.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
 s413854749.536771
@@ -1824,14 +1824,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-s413746511.967028
-e413746511.969288
+s413856402.984388
+e413856402.987768
 r1
 xCpHeader
 xClasses/CDVCommandQueue.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h137"CpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h9cc5f74f45a9b841^7559f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034a8bddeffdf42^1194"CpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"4B9E773C-5053-422C-8FEE-5FB1BD124001-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h137"CpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.hfb78fc92f2aab841^54e4fc92f2aab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00348cdddcffdf42^1194"CpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"8D09AF9B-AF8F-40DB-B778-B70F10432E9F-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVCommandQueue.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
 s413854749.536237
@@ -1844,14 +1844,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-s413746511.969822
-e413746511.972410
+s413856402.989670
+e413856402.992242
 r1
 xCpHeader
 xClasses/CDVConfigParser.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h137"CpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0a81f84f45a9b841^55f7f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034a8bddeffdf42^1194"CpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"DD27DEBE-BC9D-438E-A9F6-9A18D3593E9B-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h137"CpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h1399fd92f2aab841^9d2bfe92f2aab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00348cdddcffdf42^1194"CpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"B8F25D36-BCBD-441A-886A-934E97BAF74E-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVConfigParser.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
 s413854749.539461
@@ -1864,14 +1864,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-s413746511.958341
-e413746511.960870
+s413856402.975557
+e413856402.977822
 r1
 xCpHeader
 xClasses/CDVDebug.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h123"CpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0589f54f45a9b841^310af64f45a9b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034a8bddeffdf42^1173"CpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"721BFF01-1D36-4BF7-AD09-222FEF7D259F-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h123"CpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h64ebf992f2aab841^925cfa92f2aab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00348cdddcffdf42^1173"CpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"4C98AFA8-FD19-4FAF-9369-A1F349194C9C-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVDebug.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
 s413854749.528551
@@ -1884,14 +1884,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-s413746511.954863
-e413746511.957632
+s413856402.971467
+e413856402.974564
 r1
 xCpHeader
 xClasses/CDVInvokedUrlCommand.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h147"CpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h53aef44f45a9b841^0325f54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034a8bddeffdf42^1209"CpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"629D9D4D-4F49-4505-89F6-2F85C5692092-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h147"CpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h4be6f892f2aab841^2b84f992f2aab841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00b08b79cbe0df42^1209"CpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"25A2545A-31BD-4A92-81E0-58AE72025F5A-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVInvokedUrlCommand.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
 s413854749.525167
@@ -1904,14 +1904,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-s413746511.970317
-e413746511.972478
+s413856402.990000
+e413856402.992216
 r1
 xCpHeader
 xClasses/CDVJSON.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h121"CpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h69a9f84f45a9b841^963df94f45a9b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034a8bddeffdf42^1170"CpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"1C80B5D3-CFE6-4189-97A8-9B7DB7E1D225-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h121"CpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.hb79afd92f2aab841^0c07fe92f2aab841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00348cdddcffdf42^1170"CpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"03D9E79F-C5DC-46A0-B62B-53A41515B211-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVJSON.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
 s413854749.540369
@@ -1924,14 +1924,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-s413746511.963906
-e413746511.966478
+s413856402.982734
+e413856402.984488
 r1
 xCpHeader
 xClasses/CDVLocalStorage.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h137"CpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h3a1ef74f45a9b841^f791f74f45a9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034a8bddeffdf42^1194"CpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"68F36026-AD37-480C-ABF0-2203BAE8974F-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h137"CpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.hc0ccfb92f2aab841^404efc92f2aab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00348cdddcffdf42^1194"CpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"FEF098FC-8ABD-4644-975C-F6A7F6E68C4C-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVLocalStorage.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
 s413854749.533978
@@ -1944,14 +1944,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-s413746511.957736
-e413746511.959911
+s413856402.975490
+e413856402.977841
 r1
 xCpHeader
 xClasses/CDVPlugin.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h125"CpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h8f6df54f45a9b841^33c4f54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034a8bddeffdf42^1176"CpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"5A8DC891-2B37-4638-94FC-764283835A42-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h125"CpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h96ebf992f2aab841^b458fa92f2aab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00348cdddcffdf42^1176"CpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"9D21C5DE-DE4B-46D8-AC18-0A302AEAB438-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVPlugin.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
 s413854749.528502
@@ -1964,14 +1964,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-s413746511.955818
-e413746511.957742
+s413856402.972368
+e413856402.974787
 r1
 xCpHeader
 xClasses/CDVPluginResult.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h137"CpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.hdbe0f44f45a9b841^c156f54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034a8bddeffdf42^1194"CpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"BC1B2C3A-524B-4326-9306-FB07AF63D652-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h137"CpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h9d0df992f2aab841^c9adf992f2aab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00348cdddcffdf42^1194"CpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"1697793B-A4C0-4C07-B67F-A24F1F1393D3-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVPluginResult.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
 s413854749.526308
@@ -1984,14 +1984,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-s413746511.969150
-e413746511.970983
+s413856402.987579
+e413856402.991738
 r1
 xCpHeader
 xClasses/CDVScreenOrientationDelegate.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h163"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h3351f84f45a9b841^f9a3f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034a8bddeffdf42^1233"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"22D6062D-8A99-4B73-9920-BF4C144D4F7B-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h163"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h9a5ffd92f2aab841^5ce5fd92f2aab841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00348cdddcffdf42^1233"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F32CC000-C689-4983-ADC0-CB0BF85B4256-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
 s413854749.538817
@@ -2004,14 +2004,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-s413746511.967231
-e413746511.969077
+s413856402.986497
+e413856402.989095
 r1
 xCpHeader
 xClasses/CDVShared.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h125"CpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.hdac6f74f45a9b841^e140f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034a8bddeffdf42^1176"CpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"326A6A45-FBF7-4194-B4E0-46443FF56FFE-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h125"CpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h6bd3fc92f2aab841^ce38fd92f2aab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h00348cdddcffdf42^1176"CpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"DF83D3D0-5DC4-4583-ADD5-2332EB8BCA1E-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVShared.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
 s413854749.538195
@@ -2024,14 +2024,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-s413746511.972659
-e413746511.974528
+s413856402.993067
+e413856402.994503
 r1
 xCpHeader
 xClasses/CDVTimer.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h123"CpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h2634f94f45a9b841^ff7af94f45a9b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034a8bddeffdf42^1173"CpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"1EB81FAF-CFC4-4AE7-B4AB-EB1D526B2725-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h123"CpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h5d70fe92f2aab841^5798fe92f2aab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00348cdddcffdf42^1173"CpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"8EE84091-B7C4-4B3B-8279-155490531005-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVTimer.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
 s413854749.542803
@@ -2044,14 +2044,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-s413746511.960498
-e413746511.963162
+s413856402.979226
+e413856402.981525
 r1
 xCpHeader
 xClasses/CDVURLProtocol.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h135"CpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.he02ff64f45a9b841^f278f64f45a9b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034a8bddeffdf42^1191"CpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"78BD7EA5-C2D6-47EA-B45B-55549628AD49-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h135"CpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.hb3ebfa92f2aab841^9e45fb92f2aab841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00348cdddcffdf42^1191"CpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"EBC1A327-262D-4FE2-B6BF-CD49B7837715-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVURLProtocol.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
 s413854749.530312
@@ -2064,14 +2064,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-s413746511.971847
-e413746511.973876
+s413856402.992205
+e413856402.993925
 r1
 xCpHeader
 xClasses/CDVUserAgentUtil.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h139"CpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.hd4f1f84f45a9b841^675ff94f45a9b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034a8bddeffdf42^1197"CpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"8AA61176-4D47-4528-A6AD-4E16B6DC84FF-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h139"CpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h693bfe92f2aab841^8672fe92f2aab841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00348cdddcffdf42^1197"CpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"3E27ED1E-C9F8-4F1F-AABC-DB2E839EF05C-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVUserAgentUtil.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
 s413854749.542049
@@ -2084,14 +2084,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-s413746511.961441
-e413746511.963454
+s413856402.979377
+e413856402.981903
 r1
 xCpHeader
 xClasses/CDVViewController.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h141"CpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0859f64f45a9b841^73a1f64f45a9b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034a8bddeffdf42^1200"CpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"C2DA70EB-C87D-440D-8BBD-295F0A8AEB46-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h141"CpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h94fafa92f2aab841^fe7cfb92f2aab841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00348cdddcffdf42^1200"CpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F3B551FC-3EB1-4D33-8741-FB33047E76D3-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVViewController.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
 s413854749.531333
@@ -2104,14 +2104,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-s413746511.970526
-e413746511.972436
+s413856402.991009
+e413856402.992695
 r1
 xCpHeader
 xClasses/CDVWebViewDelegate.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h143"CpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h2ba4f84f45a9b841^0bf1f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034a8bddeffdf42^1203"CpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F72D99D0-7D0B-4D2C-A298-85A6FBFBE7DD-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h143"CpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h25cffd92f2aab841^6b4afe92f2aab841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00348cdddcffdf42^1203"CpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"72667B0D-128F-4CD8-80D5-2D5DC97055E7-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVWebViewDelegate.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
 s413854749.541137
@@ -2124,14 +2124,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-s413746511.959273
-e413746511.960673
+s413856402.976313
+e413856402.977896
 r1
 xCpHeader
 xClasses/CDVWhitelist.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h131"CpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.he2aff54f45a9b841^aef1f54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034a8bddeffdf42^1185"CpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F73E8A1C-3D98-4F21-8982-8731C3057915-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h131"CpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h8c14fa92f2aab841^e278fa92f2aab841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00348cdddcffdf42^1185"CpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"5D2ED9F5-505E-4FFA-9E49-4D79E2468453-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/CDVWhitelist.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
 s413854749.529423
@@ -2144,14 +2144,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-s413746511.966110
-e413746511.968994
+s413856402.983927
+e413856402.987301
 r1
 xCpHeader
 xClasses/NSArray+Comparisons.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h145"CpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h2aadf74f45a9b841^ce16f84f45a9b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034a8bddeffdf42^1206"CpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F6FD11D1-C359-4307-8373-370305FA23EF-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h145"CpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h003afc92f2aab841^00aefc92f2aab841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00348cdddcffdf42^1206"CpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"EDF10AAE-5A76-44AF-8582-78CB72A2178B-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/NSArray+Comparisons.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
 s413854749.535322
@@ -2164,14 +2164,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-s413746511.955007
-e413746511.957374
+s413856402.971615
+e413856402.974792
 r1
 xCpHeader
 xClasses/NSData+Base64.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h133"CpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.hdeadf44f45a9b841^de21f54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h0034a8bddeffdf42^1188"CpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"DCE23551-0C82-4F1B-98A7-F2B4BE97652D-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h133"CpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h04e7f892f2aab841^83a2f992f2aab841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00348cdddcffdf42^1188"CpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"D1E1072E-4A5F-456C-9857-12F839A9793D-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/NSData+Base64.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
 s413854749.525477
@@ -2184,14 +2184,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-s413746511.954788
-e413746511.957370
+s413856402.971349
+e413856402.974616
 r1
 xCpHeader
 xClasses/NSDictionary+Extensions.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h153"CpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h15adf44f45a9b841^d61bf54f45a9b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00183f7cbff0df42^1218"CpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"E800E151-73C3-4CFF-854A-A76DB6EB7721-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h153"CpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.habebf892f2aab841^3e97f992f2aab841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00348cdddcffdf42^1218"CpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"1468C50E-CBA0-4B3B-8132-F924CB6640C2-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/NSDictionary+Extensions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
 s413854749.525030
@@ -2204,14 +2204,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-s413746511.958591
-e413746511.960972
+s413856402.975708
+e413856402.977874
 r1
 xCpHeader
 xClasses/NSMutableArray+QueueAdditions.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h165"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0c93f54f45a9b841^fb21f64f45a9b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034a8bddeffdf42^1236"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"0483022B-AB7F-4A0D-A2F9-A0F82C828D93-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h165"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.hf6ecf992f2aab841^5e64fa92f2aab841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00348cdddcffdf42^1236"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"94F27696-36AD-4552-A0E3-291C8C8CB6F3-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
 s413854749.528716
@@ -2224,14 +2224,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-s413746511.964461
-e413746511.966505
+s413856402.983465
+e413856402.985879
 r1
 xCpHeader
 xClasses/UIDevice+Extensions.h
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h145"CpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h062af74f45a9b841^ba84f74f45a9b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034a8bddeffdf42^1206"CpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"4864B8DA-7926-4E83-AA36-8FF945EA99B6-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h145"CpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h6118fc92f2aab841^747cfc92f2aab841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00348cdddcffdf42^1206"CpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova36"FF68B403-6692-48E8-BDE6-D49C6A627631-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CCpHeader Classes/UIDevice+Extensions.h /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
 s413854749.534775
@@ -2244,15 +2244,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CLibtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
-s413746511.980179
-e413746511.994893
+s413856402.999880
+e413856403.010848
 r1
 xLibtool
 x/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386101"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i3868c0ffb4f45a9b841^f7b1fe4f45a9b841^---0#0#1#--1497"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator -filelist /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a36"F04B6530-BFED-4F65-9AFC-806FDE9C1FD5-
-bEFDABC5F-095A-4720-A7B1-A2B97569D923
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386101"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386541b0093f2aab841^75c70293f2aab841^---0#0#1#--1497"Libtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/jesselarusso/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/jesselarusso/.rvm/bin:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/share:/usr/local/share/npm:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/bin:/Users/jesselarusso/code/android_sdk/platform-tools:/Users/jesselarusso/code/android_sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator -filelist /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a36"B333815F-9F4A-43F9-9763-F9F268819A35-
+bAC75C897-05FA-4120-8C3C-3544D38B3D42
 
 CLibtool /Users/mayala/projects/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
 s413854749.549195

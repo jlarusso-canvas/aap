@@ -59,6 +59,12 @@ class @Router
             choice_name: choice_name
             has_answer: true
             choice_id: answer_choice
+
+          params =
+            device_uuid: window.AAL.dispatcher.uuid
+
+          window.AAL.dispatcher.dispatcher.trigger "send_answer", params
+
         else
           window.AAL.router.answer_data =
             answer_is_correct: false
@@ -68,12 +74,6 @@ class @Router
             has_answer: true
             choice_id: answer_choice
 
-        params =
-          #TODO: make device uuid dynamic
-          device_uuid: 2
-          answer_is_correct: answer_is_correct
-
-        window.AAL.dispatcher.dispatcher.trigger "send_answer", params
       else
         # TODO: tell player to select a valid state
 

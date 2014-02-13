@@ -1,6 +1,7 @@
 class @Dispatcher
   constructor: (uuid) ->
     @url = "192.168.1.2:3000/websocket"
+    @uuid = uuid
 
     if !!uuid
       @dispatcher = new WebSocketRails("#{@url}?uuid=#{uuid}", true)
@@ -16,7 +17,7 @@ class @Dispatcher
     @dispatcher.bind 'current_question', @_currentQuestion
     @dispatcher.bind 'current_phase', @_currentPhase
     @dispatcher.bind 'map_data', @_mapData
-    @dispatcher.bind 'answer_response', @_answerResponse
+    # @dispatcher.bind 'answer_response', @_answerResponse
 
 
   # Events execute an action when a binding is activated
@@ -34,8 +35,8 @@ class @Dispatcher
     window.AAL.map.map_data = message['map_data']
 
 
-  _answerResponse: (message) =>
-    window.AAL.router.has_correct_answer = message['is_correct']
+  # _answerResponse: (message) =>
+  #   window.AAL.router.has_correct_answer = message['is_correct']
 
 
   _unSerialize: (question) =>

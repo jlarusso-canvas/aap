@@ -1,6 +1,6 @@
 class @Dispatcher
   constructor: (uuid) ->
-    url = "192.168.1.28:3000/websocket"
+    url = "192.168.1.174:3000/websocket"
 
     if !!uuid
       @dispatcher = new WebSocketRails("#{url}?uuid=#{uuid}", true)

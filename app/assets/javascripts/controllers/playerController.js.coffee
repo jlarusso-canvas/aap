@@ -1,7 +1,7 @@
 class @PlayerController
   constructor: ->
     @dispatcher = window.AAL.dispatcher.dispatcher
-    @server_url = "192.168.1.34"
+    @server_url = window.AAL.dispatcher.url
     @_bindEvents()
 
   _bindEvents: =>

@@ -1,9 +1,9 @@
 class @Dispatcher
   constructor: (uuid) ->
-    url = "192.168.1.174:3000/websocket"
+    @url = "192.168.1.34:3000/websocket"
 
     if !!uuid
-      @dispatcher = new WebSocketRails("#{url}?uuid=#{uuid}", true)
+      @dispatcher = new WebSocketRails("#{@url}?uuid=#{uuid}", true)
       @_bindEvents()
     else
       navigator.notification.alert("Please reconnect; no uuid found.")

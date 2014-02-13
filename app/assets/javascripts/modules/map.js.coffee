@@ -10,10 +10,12 @@ class @Map
       "stroke-dasharray": "none"
 
   staticMap: =>
-    @paper = Raphael("map", 1000, 700)
     @choices = window.AAL.router.current_question.choices
     answer_id = window.AAL.router.current_question?.answer_index
     picked_id = window.AAL.router.answer_data.choice_id
+    paper_width = 800
+    paper_height = 500
+    @paper = Raphael("map", paper_width, paper_height)
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
@@ -33,7 +35,10 @@ class @Map
           fill: "#960000"
 
   buildMap: =>
-    @paper = Raphael("map", 1000, 700)
+    paper_width = 800
+    paper_height = 500
+    path = null
+    @paper = Raphael("map", paper_width, paper_height)
 
     $.each @map_data, (index, state) =>
       # Build each state as a path object
@@ -44,6 +49,9 @@ class @Map
       path.attr @path_attrs
       path[0].setAttribute "data-id", state.id
       path[0].setAttribute "data-name", state.name
+      scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(@paper, path, 0, paper_width, paper_height)
+      large_path = AA.RaphaelHelpers.translate_to_center(@paper, path, false, scale_string)
+
 
       # Choices highlighted Green
       if state.id in @choices

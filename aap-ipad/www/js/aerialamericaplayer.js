@@ -1810,7 +1810,6 @@ this.Dispatcher = (function() {
     this._unSerialize = __bind(this._unSerialize, this);
     this._answerResponse = __bind(this._answerResponse, this);
     this._mapData = __bind(this._mapData, this);
-    this._currentRound = __bind(this._currentRound, this);
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
@@ -1827,7 +1826,6 @@ this.Dispatcher = (function() {
   Dispatcher.prototype._bindEvents = function() {
     this.dispatcher.bind('current_question', this._currentQuestion);
     this.dispatcher.bind('current_phase', this._currentPhase);
-    this.dispatcher.bind('current_round', this._currentRound);
     this.dispatcher.bind('map_data', this._mapData);
     return this.dispatcher.bind('answer_response', this._answerResponse);
   };
@@ -1841,10 +1839,6 @@ this.Dispatcher = (function() {
     window.AAL.router.current_phase = this.current_phase;
     window.AAL.router.clearContent();
     return window.AAL.router.loadCurrentTemplate();
-  };
-
-  Dispatcher.prototype._currentRound = function(message) {
-    return window.AAL.router.current_round = message['current_round'];
   };
 
   Dispatcher.prototype._mapData = function(message) {
@@ -2084,7 +2078,6 @@ this.Router = (function() {
     this.clearMap();
     this.clearHeaderCountdown();
     if (this.current_question) {
-      console.log(this.current_round, " is the current round");
       template = this._mainTemplate(this.current_question);
       $('#header').append(this.countdown_template);
     } else {

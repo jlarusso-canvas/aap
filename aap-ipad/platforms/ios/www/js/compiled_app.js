@@ -652,7 +652,7 @@ this.Dispatcher = (function() {
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
     var url;
-    url = "192.168.72.112:3000/websocket";
+    url = "192.168.1.28:3000/websocket";
     if (!!uuid) {
       this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
       this._bindEvents();

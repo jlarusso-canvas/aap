@@ -12,7 +12,7 @@ class @Stopwatch
       count = 9
       @$container = $('.header-countdown .seconds')
     else if type is "main"
-      count = 3
+      count = 1
       @$container = $('.main-countdown .seconds')
 
     timer = =>

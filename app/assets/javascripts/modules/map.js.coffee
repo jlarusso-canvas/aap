@@ -10,12 +10,17 @@ class @Map
       "stroke-dasharray": "none"
 
   staticMap: =>
+    paper_width = 1200
+    paper_height = 800
+
+    @paper = Raphael('map')
+    @paper.setViewBox(0, 0, paper_width,paper_height,true);
+    @paper.setSize('70%', '70%');
+
     @choices = window.AAL.router.current_question.choices
     answer_id = window.AAL.router.current_question?.answer_index
     picked_id = window.AAL.router.answer_data.choice_id
-    paper_width = 800
-    paper_height = 500
-    @paper = Raphael("map", paper_width, paper_height)
+
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)
@@ -35,23 +40,19 @@ class @Map
           fill: "#960000"
 
   buildMap: =>
-    paper_width = 800
-    paper_height = 500
-    path = null
-    @paper = Raphael("map", paper_width, paper_height)
+    paper_width = 1200
+    paper_height = 800
+
+    @paper = Raphael('map')
+    @choices = window.AAL.router.current_question.choices
+    @paper.setViewBox(0, 0, paper_width,paper_height,true);
+    @paper.setSize('70%', '70%');
 
     $.each @map_data, (index, state) =>
-      # Build each state as a path object
-      # FYI you also have access to:
-      # state.name => "North Carolina"
-      # state.abbreviation => "NC"
       path = @paper.path(state.path_data)
       path.attr @path_attrs
       path[0].setAttribute "data-id", state.id
       path[0].setAttribute "data-name", state.name
-      scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(@paper, path, 0, paper_width, paper_height)
-      large_path = AA.RaphaelHelpers.translate_to_center(@paper, path, false, scale_string)
-
 
       # Choices highlighted Green
       if state.id in @choices
@@ -59,6 +60,8 @@ class @Map
         path.attr
           fill: "#87a347"
         @_makeClickable(path)
+    # scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(@paper, path, 0, paper_width, paper_height)
+    # large_path = AA.RaphaelHelpers.translate_to_center(@paper, path, false, scale_string)
 
   _makeClickable: (element) =>
     id = element[0].getAttribute('data-id')

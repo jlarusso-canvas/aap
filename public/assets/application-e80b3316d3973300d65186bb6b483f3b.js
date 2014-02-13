@@ -557,10 +557,9 @@ this.Dispatcher = (function() {
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
-    var url;
-    url = "192.168.1.174:3000/websocket";
+    this.url = "192.168.1.34:3000/websocket";
     if (!!uuid) {
-      this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
+      this.dispatcher = new WebSocketRails("" + this.url + "?uuid=" + uuid, true);
       this._bindEvents();
     } else {
       navigator.notification.alert("Please reconnect; no uuid found.");
@@ -605,99 +604,104 @@ this.Dispatcher = (function() {
   return Dispatcher;
 
 })();
-(function() {
-  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
-    __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
+var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+  __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
-  this.Map = (function() {
-    function Map() {
-      this._makeClickable = __bind(this._makeClickable, this);
-      this.buildMap = __bind(this.buildMap, this);
-      this.staticMap = __bind(this.staticMap, this);
-      this.path_attrs = {
-        fill: "#d3d3d3",
-        stroke: "#fff",
-        "stroke-opacity": "1",
-        "stroke-linejoin": "round",
-        "stroke-miterlimit": "4",
-        "stroke-width": "0.75",
-        "stroke-dasharray": "none"
+this.Map = (function() {
+  function Map() {
+    this._makeClickable = __bind(this._makeClickable, this);
+    this.buildMap = __bind(this.buildMap, this);
+    this.staticMap = __bind(this.staticMap, this);
+    this.path_attrs = {
+      fill: "#d3d3d3",
+      stroke: "#fff",
+      "stroke-opacity": "1",
+      "stroke-linejoin": "round",
+      "stroke-miterlimit": "4",
+      "stroke-width": "0.75",
+      "stroke-dasharray": "none"
+    };
+  }
+
+  Map.prototype.staticMap = function() {
+    var answer_id, paper_height, paper_width, picked_id, _ref;
+    this.choices = window.AAL.router.current_question.choices;
+    answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
+    picked_id = window.AAL.router.answer_data.choice_id;
+    paper_width = 800;
+    paper_height = 500;
+    this.paper = Raphael("map", paper_width, paper_height);
+    return $.each(this.map_data, (function(_this) {
+      return function(index, state) {
+        var path, _ref1;
+        path = _this.paper.path(state.path_data);
+        path.attr(_this.path_attrs);
+        if (_ref1 = state.id, __indexOf.call(_this.choices, _ref1) >= 0) {
+          path[0].setAttribute("class", "is-choice");
+          path.attr({
+            fill: "#87a347"
+          });
+        }
+        if (state.id === answer_id) {
+          return path.attr({
+            fill: "#ef8301"
+          });
+        } else if (state.id === picked_id) {
+          return path.attr({
+            fill: "#960000"
+          });
+        }
       };
-    }
+    })(this));
+  };
 
-    Map.prototype.staticMap = function() {
-      var answer_id, picked_id, _ref;
-      this.paper = Raphael("map", 1000, 700);
-      this.choices = window.AAL.router.current_question.choices;
-      answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
-      picked_id = window.AAL.router.answer_data.choice_id;
-      return $.each(this.map_data, (function(_this) {
-        return function(index, state) {
-          var path, _ref1;
-          path = _this.paper.path(state.path_data);
-          path.attr(_this.path_attrs);
-          if (_ref1 = state.id, __indexOf.call(_this.choices, _ref1) >= 0) {
-            path[0].setAttribute("class", "is-choice");
-            path.attr({
-              fill: "#87a347"
-            });
-          }
-          if (state.id === answer_id) {
-            return path.attr({
-              fill: "#ef8301"
-            });
-          } else if (state.id === picked_id) {
-            return path.attr({
-              fill: "#960000"
-            });
-          }
-        };
-      })(this));
-    };
+  Map.prototype.buildMap = function() {
+    var paper_height, paper_width, path;
+    paper_width = 800;
+    paper_height = 500;
+    path = null;
+    this.paper = Raphael("map", paper_width, paper_height);
+    return $.each(this.map_data, (function(_this) {
+      return function(index, state) {
+        var large_path, scale_string, _ref;
+        path = _this.paper.path(state.path_data);
+        path.attr(_this.path_attrs);
+        path[0].setAttribute("data-id", state.id);
+        path[0].setAttribute("data-name", state.name);
+        scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(_this.paper, path, 0, paper_width, paper_height);
+        large_path = AA.RaphaelHelpers.translate_to_center(_this.paper, path, false, scale_string);
+        if (_ref = state.id, __indexOf.call(_this.choices, _ref) >= 0) {
+          path[0].setAttribute("class", "is-choice");
+          path.attr({
+            fill: "#87a347"
+          });
+          return _this._makeClickable(path);
+        }
+      };
+    })(this));
+  };
 
-    Map.prototype.buildMap = function() {
-      this.paper = Raphael("map", 1000, 700);
-      return $.each(this.map_data, (function(_this) {
-        return function(index, state) {
-          var path, _ref;
-          path = _this.paper.path(state.path_data);
-          path.attr(_this.path_attrs);
-          path[0].setAttribute("data-id", state.id);
-          path[0].setAttribute("data-name", state.name);
-          if (_ref = state.id, __indexOf.call(_this.choices, _ref) >= 0) {
-            path[0].setAttribute("class", "is-choice");
-            path.attr({
-              fill: "#87a347"
-            });
-            return _this._makeClickable(path);
-          }
-        };
-      })(this));
-    };
-
-    Map.prototype._makeClickable = function(element) {
-      var id, name;
-      id = element[0].getAttribute('data-id');
-      name = element[0].getAttribute('data-name');
-      return element.click(function() {
-        var $submit;
-        $(".is-choice").not(this).attr({
-          fill: "#87a347"
-        });
-        this.attr({
-          fill: "#ef8301"
-        });
-        $submit = $('.submit');
-        $submit.attr('answer_choice', parseInt(id)).attr('choice_name', name).addClass("is-active");
-        return $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>");
+  Map.prototype._makeClickable = function(element) {
+    var id, name;
+    id = element[0].getAttribute('data-id');
+    name = element[0].getAttribute('data-name');
+    return element.click(function() {
+      var $submit;
+      $(".is-choice").not(this).attr({
+        fill: "#87a347"
       });
-    };
+      this.attr({
+        fill: "#ef8301"
+      });
+      $submit = $('.submit');
+      $submit.attr('answer_choice', parseInt(id)).attr('choice_name', name).addClass("is-active");
+      return $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>");
+    });
+  };
 
-    return Map;
+  return Map;
 
-  })();
-
-}).call(this);
+})();
 (function() {
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
@@ -724,6 +728,59 @@ this.Dispatcher = (function() {
   })();
 
 }).call(this);
+if (typeof(AA) == 'undefined') AA = {}
+AA.RaphaelHelpers = (function(){
+  return {
+    translate_to_center: function(paper, path, time, scale_string, cb){
+      var cx = paper.width / 2;
+      var cy = paper.height / 2;
+
+      var path_box = path.getBBox();
+      var path_cx = (path_box.x2 - path_box.x) + path_box.x;
+      var path_cy = (path_box.y2 - path_box.y) + path_box.y;
+
+      var tcx = (cx - path_cx) + ((path_box.x2 - path_box.x) / 2);
+      var tcy = (cy - path_cy) + ((path_box.y2 - path_box.y) / 2);
+      var t_string = 'T' + tcx + ' ' + tcy
+
+      if (scale_string) {
+        t_string = t_string + ', ' + scale_string;
+      }
+
+      path.animate({
+        transform: t_string
+      }, time, '<>', function(){
+        if (cb) cb();
+      });
+    },
+    get_scale_to_fit_string: function(paper, path, scale_adjustment, width, height) {
+      var paper_width = (width) ? width : paper.width;
+      var paper_height = (height) ? height : paper.height;
+      var path_box = path.getBBox();
+      var path_width = path_box.width;
+      var path_height = path_box.y2 - path_box.y;
+      var scale_size;
+
+      if (path_width > path_height) {
+        scale_size = paper_width / path_width;
+      }
+      else {
+        scale_size = paper_height / path_height;
+      }
+
+      return 'S' + (scale_size + scale_adjustment);
+    },
+    reset_path: function(path, time, cb) {
+      path.animate({
+        transform: 'T0 0, S1 1'
+      }, time, '<>', function(){
+        if (cb) cb();
+      });
+    }
+
+  }
+
+})();
 this.Router = (function() {
   function Router() {
     this.clearHeaderCountdown();
@@ -928,31 +985,28 @@ this.Router = (function() {
   })();
 
 }).call(this);
-(function() {
-  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
-  this.PlayerController = (function() {
-    function PlayerController() {
-      this._bindEvents = __bind(this._bindEvents, this);
-      this.dispatcher = window.AAL.dispatcher.dispatcher;
-      this.server_url = "192.168.1.34";
-      this._bindEvents();
-    }
+this.PlayerController = (function() {
+  function PlayerController() {
+    this._bindEvents = __bind(this._bindEvents, this);
+    this.dispatcher = window.AAL.dispatcher.dispatcher;
+    this.server_url = window.AAL.dispatcher.url;
+    this._bindEvents();
+  }
 
-    PlayerController.prototype._bindEvents = function() {
-      return $('#sweepstakes-submit').on('click', function(e) {
-        var form_data;
-        e.preventDefault();
-        form_data = $('#sweep-input').serialize();
-        return console.log(form_data);
-      });
-    };
+  PlayerController.prototype._bindEvents = function() {
+    return $('#sweepstakes-submit').on('click', function(e) {
+      var form_data;
+      e.preventDefault();
+      form_data = $('#sweep-input').serialize();
+      return console.log(form_data);
+    });
+  };
 
-    return PlayerController;
+  return PlayerController;
 
-  })();
-
-}).call(this);
+})();
 window.appstarter = {
   start: function() {
     window.AAL = {};

@@ -634,8 +634,7 @@ h1, h2, h3, h4, .seconds {
   /* drop shadow */ }
 
 .main-content .map-content {
-  margin-top: 80px;
-  width: 1000px; }
+  margin-top: 10px; }
 
 .map-container {
   position: relative;

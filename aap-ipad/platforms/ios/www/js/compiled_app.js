@@ -651,10 +651,9 @@ this.Dispatcher = (function() {
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
-    var url;
-    url = "192.168.1.174:3000/websocket";
+    this.url = "192.168.1.34:3000/websocket";
     if (!!uuid) {
-      this.dispatcher = new WebSocketRails("" + url + "?uuid=" + uuid, true);
+      this.dispatcher = new WebSocketRails("" + this.url + "?uuid=" + uuid, true);
       this._bindEvents();
     } else {
       navigator.notification.alert("Please reconnect; no uuid found.");
@@ -720,12 +719,14 @@ this.Map = (function() {
   }
 
   Map.prototype.staticMap = function() {
-    var answer_id, picked_id, _ref,
+    var answer_id, paper_height, paper_width, picked_id, _ref,
       _this = this;
-    this.paper = Raphael("map", 1000, 700);
     this.choices = window.AAL.router.current_question.choices;
     answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
     picked_id = window.AAL.router.answer_data.choice_id;
+    paper_width = 800;
+    paper_height = 500;
+    this.paper = Raphael("map", paper_width, paper_height);
     return $.each(this.map_data, function(index, state) {
       var path, _ref1;
       path = _this.paper.path(state.path_data);
@@ -749,14 +750,20 @@ this.Map = (function() {
   };
 
   Map.prototype.buildMap = function() {
-    var _this = this;
-    this.paper = Raphael("map", 1000, 700);
+    var paper_height, paper_width, path,
+      _this = this;
+    paper_width = 800;
+    paper_height = 500;
+    path = null;
+    this.paper = Raphael("map", paper_width, paper_height);
     return $.each(this.map_data, function(index, state) {
-      var path, _ref;
+      var large_path, scale_string, _ref;
       path = _this.paper.path(state.path_data);
       path.attr(_this.path_attrs);
       path[0].setAttribute("data-id", state.id);
       path[0].setAttribute("data-name", state.name);
+      scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(_this.paper, path, 0, paper_width, paper_height);
+      large_path = AA.RaphaelHelpers.translate_to_center(_this.paper, path, false, scale_string);
       if (_ref = state.id, __indexOf.call(_this.choices, _ref) >= 0) {
         path[0].setAttribute("class", "is-choice");
         path.attr({
@@ -1021,7 +1028,7 @@ this.PlayerController = (function() {
   function PlayerController() {
     this._bindEvents = __bind(this._bindEvents, this);
     this.dispatcher = window.AAL.dispatcher.dispatcher;
-    this.server_url = "192.168.1.34";
+    this.server_url = window.AAL.dispatcher.url;
     this._bindEvents();
   }
 

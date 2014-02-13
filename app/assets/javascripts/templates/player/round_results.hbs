@@ -14,7 +14,10 @@
           {{/if}} points</h4>
         <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
       {{else}}
-        <h2><span>You didn't answer!</span> It's {{answer_name}}</h2>
+        <h4 class="points is-incorrect">
+          +0
+        </h4>
+        <h2>It's {{answer_name}}</h2>
       {{/if}}
 
     {{#if has_answer}}
@@ -42,6 +45,8 @@
       <h3>You Selected:
         <strong>{{choice_name}}</strong>
       </h3>
+    {{else}}
+      <h2><span>You didn't answer!</span></h2>
     {{/if}}
 
   </footer>

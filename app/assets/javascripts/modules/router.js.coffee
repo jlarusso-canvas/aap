@@ -19,6 +19,7 @@ class @Router
 
 
   clearMap: ->
+    $('svg').remove()
     $('#map').remove()
 
 
@@ -126,6 +127,7 @@ class @Router
 
   # Phase 3
   _round_results: ->
+    @clearMap()
     if @current_question
       @answer_data = {has_answer: false} unless @answer_data
       updated_question = $.extend(@current_question, @answer_data)

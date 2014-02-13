@@ -1813,7 +1813,7 @@ this.Dispatcher = (function() {
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
-    this.url = "192.168.1.34:3000/websocket";
+    this.url = "192.168.1.2:3000/websocket";
     if (!!uuid) {
       this.dispatcher = new WebSocketRails("" + this.url + "?uuid=" + uuid, true);
       this._bindEvents();
@@ -1883,12 +1883,14 @@ this.Map = (function() {
   Map.prototype.staticMap = function() {
     var answer_id, paper_height, paper_width, picked_id, _ref,
       _this = this;
+    paper_width = 1200;
+    paper_height = 800;
+    this.paper = Raphael('map');
+    this.paper.setViewBox(0, 0, paper_width, paper_height, true);
+    this.paper.setSize('80%', '80%');
     this.choices = window.AAL.router.current_question.choices;
     answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
     picked_id = window.AAL.router.answer_data.choice_id;
-    paper_width = 800;
-    paper_height = 500;
-    this.paper = Raphael("map", paper_width, paper_height);
     return $.each(this.map_data, function(index, state) {
       var path, _ref1;
       path = _this.paper.path(state.path_data);
@@ -1912,20 +1914,20 @@ this.Map = (function() {
   };
 
   Map.prototype.buildMap = function() {
-    var paper_height, paper_width, path,
+    var paper_height, paper_width,
       _this = this;
-    paper_width = 800;
-    paper_height = 500;
-    path = null;
-    this.paper = Raphael("map", paper_width, paper_height);
+    paper_width = 1200;
+    paper_height = 800;
+    this.paper = Raphael('map');
+    this.choices = window.AAL.router.current_question.choices;
+    this.paper.setViewBox(0, 0, paper_width, paper_height, true);
+    this.paper.setSize('80%', '80%');
     return $.each(this.map_data, function(index, state) {
-      var large_path, scale_string, _ref;
+      var path, _ref;
       path = _this.paper.path(state.path_data);
       path.attr(_this.path_attrs);
       path[0].setAttribute("data-id", state.id);
       path[0].setAttribute("data-name", state.name);
-      scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(_this.paper, path, 0, paper_width, paper_height);
-      large_path = AA.RaphaelHelpers.translate_to_center(_this.paper, path, false, scale_string);
       if (_ref = state.id, __indexOf.call(_this.choices, _ref) >= 0) {
         path[0].setAttribute("class", "is-choice");
         path.attr({
@@ -2000,6 +2002,7 @@ this.Router = (function() {
   };
 
   Router.prototype.clearMap = function() {
+    $('svg').remove();
     return $('#map').remove();
   };
 
@@ -2100,6 +2103,7 @@ this.Router = (function() {
 
   Router.prototype._round_results = function() {
     var template, updated_question;
+    this.clearMap();
     if (this.current_question) {
       if (!this.answer_data) {
         this.answer_data = {
@@ -2160,7 +2164,7 @@ this.Stopwatch = (function() {
       count = 9;
       this.$container = $('.header-countdown .seconds');
     } else if (type === "main") {
-      count = 3;
+      count = 1;
       this.$container = $('.main-countdown .seconds');
     }
     timer = function() {

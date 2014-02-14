@@ -14,19 +14,19 @@
           <div class="label">Email:</div>
           <div class="label">Phone:</div>
         </section>
-        <form name="sweepstakes" id="sweep-input">
-          <input type="text" name="first_name" id="first_name">
-          <input type="text" name="last_name" id="last_name">
-          <input type="text" name="email" id="email">
-          <input type="tel" name="phone" id="phone">
+        <form name="sweepstake" id="sweep-input">
+          <input type="text" name="sweepstake[first_name]" id="first_name">
+          <input type="text" name="sweepstake[last_name]" id="last_name">
+          <input type="text" name="sweeptake[email]" id="email">
+          <input type="tel" name="sweepstake[phone]" id="phone">
           <div id="checkbox-group">
-            <input type="checkbox" id="age_check">
+            <input type="checkbox" id="age_check" name="sweepstake[is_18]" value=1>
             <label class="checkbox" for="age_check">I am 18 or older</label>
             <br>
-            <input type="checkbox" id="signup_check" name="email_update" value=1>
+            <input type="checkbox" id="signup_check" name="sweepstake[email_update]" value=1>
             <label class="checkbox" for="signup_check">Yes, sign me up for e-mail updates from the Smithsonian Channel.</label>
             <br>
-            <input type="checkbox" id="terms_check">
+            <input type="checkbox" id="terms_check" name="sweepstake[terms]" value=1>
             <label class="checkbox" for="terms_check">
               By checking this box, I understand and agree to the terms and conditions of the attached <a href="#">Official Rules.</a>
             </label>

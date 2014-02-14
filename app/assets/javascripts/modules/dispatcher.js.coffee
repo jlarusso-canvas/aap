@@ -1,13 +1,14 @@
 class @Dispatcher
-  constructor: (uuid) ->
+  constructor: ->
     @url = "192.168.1.2:3000/websocket"
-    @uuid = uuid
 
-    if !!uuid
-      @dispatcher = new WebSocketRails("#{@url}?uuid=#{uuid}", true)
-      @_bindEvents()
-    else
-      navigator.notification.alert("Please reconnect; no uuid found.")
+  disconnect: =>
+    @dispatcher.disconnect
+
+  connectWithId: (uuid) =>
+    @uuid = uuid
+    @dispatcher = new WebSocketRails("#{@url}?uuid=#{uuid}", true)
+    @_bindEvents()
 
   #############################################################################
   # Private
@@ -17,12 +18,12 @@ class @Dispatcher
     @dispatcher.bind 'current_question', @_currentQuestion
     @dispatcher.bind 'current_phase', @_currentPhase
     @dispatcher.bind 'map_data', @_mapData
-    # @dispatcher.bind 'answer_response', @_answerResponse
 
 
   # Events execute an action when a binding is activated
   _currentQuestion: (message) =>
     window.AAL.router.current_question = @_unSerialize message['current_question']
+
 
   _currentPhase: (message) =>
     @current_phase = message['current_phase']
@@ -33,10 +34,6 @@ class @Dispatcher
 
   _mapData: (message) =>
     window.AAL.map.map_data = message['map_data']
-
-
-  # _answerResponse: (message) =>
-  #   window.AAL.router.has_correct_answer = message['is_correct']
 
 
   _unSerialize: (question) =>

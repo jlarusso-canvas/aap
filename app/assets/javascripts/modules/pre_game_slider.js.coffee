@@ -1,5 +1,6 @@
 class @PreGameSlider
   constructor: ->
+    place = "holder"
 
   # TODO: Make this work. Stuck JS directly in Pre Game template for now
   create_pre_game_slider: =>

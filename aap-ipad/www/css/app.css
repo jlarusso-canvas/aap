@@ -537,6 +537,14 @@ h1, h2, h3, h4, .seconds {
 .is-incorrect {
   color: #960000; }
 
+.player-select {
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  background: #3f84af;
+  color: white;
+  margin: 20px 0 20px 100px; }
+
 #container {
   height: 768px;
   overflow-y: hidden; }

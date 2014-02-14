@@ -60,8 +60,7 @@ class @Map
         path.attr
           fill: "#87a347"
         @_makeClickable(path)
-    # scale_string = AA.RaphaelHelpers.get_scale_to_fit_string(@paper, path, 0, paper_width, paper_height)
-    # large_path = AA.RaphaelHelpers.translate_to_center(@paper, path, false, scale_string)
+
 
   _makeClickable: (element) =>
     id = element[0].getAttribute('data-id')
@@ -74,6 +73,6 @@ class @Map
         fill: "#ef8301"
       $submit = $('.submit')
       $submit.attr 'answer_choice', parseInt(id)
-             .attr 'choice_name', name
-             .addClass("is-active")
+      $submit.attr 'choice_name', name
+      $submit.addClass("is-active")
       $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>")

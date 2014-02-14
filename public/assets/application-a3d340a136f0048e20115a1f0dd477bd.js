@@ -550,27 +550,31 @@ For instance:
 var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
 this.Dispatcher = (function() {
-  function Dispatcher(uuid) {
+  function Dispatcher() {
     this._unSerialize = __bind(this._unSerialize, this);
-    this._answerResponse = __bind(this._answerResponse, this);
     this._mapData = __bind(this._mapData, this);
     this._currentPhase = __bind(this._currentPhase, this);
     this._currentQuestion = __bind(this._currentQuestion, this);
     this._bindEvents = __bind(this._bindEvents, this);
+    this.connectWithId = __bind(this.connectWithId, this);
+    this.disconnect = __bind(this.disconnect, this);
     this.url = "192.168.1.2:3000/websocket";
-    if (!!uuid) {
-      this.dispatcher = new WebSocketRails("" + this.url + "?uuid=" + uuid, true);
-      this._bindEvents();
-    } else {
-      navigator.notification.alert("Please reconnect; no uuid found.");
-    }
   }
+
+  Dispatcher.prototype.disconnect = function() {
+    return this.dispatcher.disconnect;
+  };
+
+  Dispatcher.prototype.connectWithId = function(uuid) {
+    this.uuid = uuid;
+    this.dispatcher = new WebSocketRails("" + this.url + "?uuid=" + uuid, true);
+    return this._bindEvents();
+  };
 
   Dispatcher.prototype._bindEvents = function() {
     this.dispatcher.bind('current_question', this._currentQuestion);
     this.dispatcher.bind('current_phase', this._currentPhase);
-    this.dispatcher.bind('map_data', this._mapData);
-    return this.dispatcher.bind('answer_response', this._answerResponse);
+    return this.dispatcher.bind('map_data', this._mapData);
   };
 
   Dispatcher.prototype._currentQuestion = function(message) {
@@ -586,10 +590,6 @@ this.Dispatcher = (function() {
 
   Dispatcher.prototype._mapData = function(message) {
     return window.AAL.map.map_data = message['map_data'];
-  };
-
-  Dispatcher.prototype._answerResponse = function(message) {
-    return window.AAL.router.has_correct_answer = message['is_correct'];
   };
 
   Dispatcher.prototype._unSerialize = function(question) {
@@ -696,7 +696,10 @@ this.Map = (function() {
         fill: "#ef8301"
       });
       $submit = $('.submit');
-      $submit.attr('answer_choice', parseInt(id)).attr('choice_name', name).addClass("is-active");
+      $submit.attr('answer_choice', parseInt(id));
+      $submit.attr('choice_name', name);
+      $submit.addClass("is-active");
+      console.log("answer", $('.submit'));
       return $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>");
     });
   };
@@ -704,32 +707,31 @@ this.Map = (function() {
   return Map;
 
 })();
-(function() {
-  var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
-  this.PreGameSlider = (function() {
-    function PreGameSlider() {
-      this.create_pre_game_slider = __bind(this.create_pre_game_slider, this);
-    }
+this.PreGameSlider = (function() {
+  function PreGameSlider() {
+    this.create_pre_game_slider = __bind(this.create_pre_game_slider, this);
+    var place;
+    place = "holder";
+  }
 
-    PreGameSlider.prototype.create_pre_game_slider = function() {
-      return $(".pre-game-slides").flexslider({
-        animation: "slide",
-        slideshow: false,
-        selector: ".slides > li",
-        itemWidth: 1000,
-        directionNav: false,
-        start: function() {
-          return $(window).trigger("resize");
-        }
-      });
-    };
+  PreGameSlider.prototype.create_pre_game_slider = function() {
+    return $(".pre-game-slides").flexslider({
+      animation: "slide",
+      slideshow: false,
+      selector: ".slides > li",
+      itemWidth: 1000,
+      directionNav: false,
+      start: function() {
+        return $(window).trigger("resize");
+      }
+    });
+  };
 
-    return PreGameSlider;
+  return PreGameSlider;
 
-  })();
-
-}).call(this);
+})();
 if (typeof(AA) == 'undefined') AA = {}
 AA.RaphaelHelpers = (function(){
   return {
@@ -826,6 +828,7 @@ this.Router = (function() {
   Router.prototype.attachSubmitEvent = function() {
     return $('.submit').on('click', function() {
       var answer_choice, answer_index, answer_is_correct, choice_name, params;
+      console.log(this);
       answer_choice = parseInt($(this).attr('answer_choice'));
       choice_name = $(this).attr('choice_name');
       if (answer_choice) {
@@ -840,8 +843,12 @@ this.Router = (function() {
             has_answer: true,
             choice_id: answer_choice
           };
+          params = {
+            device_uuid: window.AAL.dispatcher.uuid
+          };
+          return window.AAL.dispatcher.dispatcher.trigger("send_answer", params);
         } else {
-          window.AAL.router.answer_data = {
+          return window.AAL.router.answer_data = {
             answer_is_correct: false,
             answer_class: "is-incorrect",
             exclamation: "Incorrect!",
@@ -850,11 +857,6 @@ this.Router = (function() {
             choice_id: answer_choice
           };
         }
-        params = {
-          device_uuid: 2,
-          answer_is_correct: answer_is_correct
-        };
-        return window.AAL.dispatcher.dispatcher.trigger("send_answer", params);
       } else {
 
       }
@@ -945,7 +947,8 @@ this.Stopwatch = (function() {
   function Stopwatch() {
     this.startCountdown = __bind(this.startCountdown, this);
     this.clearCountdown = __bind(this.clearCountdown, this);
-    this.dispatcher = window.AAL.dispatcher.dispatcher;
+    var place;
+    place = "holder";
   }
 
   Stopwatch.prototype.clearCountdown = function() {
@@ -961,7 +964,7 @@ this.Stopwatch = (function() {
       count = 9;
       this.$container = $('.header-countdown .seconds');
     } else if (type === "main") {
-      count = 1;
+      count = 3;
       this.$container = $('.main-countdown .seconds');
     }
     timer = (function(_this) {
@@ -991,17 +994,25 @@ var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments)
 this.PlayerController = (function() {
   function PlayerController() {
     this._bindEvents = __bind(this._bindEvents, this);
-    this.dispatcher = window.AAL.dispatcher.dispatcher;
     this.server_url = window.AAL.dispatcher.url;
     this._bindEvents();
   }
 
   PlayerController.prototype._bindEvents = function() {
-    return $('#sweepstakes-submit').on('click', function(e) {
-      var form_data;
-      e.preventDefault();
-      form_data = $('#sweep-input').serialize();
-      return console.log(form_data);
+    $('.player-select').on('click', function() {
+      var $item;
+      $item = $(this);
+      $item.css("background", 'white');
+      $item.css("color", 'steelblue');
+      window.AAL.dispatcher.connectWithId($item.data('player'));
+      $('.player-select').off('click');
+      return $('#select-wrap').remove();
+    });
+    return $('.disconnect').on('click', function() {
+      var $item;
+      window.AAL.dispatcher.disconnect();
+      $item = $(this);
+      return $item.css('color', 'white');
     });
   };
 
@@ -1012,7 +1023,7 @@ window.appstarter = {
   start: function() {
     window.AAL = {};
     window.AAL.map = new Map;
-    window.AAL.dispatcher = new Dispatcher(device.uuid);
+    window.AAL.dispatcher = new Dispatcher;
     window.AAL.router = new Router;
     window.AAL.stopwatch = new Stopwatch;
     return window.AAL.playerController = new PlayerController;

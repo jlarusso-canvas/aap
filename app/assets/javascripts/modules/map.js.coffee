@@ -46,7 +46,7 @@ class @Map
     @paper = Raphael('map')
     @choices = window.AAL.router.current_question.choices
     @paper.setViewBox(0, 0, paper_width,paper_height,true);
-    @paper.setSize('80%', '80%');
+    @paper.setSize('100%', '100%');
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)

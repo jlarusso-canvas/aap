@@ -759,7 +759,7 @@ this.Map = (function() {
     this.paper = Raphael('map');
     this.choices = window.AAL.router.current_question.choices;
     this.paper.setViewBox(0, 0, paper_width, paper_height, true);
-    this.paper.setSize('80%', '80%');
+    this.paper.setSize('100%', '100%');
     return $.each(this.map_data, function(index, state) {
       var path, _ref;
       path = _this.paper.path(state.path_data);

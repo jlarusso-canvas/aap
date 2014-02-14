@@ -10,8 +10,8 @@ cCpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap
 cCpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
 cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
 cCpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
 cCpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
 cCpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
 cCpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
 cCpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
@@ -296,88 +296,88 @@ t1392067131
 s838
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1392415438
+t1392418685
 s63228
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1392415438
+t1392418685
 s60236
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1392415438
+t1392418685
 s27836
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1392415438
+t1392418685
 s18776
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1392415438
+t1392418685
 s10932
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1392415438
+t1392418685
 s109720
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1392415438
+t1392418685
 s59580
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1392415438
+t1392418685
 s37292
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-t1392415438
+t1392418685
 s9456
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1392415438
+t1392418685
 s23004
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1392415438
+t1392418685
 s71300
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1392415438
+t1392418685
 s52800
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1392415438
+t1392418685
 s162648
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1392415438
+t1392418685
 s71372
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1392415438
+t1392418685
 s42420
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000052FE92CE0000000000000E33
-t1392415438
+c0000000052FE9F7D0000000000000E33
+t1392418685
 s3635
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1392415438
+t1392418685
 s7536
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1392415438
+t1392418685
 s11200
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1392415438
+t1392418685
 s17912
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1392415438
+t1392418685
 s7048
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1392415438
+t1392418685
 s9668
 
 N/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
@@ -1336,7 +1336,7 @@ s3202600
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies11e4787fd5aeb841^bb0f8c7fd5aeb841^---0#1#1#--18"Check dependencies36"1BEE12F0-1F0B-4812-9064-079D6A468F25-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesac73142dd9aeb841^c7bc262dd9aeb841^---0#1#1#--18"Check dependencies36"8F75FA3C-5BBE-4D2C-90C5-F308BC83F3C5-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s414107213.663457
@@ -2581,14 +2581,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile
 bB50185DD-C909-43F2-AFD3-35469449544A
 
 CCpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
-s414111103.554558
-e414111103.555984
+s414112045.157974
+e414112045.159284
 r1
 xCpHeader
 xClasses/CDV.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h129"CpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h79248e7fd5aeb841^24628e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h0034f42addffdf42^1019"CpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"C9FF1FAF-0753-4B62-9B81-1DBB7D695DD8-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h129"CpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h4a95282dd9aeb841^51f8282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h0034f42addffdf42^1019"CpHeader Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDV.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"54B5E5E1-17E0-4FCC-A92A-757F9E45D957-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDV.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDV.h
 s414101686.728492
@@ -2611,14 +2611,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-s414111103.554849
-e414111103.556333
+s414112045.158298
+e414112045.159921
 r1
 xCpHeader
 xClasses/CDVAvailability.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h153"CpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h3b3a8e7fd5aeb841^fc728e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034f42addffdf42^1055"CpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"D43DF41B-F132-40B0-9CC5-838D43665F52-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h153"CpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h3dbb282dd9aeb841^240e292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034f42addffdf42^1055"CpHeader Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"604CAE7C-E9FE-4992-818C-5DC69D2204E9-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVAvailability.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
 s414101686.729613
@@ -2641,14 +2641,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-s414111103.554195
-e414111103.555456
+s414112045.157689
+e414112045.159071
 r1
 xCpHeader
 xClasses/CDVCommandDelegate.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h159"CpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.ha8fe8d7fd5aeb841^514c8e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034f42addffdf42^1064"CpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"08CC952A-7FC9-45D5-9315-31D8812E1428-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h159"CpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.hed7f282dd9aeb841^44dc282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034f42addffdf42^1064"CpHeader Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"48F00421-5022-4A3C-9615-26D4EFA03130-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVCommandDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
 s414101686.727749
@@ -2671,14 +2671,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-s414111103.556617
-e414111103.558084
+s414112045.160349
+e414112045.162038
 r1
 xCpHeader
 xClasses/CDVCommandDelegateImpl.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h167"CpHeader Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h79af8e7fd5aeb841^64e68e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034f42addffdf42^1076"CpHeader Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"FD939BCA-AEA0-4153-9A2E-064253EFC562-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h167"CpHeader Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h984c292dd9aeb841^9f90292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034f42addffdf42^1076"CpHeader Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"26B6DCF5-4990-4442-92D6-B34E17C9EEB3-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVCommandDelegateImpl.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
 s414101686.733554
@@ -2701,14 +2701,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-s414111103.556277
-e414111103.557651
+s414112045.160213
+e414112045.161574
 r1
 xCpHeader
 xClasses/CDVCommandQueue.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h153"CpHeader Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h438d8e7fd5aeb841^13d28e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034f42addffdf42^1055"CpHeader Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"733569D9-7698-470D-921D-6712FB80E1FD-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h153"CpHeader Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h452d292dd9aeb841^6972292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034f42addffdf42^1055"CpHeader Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"43C6371A-62E8-4886-AFB0-B3956CECE42B-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVCommandQueue.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
 s414101686.732222
@@ -2731,14 +2731,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-s414111103.557682
-e414111103.559256
+s414112045.161736
+e414112045.163064
 r1
 xCpHeader
 xClasses/CDVConfigParser.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h153"CpHeader Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h72fe8e7fd5aeb841^15368f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034f42addffdf42^1055"CpHeader Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"BD5D4912-0AA6-4D2D-A92F-42E8365385A0-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h153"CpHeader Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h1990292dd9aeb841^1ccd292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034f42addffdf42^1055"CpHeader Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"2A184445-5D31-453C-A0FB-096E474040FF-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVConfigParser.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
 s414101686.735907
@@ -2761,14 +2761,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-s414111103.550686
-e414111103.553208
+s414112045.154476
+e414112045.156606
 r1
 xCpHeader
 xClasses/CDVDebug.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h139"CpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h971e8d7fd5aeb841^a5128e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034f42addffdf42^1034"CpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"B22E6D9F-D505-4ADF-B26D-8887464FA85A-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h139"CpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0cac272dd9aeb841^0360282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034f42addffdf42^1034"CpHeader Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"625CB240-AC6F-4A88-A3E6-82249741B9F8-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVDebug.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
 s414101686.723384
@@ -2791,14 +2791,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-s414111103.549914
-e414111103.552655
+s414112045.153725
+e414112045.156579
 r1
 xCpHeader
 xClasses/CDVInvokedUrlCommand.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h163"CpHeader Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h92048d7fd5aeb841^b7eb8d7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034f42addffdf42^1070"CpHeader Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"B5553A22-F206-4B48-A54B-06B0F329DFAE-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h163"CpHeader Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h088e272dd9aeb841^a81b282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034f42addffdf42^1070"CpHeader Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"47E12FEF-B22B-47B4-AC57-27C23788B52E-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVInvokedUrlCommand.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
 s414101686.720389
@@ -2821,14 +2821,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-s414111103.558220
-e414111103.559503
+s414112045.162133
+e414112045.163455
 r1
 xCpHeader
 xClasses/CDVJSON.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h137"CpHeader Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h3d0e8f7fd5aeb841^844b8f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034f42addffdf42^1031"CpHeader Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"A242D23F-D525-4920-B59F-0EC077CD7692-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h137"CpHeader Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h61aa292dd9aeb841^a0dd292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034f42addffdf42^1031"CpHeader Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"23FB60DD-3AE1-44B5-B80B-C17D3CBAF349-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVJSON.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
 s414101686.736787
@@ -2851,14 +2851,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-s414111103.555130
-e414111103.556425
+s414112045.158749
+e414112045.160367
 r1
 xCpHeader
 xClasses/CDVLocalStorage.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h153"CpHeader Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.haf3e8e7fd5aeb841^88858e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034f42addffdf42^1055"CpHeader Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F729D1F6-2382-479D-8E3A-1ABD9E525360-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h153"CpHeader Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h7adf282dd9aeb841^7539292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034f42addffdf42^1055"CpHeader Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F9EA12DD-D18E-41E0-9614-E1D3D44E2E87-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVLocalStorage.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
 s414101686.729992
@@ -2881,14 +2881,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-s414111103.550473
-e414111103.553011
+s414112045.154207
+e414112045.156688
 r1
 xCpHeader
 xClasses/CDVPlugin.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h141"CpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h541e8d7fd5aeb841^26fd8d7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034f42addffdf42^1037"CpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"4B64A67C-4AA1-49FC-BF66-1C7D64800F75-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h141"CpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h7993272dd9aeb841^f566282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034f42addffdf42^1037"CpHeader Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"CF7BB60D-FC12-4AF8-839D-F894F356FDD9-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVPlugin.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
 s414101686.723281
@@ -2911,14 +2911,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-s414111103.550121
-e414111103.552598
+s414112045.154003
+e414112045.156575
 r1
 xCpHeader
 xClasses/CDVPluginResult.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h153"CpHeader Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h32038d7fd5aeb841^21778d7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034f42addffdf42^1055"CpHeader Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"AEA8B542-D234-4CB1-8FDB-D3FE4B50E506-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h153"CpHeader Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h698f272dd9aeb841^4b57282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034f42addffdf42^1055"CpHeader Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"28666B47-3E10-4658-A9EF-37E67BB9AADC-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVPluginResult.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
 s414101686.721590
@@ -2941,14 +2941,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-s414111103.557325
-e414111103.558722
+s414112045.161357
+e414112045.162559
 r1
 xCpHeader
 xClasses/CDVScreenOrientationDelegate.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h179"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.he0d98e7fd5aeb841^1a168f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034f42addffdf42^1094"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"7FB3478E-8031-4C0E-BC93-436268229785-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h179"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.ha470292dd9aeb841^27bf292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034f42addffdf42^1094"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"1FB3771F-B63B-4ED0-BA1D-F1D563C80D3C-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
 s414101686.735119
@@ -2971,14 +2971,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-s414111103.557018
-e414111103.558511
+s414112045.160884
+e414112045.162236
 r1
 xCpHeader
 xClasses/CDVShared.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h141"CpHeader Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h92cc8e7fd5aeb841^2e028f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034f42addffdf42^1037"CpHeader Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"4D4642E3-359B-4E1A-B97E-584BCBBACB23-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h141"CpHeader Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h7155292dd9aeb841^fca9292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034f42addffdf42^1037"CpHeader Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"38634A3D-50B7-4F12-A166-9AAD8C8117EC-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVShared.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVShared.h
 s414101686.734018
@@ -3001,14 +3001,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-s414111103.559415
-e414111103.560501
+s414112045.163146
+e414112045.164315
 r1
 xCpHeader
 xClasses/CDVTimer.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h139"CpHeader Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.he3508f7fd5aeb841^d07f8f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034f42addffdf42^1034"CpHeader Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"9895DA72-D294-492B-90A9-EA9C77D1784D-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h139"CpHeader Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.hefe6292dd9aeb841^12112a2dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034f42addffdf42^1034"CpHeader Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"9FA48BF7-D2DF-4969-961A-D3E6A478D3A4-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVTimer.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
 s414101686.739164
@@ -3031,14 +3031,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /U
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-s414111103.553354
-e414111103.555348
+s414112045.157458
+e414112045.159032
 r1
 xCpHeader
 xClasses/CDVURLProtocol.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h151"CpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h13f28d7fd5aeb841^b9388e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034f42addffdf42^1052"CpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"EB31718C-BA0B-46B9-B970-04922D0EAD91-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h151"CpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h3677282dd9aeb841^32c9282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034f42addffdf42^1052"CpHeader Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"F60D151C-7275-48A8-AEA9-B81746F8754D-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVURLProtocol.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
 s414101686.725812
@@ -3061,14 +3061,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-s414111103.559074
-e414111103.560290
+s414112045.162851
+e414112045.164015
 r1
 xCpHeader
 xClasses/CDVUserAgentUtil.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h155"CpHeader Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h3e408f7fd5aeb841^04708f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034f42addffdf42^1058"CpHeader Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"EC3D71EF-F54D-4147-844C-C6665353F46B-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h155"CpHeader Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.hfad4292dd9aeb841^65fe292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034f42addffdf42^1058"CpHeader Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"E0D29E74-5A51-41EE-A1B4-92D6CEFF1D67-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVUserAgentUtil.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
 s414101686.738231
@@ -3091,14 +3091,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-s414111103.553761
-e414111103.555239
+s414112045.157455
+e414112045.158929
 r1
 xCpHeader
 xClasses/CDVViewController.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h157"CpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h27f58d7fd5aeb841^90328e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034f42addffdf42^1061"CpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"DEF24CE9-2132-4AB8-ACC7-AB2550B2D7DB-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h157"CpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.hc571282dd9aeb841^50ab282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034f42addffdf42^1061"CpHeader Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"53FCDCDB-3018-4922-80E6-E6CEB78A930C-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVViewController.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
 s414101686.726624
@@ -3121,14 +3121,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-s414111103.558551
-e414111103.559727
+s414112045.162456
+e414112045.163763
 r1
 xCpHeader
 xClasses/CDVWebViewDelegate.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h159"CpHeader Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.hf71d8f7fd5aeb841^dd5d8f7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034f42addffdf42^1064"CpHeader Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"7FEEE7AF-DF3E-41E5-920A-DA460131D677-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h159"CpHeader Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h01c0292dd9aeb841^41ef292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034f42addffdf42^1064"CpHeader Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"0070D9BF-6607-41EE-B199-6CD80D64CC57-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVWebViewDelegate.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
 s414101686.737496
@@ -3151,14 +3151,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-s414111103.551334
-e414111103.553478
+s414112045.155286
+e414112045.156843
 r1
 xCpHeader
 xClasses/CDVWhitelist.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h147"CpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h6a4b8d7fd5aeb841^4e0b8e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034f42addffdf42^1046"CpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"E8ADAA84-C25E-49BF-8C82-AF343BC25312-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h147"CpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.hddd1272dd9aeb841^3293282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034f42addffdf42^1046"CpHeader Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"9BF6E9FF-C9A8-4FE9-8312-9DFC1D5672B7-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/CDVWhitelist.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
 s414101686.724393
@@ -3181,14 +3181,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-s414111103.555891
-e414111103.557116
+s414112045.159585
+e414112045.160945
 r1
 xCpHeader
 xClasses/NSArray+Comparisons.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h161"CpHeader Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h32728e7fd5aeb841^56b78e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034f42addffdf42^1067"CpHeader Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"D6EDCF95-CD1E-467F-977F-530F900123F3-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h161"CpHeader Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.hf305292dd9aeb841^685b292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034f42addffdf42^1067"CpHeader Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"99BCBC85-4E35-4561-AB25-2981322C0176-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/NSArray+Comparisons.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
 s414101686.731443
@@ -3211,14 +3211,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-s414111103.550041
-e414111103.552665
+s414112045.153965
+e414112045.156710
 r1
 xCpHeader
 xClasses/NSData+Base64.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h149"CpHeader Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h08018d7fd5aeb841^3df08d7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h009864045ffddf42^1049"CpHeader Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"524788F8-F049-47A3-8893-AA2EB71A19CC-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h149"CpHeader Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h228c272dd9aeb841^d733282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00b0b8441fe1df42^1049"CpHeader Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"8EB99A0D-9477-462B-B8DD-A239198AA93B-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/NSData+Base64.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
 s414101686.720758
@@ -3241,14 +3241,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-s414111103.549824
-e414111103.552628
+s414112045.153669
+e414112045.156634
 r1
 xCpHeader
 xClasses/NSDictionary+Extensions.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h169"CpHeader Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00038d7fd5aeb841^58c78d7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h0034f42addffdf42^1079"CpHeader Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"242634D2-3053-4723-8A91-BCA00CDE7514-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h169"CpHeader Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h658c272dd9aeb841^0e4e282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h0034f42addffdf42^1079"CpHeader Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"8E6F7B67-7AA2-452C-80DD-898D6601625A-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/NSDictionary+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
 s414101686.720187
@@ -3271,14 +3271,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-s414111103.550989
-e414111103.553072
+s414112045.154688
+e414112045.156798
 r1
 xCpHeader
 xClasses/NSMutableArray+QueueAdditions.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h181"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h622e8d7fd5aeb841^00028e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034f42addffdf42^1097"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"76832193-BFC3-4604-9AC5-CB2D1BF09FDD-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h181"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h4bad272dd9aeb841^357b282dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034f42addffdf42^1097"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"9A8D1895-BD2B-48C3-ACB6-FA9DC68FB213-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
 s414101686.724082
@@ -3301,14 +3301,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CCpHeader Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-s414111103.555626
-e414111103.557044
+s414112045.159043
+e414112045.160473
 r1
 xCpHeader
 xClasses/UIDevice+Extensions.h
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h161"CpHeader Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.hc2688e7fd5aeb841^4a9b8e7fd5aeb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034f42addffdf42^1067"CpHeader Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"5B72ED06-8FFA-432F-9749-6C90E1290931-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h161"CpHeader Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h1ee1282dd9aeb841^293f292dd9aeb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034f42addffdf42^1067"CpHeader Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova36"E6B19AC4-1596-413B-B5D0-544112E27759-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CCpHeader Classes/UIDevice+Extensions.h /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
 s414101686.730915
@@ -3331,15 +3331,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /
 bC8F271AD-C7AA-45F5-BC17-D11639235668
 
 CLibtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
-s414111103.565280
-e414111103.577020
+s414112045.168759
+e414112045.180362
 r1
 xLibtool
 x/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386117"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i3861cd2907fd5aeb841^b7b7937fd5aeb841^---0#0#1#--1374"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator -filelist /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a36"51DA3C2D-38DE-49AA-91ED-A992E0F1DFEF-
-b67CFC621-7059-4884-A879-0F70C0E9BE1E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386117"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i3860a4c2b2dd9aeb841^ba2c2e2dd9aeb841^---0#0#1#--1374"Libtool /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/erinlee/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/erinlee/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator -filelist /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/libCordova.a36"1DB9202E-0DBA-4C80-867F-531F4040A09E-
+b2DD76E7B-F749-45D2-BC0B-66AE08CE40B1
 
 CLibtool /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/libCordova.a normal i386
 s414101686.748660

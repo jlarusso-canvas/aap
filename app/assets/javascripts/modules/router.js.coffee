@@ -115,6 +115,7 @@ class @Router
     if @current_question
       template = @_mainTemplate(@current_question)
       $('#header').append(@countdown_template)
+      window.AAL.stopwatch.startCountdown('header')
     else
       template = @wait_template
     $('#content').append(template)
@@ -123,7 +124,6 @@ class @Router
       @createMap()
       @attachSubmitEvent()
 
-    window.AAL.stopwatch.startCountdown('header')
 
 
   # Phase 3

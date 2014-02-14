@@ -933,15 +933,15 @@ this.Router = (function() {
     if (this.current_question) {
       template = this._mainTemplate(this.current_question);
       $('#header').append(this.countdown_template);
+      window.AAL.stopwatch.startCountdown('header');
     } else {
       template = this.wait_template;
     }
     $('#content').append(template);
     if (window.AAL.map.map_data) {
       this.createMap();
-      this.attachSubmitEvent();
+      return this.attachSubmitEvent();
     }
-    return window.AAL.stopwatch.startCountdown('header');
   };
 
   Router.prototype._round_results = function() {

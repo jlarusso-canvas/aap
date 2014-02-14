@@ -689,6 +689,7 @@ this.Map = (function() {
     name = element[0].getAttribute('data-name');
     return element.click(function() {
       var $submit;
+      $('.submit').removeClass('green');
       $(".is-choice").not(this).attr({
         fill: "#87a347"
       });
@@ -699,7 +700,6 @@ this.Map = (function() {
       $submit.attr('answer_choice', parseInt(id));
       $submit.attr('choice_name', name);
       $submit.addClass("is-active");
-      console.log("answer", $('.submit'));
       return $("#js-selected-state").html("You Selected: " + "<strong>" + name + "</strong>");
     });
   };
@@ -828,7 +828,7 @@ this.Router = (function() {
   Router.prototype.attachSubmitEvent = function() {
     return $('.submit').on('click', function() {
       var answer_choice, answer_index, answer_is_correct, choice_name, params;
-      console.log(this);
+      $(this).addClass('green');
       answer_choice = parseInt($(this).attr('answer_choice'));
       choice_name = $(this).attr('choice_name');
       if (answer_choice) {

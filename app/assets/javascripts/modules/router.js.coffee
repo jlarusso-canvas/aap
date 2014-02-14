@@ -41,6 +41,7 @@ class @Router
 
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
+      $(@).addClass('green')
       answer_choice = parseInt $(@).attr('answer_choice')
       choice_name = $(@).attr('choice_name')
 

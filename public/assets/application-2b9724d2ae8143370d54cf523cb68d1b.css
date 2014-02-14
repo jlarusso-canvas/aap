@@ -475,6 +475,9 @@ header {
 .header {
   z-index: 15; }
 
+.green {
+  background: #87a347 !important; }
+
 .wia-logo {
   height: 122px;
   width: 217px;

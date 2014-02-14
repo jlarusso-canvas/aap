@@ -67,6 +67,7 @@ class @Map
     name = element[0].getAttribute('data-name')
 
     element.click ->
+      $('.submit').removeClass('green')
       $(".is-choice").not(@).attr
         fill: "#87a347"
       @.attr

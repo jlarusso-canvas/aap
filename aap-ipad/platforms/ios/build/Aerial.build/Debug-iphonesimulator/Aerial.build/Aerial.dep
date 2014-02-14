@@ -1,5 +1,5 @@
-953506a71b1b52c4ceb4ac282634daa6 b1e612023a34ccaa7c623372915be2f5 ffffffffffffffffffffffffffffffff 1054 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
-0000000052fe30dd000000000000095a c559e9212c39d4ac610200bcc0a6d30b ffffffffffffffffffffffffffffffff 0 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo
+953506a71b1b33acceb4ac282634daa6 b1e612023a34ccaa7c623372915be2f5 ffffffffffffffffffffffffffffffff 1054 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app
+0000000052fe51b5000000000000095a c559e9212c39d4ac610200bcc0a6d30b ffffffffffffffffffffffffffffffff 0 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo
 0000000052f90b7e0000000000000066 15d87ca6748d1c827eaf68a173626dd9 ffffffffffffffffffffffffffffffff 102 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/CDVNotification.bundle
 0000000052f90b7e0000000000002dba 90323a63406fda45857c8f5457badc17 ffffffffffffffffffffffffffffffff 11706 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72@2x.png
 0000000052f90b7e0000000000003b9e c4ca58ceae0b9bfcb635005499583871 ffffffffffffffffffffffffffffffff 15262 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76@2x.png
@@ -25,9 +25,9 @@
 0000000052f90b7e0000000000001350 8917210f99a2adae694fc861e727c519 ffffffffffffffffffffffffffffffff 4944 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72.png
 0000000052f90b7e0000000000001cf3 a77a793696d50e816ad5b10cfeb1d2a8 ffffffffffffffffffffffffffffffff 7411 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40@2x.png
 0000000052f90b7e0000000000001b71 eab3470579ec728fbb21e855b16d2576 ffffffffffffffffffffffffffffffff 7025 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76.png
-0000000052fe30dd000000000000068e 45396a6333710dfdc3663c12457c816d ffffffffffffffffffffffffffffffff 1678 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml
-c2157ad02749c4c7dc5548351478b34c 4cb360b21d33720c234b7ed3d5c08ee4 ffffffffffffffffffffffffffffffff 0 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
-0000000052fe30dd000000000000095a c559e9212c39d4ac610200bcc0a6d30b ffffffffffffffffffffffffffffffff 1146 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
+0000000052fe51b5000000000000068e 45396a6333710dfdc3663c12457c816d ffffffffffffffffffffffffffffffff 1678 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml
+c2157ad02749a5afdc5548351478b34c 4cb360b21d33720c234b7ed3d5c08ee4 ffffffffffffffffffffffffffffffff 0 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
+0000000052fe51b5000000000000095a c559e9212c39d4ac610200bcc0a6d30b ffffffffffffffffffffffffffffffff 1146 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
 0aba52f68c581de73b878be2a4e223fb 0df6c107d5d63d5186d0c36b703c4ae6 ffffffffffffffffffffffffffffffff 296576 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
 bbfaed0f04ba9baeb6473e9f20ab6e93 7d7daac008c94e24ba28668269a79954 ffffffffffffffffffffffffffffffff 71596 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o
 bbfaed0f04ba9baeb6473e9f20ab7c6f ec9fc21ee5d4a4f857689f19fbdaff3b ffffffffffffffffffffffffffffffff 43932 /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o

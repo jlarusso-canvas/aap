@@ -2,9 +2,11 @@
   <div id="content">
     <div id="logo-column"><div class="wia-logo"></div></div>
     <div id="form-column">
-      <h3>You Won! Thanks for Playing!</h3>
-      <h1>Enter for a chance to win $5,000!</h1>
-      <p>Enter your information below for your chance to win.</p>
+      <div class="top-message">
+        <h3>You Won! Thanks for Playing!</h3>
+        <h1>Enter for a chance to win $5,000!</h1>
+        <p>Enter your information below for your chance to win.</p>
+      </div>
 
       <!-- Form -->
       <section id="sweep-form">
@@ -17,7 +19,7 @@
         <form name="sweepstake" id="sweep-input">
           <input type="text" name="sweepstake[first_name]" id="first_name">
           <input type="text" name="sweepstake[last_name]" id="last_name">
-          <input type="text" name="sweeptake[email]" id="email">
+          <input type="email" name="sweepstake[email]" id="email">
           <input type="tel" name="sweepstake[phone]" id="phone">
           <div id="checkbox-group">
             <input type="checkbox" id="age_check" name="sweepstake[is_18]" value=1>
@@ -28,12 +30,12 @@
             <br>
             <input type="checkbox" id="terms_check" name="sweepstake[terms]" value=1>
             <label class="checkbox" for="terms_check">
-              By checking this box, I understand and agree to the terms and conditions of the attached <a href="#">Official Rules.</a>
+              By checking this box, I understand and agree to the terms and conditions of the attached <a href="/terms.html">Official Rules.</a>
             </label>
           </div>
           <div class="submit-form">
             <input type="submit" class="submit is-active" id="sweepstakes-submit">
-            <a href="#">No Thanks</a>
+            <a href="#" class="no-thanks">No Thanks</a>
           </div>
         </form>
       </section>
@@ -44,10 +46,16 @@
   <!-- Footer -->
   <div class="selection">
     <footer class="select-bar" id="final-results-footer">
-      <h3 class="aerial-social">#AerialAmerica</h3>
       <h4 class="smithsonian-logo">
         <%= image_tag "smithsonian-logo.png" %>
       </h4>
+      <h1>|</h1>
+      <h3 class="aerial-social"><span>#</span>AerialAmerica</h3>
+      <div class="terms-and-conditions">
+        <a href="/terms.html">Terms & Conditions</a>
+        <span>|</span>
+        <a href="/terms.html">Official Rules</a>
+      </div>
     </footer>
   </div>
   <!-- End Footer -->

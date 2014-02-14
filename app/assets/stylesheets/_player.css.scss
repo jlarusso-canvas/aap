@@ -102,7 +102,7 @@
 footer {
   width: 100%;
   background-color: rgba(0,0,0,.37);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   z-index: 10;
   padding: 18px 0;
@@ -152,6 +152,13 @@ footer {
   color: red;
   background: #414547 image-url("final-results-bg.jpg") no-repeat;
   background-size: cover;
+  overflow: scroll;
+  padding-bottom: 120px;
+}
+
+#form-column h1.thank-you {
+  color: #FFF;
+  padding-top: 200px;
 }
 
 #logo-column {
@@ -194,20 +201,46 @@ footer {
   .aerial-social {
     float: left;
     display: inline-block;
-
+    margin-left: 20px;
+    letter-spacing: 1.2px;
     @include font-size(25);
     text-shadow: none;
+    margin-top: 20px;
+
+    span {
+      color: #feb70f;
+    }
+  }
+
+  h1 {
+    float: left;
+    color: #3d3f3e;
+    font-weight: 100;
   }
 
   .smithsonian-logo {
-    float: right;
+    float: left;
     display: inline-block;
-    margin-right: 2%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 
     img {
       width: 250px;
       height: 54px;
     }
+  }
+}
+
+.terms-and-conditions {
+  float: right;
+  padding-right: 20px;
+  color: #696969;
+  @include font-size(12);
+  margin-top: 29px;
+
+  a {
+    color: inherit;
   }
 }
 
@@ -260,7 +293,9 @@ footer {
   }
 
   input[type="text"],
-  input[type="tel"] {
+  input[type="tel"],
+  input[type="number"],
+  input[type="email"] {
     width: 90%;
     margin-bottom: 2%;
 

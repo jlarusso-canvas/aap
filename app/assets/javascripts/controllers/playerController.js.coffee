@@ -11,14 +11,19 @@ class @PlayerController
 
       sweepstake = $('#sweep-input').serialize()
 
-      # $.post "#{@server_url}/sweepstakes", form_data
       $.ajax
         type: "POST"
         url: "http://localhost:3000/sweepstakes"  ## @server_url not working
         data: sweepstake
+        complete: ->
+          $('#sweep-form').hide()
+          $('.top-message h3').hide()
+          $('.top-message h1').text('Thank you for entering!').addClass("thank-you")
+          $('.top-message p').hide()
 
-  # validateForm = ->
-  # x = document.forms["myForm"]["fname"].value
-  # if not x? or x is ""
-  #   alert "First name must be filled out"
-  #   false
+    $('.no-thanks').on 'click', (e) ->
+      e.preventDefault()
+      $('#sweep-form').hide()
+      $('.top-message h3').hide()
+      $('.top-message h1').text('Thank you for playing!').addClass("thank-you")
+      $('.top-message p').hide()

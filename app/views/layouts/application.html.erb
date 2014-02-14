@@ -80,39 +80,38 @@
     <!-- ====================================================================== -->
     <script id="round_results" type="text/x-handlebars-template">
       <!-- Answer Explanation -->
-      <div class="main-content">
-        <div id="overlay">
-          <div class="round-results">
-            <!-- if Answer is correct, attach .is-correct class -->
-            <!-- else attach .is-incorrect -->
-
-            {{#if has_answer}}
-              <h4 class="points {{answer_class}}">
-                {{#if answer_is_correct}}
-                  +10
-                {{else}}
-                  +0
-                {{/if}} points</h4>
-              <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
-            {{else}}
-              <h2><span>You didn't answer!</span> It's {{answer_name}}</h2>
-            {{/if}}
+      <div id="overlay">
+        <div class="round-results">
+          <!-- if Answer is correct, attach .is-correct class -->
+          <!-- else attach .is-incorrect -->
 
           {{#if has_answer}}
-            {{#if answer_is_correct}}
-              <p>{{correct_headline}}</p>
-            {{else}}
-              <p>{{incorrect_headline}}</p>
-            {{/if}}
+            <h4 class="points {{answer_class}}">
+              {{#if answer_is_correct}}
+                +10
+              {{else}}
+                +0
+              {{/if}} points</h4>
+            <h2><span>{{exclamation}}</span> {{answer_name}}</h2>
+          {{else}}
+            <h4 class="points is-incorrect">
+              +0
+            </h4>
+            <h2>It is {{answer_name}}</h2>
+          {{/if}}
+
+        {{#if has_answer}}
+          {{#if answer_is_correct}}
+            <p>{{correct_headline}}</p>
           {{else}}
             <p>{{incorrect_headline}}</p>
           {{/if}}
-
-
-          </div>
+        {{else}}
+          <p>{{incorrect_headline}}</p>
+        {{/if}}
         </div>
-        <div class="map-content" data-id="{{ choices }}">
-        </div>
+      </div>
+      <div class="map-content" data-id="{{ choices }}">
       </div>
 
       <!-- Players Submited Answer -->
@@ -123,10 +122,14 @@
             <h3>You Selected:
               <strong>{{choice_name}}</strong>
             </h3>
+          {{else}}
+            <h3><span>You did not answer.</span></h3>
           {{/if}}
 
         </footer>
       </div>
+
+
     </script>
 
 

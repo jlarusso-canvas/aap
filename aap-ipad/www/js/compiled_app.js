@@ -915,7 +915,17 @@ this.Router = (function() {
     var template;
     this.clearHeaderCountdown();
     template = this._mainTemplate();
-    return $('#content').append(template);
+    $('#content').append(template);
+    return $(".pre-game-slides").flexslider({
+      animation: "slide",
+      slideshow: false,
+      selector: ".slides > li",
+      itemWidth: 1000,
+      directionNav: false,
+      start: function() {
+        return $(window).trigger("resize");
+      }
+    });
   };
 
   Router.prototype._game_start = function() {

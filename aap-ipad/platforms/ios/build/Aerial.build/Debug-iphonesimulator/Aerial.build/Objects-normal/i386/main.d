@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/Aerial/main.m
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/Aerial/main.m

@@ -1,14 +1,14 @@
 dependencies: \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.m \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/Aerial/Classes/MainViewController.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h

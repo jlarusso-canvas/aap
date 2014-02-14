@@ -3,9 +3,9 @@ class @Router
     @clearHeaderCountdown()
     @user_type = "player"
 
-    @countdown_template = HandlebarsTemplates["shared/countdown"]()
-    @wait_template = HandlebarsTemplates["player/wait"]()
-    @map_template = HandlebarsTemplates["player/map"]()
+    @countdown_template = Handlebars.compile($('#countdown').html())()
+    @wait_template = Handlebars.compile($('#wait').html())()
+    @map_template = Handlebars.compile($('#map').html())()
 
   #############################################################################
   # Public
@@ -41,6 +41,7 @@ class @Router
 
   attachSubmitEvent: ->
     $('.submit').on 'click', ->
+      $(@).addClass('green')
       answer_choice = parseInt $(@).attr('answer_choice')
       choice_name = $(@).attr('choice_name')
 
@@ -59,6 +60,12 @@ class @Router
             choice_name: choice_name
             has_answer: true
             choice_id: answer_choice
+
+          params =
+            device_uuid: window.AAL.dispatcher.uuid
+
+          window.AAL.dispatcher.dispatcher.trigger "send_answer", params
+
         else
           window.AAL.router.answer_data =
             answer_is_correct: false
@@ -68,12 +75,6 @@ class @Router
             has_answer: true
             choice_id: answer_choice
 
-        params =
-          #TODO: make device uuid dynamic
-          device_uuid: 2
-          answer_is_correct: answer_is_correct
-
-        window.AAL.dispatcher.dispatcher.trigger "send_answer", params
       else
         # TODO: tell player to select a valid state
 
@@ -84,8 +85,8 @@ class @Router
 
 
   _mainTemplate: (json) ->
-    HandlebarsTemplates["#{@user_type}/#{@current_phase}"](json)
-
+    template = Handlebars.compile $("##{@current_phase}").html()
+    template(json)
 
   #############################################################################
   # Game Phases
@@ -94,7 +95,7 @@ class @Router
   # Phase 0
   _pre_game: ->
     @clearHeaderCountdown()
-    window.AAL.pre_game_slider.create_pre_game_slider()
+    # window.AAL.pre_game_slider.create_pre_game_slider()
     template = @_mainTemplate()
     $('#content').append(template)
 
@@ -114,6 +115,7 @@ class @Router
     if @current_question
       template = @_mainTemplate(@current_question)
       $('#header').append(@countdown_template)
+      window.AAL.stopwatch.startCountdown('header')
     else
       template = @wait_template
     $('#content').append(template)
@@ -122,7 +124,6 @@ class @Router
       @createMap()
       @attachSubmitEvent()
 
-    window.AAL.stopwatch.startCountdown('header')
 
 
   # Phase 3

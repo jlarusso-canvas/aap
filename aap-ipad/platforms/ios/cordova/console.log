@@ -69,3 +69,708 @@ Terminating in response to SpringBoard's termination.
 2014-02-10 12:35:18.713 Aerial[60075:80b] Resetting plugins due to page load.
 2014-02-10 12:35:18.814 Aerial[60075:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/62B95740-28B8-4A2F-A2A2-624949F11040/Aerial.app/www/index.html
 2014-02-10 12:35:19.472 Aerial[60075:80b] THREAD WARNING: ['Notification'] took '597.043945' ms. Plugin should use a background thread.
+2014-02-11 12:40:31.399 Aerial[70648:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 12:40:31.429 Aerial[70648:80b] Unlimited access to network resources
+2014-02-11 12:40:31.697 Aerial[70648:80b] Resetting plugins due to page load.
+2014-02-11 12:40:31.932 Aerial[70648:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 12:40:31.999 Aerial[70648:80b] THREAD WARNING: ['Notification'] took '31.881104' ms. Plugin should use a background thread.
+2014-02-11 12:40:32.000 Aerial[70648:80b] Received Event: deviceready
+2014-02-11 12:47:31.940 Aerial[71363:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 12:47:31.951 Aerial[71363:80b] Unlimited access to network resources
+2014-02-11 12:47:32.189 Aerial[71363:80b] Resetting plugins due to page load.
+2014-02-11 12:47:32.330 Aerial[71363:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 12:47:32.415 Aerial[71363:80b] THREAD WARNING: ['Notification'] took '39.552002' ms. Plugin should use a background thread.
+2014-02-11 12:47:32.416 Aerial[71363:80b] Received Event: deviceready
+2014-02-11 12:58:01.731 Aerial[72809:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 12:58:01.742 Aerial[72809:80b] Unlimited access to network resources
+2014-02-11 12:58:01.820 Aerial[72809:80b] Resetting plugins due to page load.
+2014-02-11 12:58:01.944 Aerial[72809:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 12:58:02.100 Aerial[72809:80b] THREAD WARNING: ['Notification'] took '96.770996' ms. Plugin should use a background thread.
+2014-02-11 12:58:46.081 Aerial[73125:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 12:58:46.092 Aerial[73125:80b] Unlimited access to network resources
+2014-02-11 12:58:46.267 Aerial[73125:80b] Resetting plugins due to page load.
+2014-02-11 12:58:46.390 Aerial[73125:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 12:58:47.017 Aerial[73125:80b] THREAD WARNING: ['Notification'] took '562.032959' ms. Plugin should use a background thread.
+2014-02-11 13:04:41.062 Aerial[73844:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:04:41.073 Aerial[73844:80b] Unlimited access to network resources
+2014-02-11 13:04:41.302 Aerial[73844:80b] Resetting plugins due to page load.
+2014-02-11 13:04:41.419 Aerial[73844:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:04:41.495 Aerial[73844:80b] THREAD WARNING: ['Notification'] took '41.452881' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 13:05:52.283 Aerial[74435:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:05:52.294 Aerial[74435:80b] Unlimited access to network resources
+2014-02-11 13:05:52.550 Aerial[74435:80b] Resetting plugins due to page load.
+2014-02-11 13:05:52.678 Aerial[74435:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:05:52.745 Aerial[74435:80b] THREAD WARNING: ['Notification'] took '29.413818' ms. Plugin should use a background thread.
+2014-02-11 13:06:17.348 Aerial[74752:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:06:17.360 Aerial[74752:80b] Unlimited access to network resources
+2014-02-11 13:06:17.598 Aerial[74752:80b] Resetting plugins due to page load.
+2014-02-11 13:06:17.723 Aerial[74752:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:06:18.289 Aerial[74752:80b] THREAD WARNING: ['Notification'] took '527.937012' ms. Plugin should use a background thread.
+2014-02-11 13:09:24.883 Aerial[75420:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:09:24.894 Aerial[75420:80b] Unlimited access to network resources
+2014-02-11 13:09:25.104 Aerial[75420:80b] Resetting plugins due to page load.
+2014-02-11 13:09:25.266 Aerial[75420:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:09:25.380 Aerial[75420:80b] THREAD WARNING: ['Notification'] took '28.801025' ms. Plugin should use a background thread.
+2014-02-11 13:11:15.484 Aerial[76016:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:11:15.495 Aerial[76016:80b] Unlimited access to network resources
+2014-02-11 13:11:15.732 Aerial[76016:80b] Resetting plugins due to page load.
+2014-02-11 13:11:15.858 Aerial[76016:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:13:25.407 Aerial[76608:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:13:25.418 Aerial[76608:80b] Unlimited access to network resources
+2014-02-11 13:13:25.653 Aerial[76608:80b] Resetting plugins due to page load.
+2014-02-11 13:13:25.778 Aerial[76608:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 13:14:01.573 Aerial[76953:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 13:14:01.584 Aerial[76953:80b] Unlimited access to network resources
+2014-02-11 13:14:01.670 Aerial[76953:80b] Resetting plugins due to page load.
+2014-02-11 13:14:01.807 Aerial[76953:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:27:54.991 Aerial[77816:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:27:55.002 Aerial[77816:80b] Unlimited access to network resources
+2014-02-11 14:27:55.176 Aerial[77816:80b] Resetting plugins due to page load.
+2014-02-11 14:27:55.296 Aerial[77816:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:29:12.486 Aerial[78409:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:29:12.498 Aerial[78409:80b] Unlimited access to network resources
+2014-02-11 14:29:12.724 Aerial[78409:80b] Resetting plugins due to page load.
+2014-02-11 14:29:12.843 Aerial[78409:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:31:32.857 Aerial[79006:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:31:32.868 Aerial[79006:80b] Unlimited access to network resources
+2014-02-11 14:31:33.100 Aerial[79006:80b] Resetting plugins due to page load.
+2014-02-11 14:31:33.221 Aerial[79006:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:36:02.613 Aerial[79620:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:36:02.624 Aerial[79620:80b] Unlimited access to network resources
+2014-02-11 14:36:02.862 Aerial[79620:80b] Resetting plugins due to page load.
+2014-02-11 14:36:02.992 Aerial[79620:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:39:32.938 Aerial[80229:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:39:32.949 Aerial[80229:80b] Unlimited access to network resources
+2014-02-11 14:39:33.189 Aerial[80229:80b] Resetting plugins due to page load.
+2014-02-11 14:39:33.317 Aerial[80229:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:40:53.304 Aerial[81119:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:40:53.315 Aerial[81119:80b] Unlimited access to network resources
+2014-02-11 14:40:53.541 Aerial[81119:80b] Resetting plugins due to page load.
+2014-02-11 14:40:53.693 Aerial[81119:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:41:41.535 Aerial[81698:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:41:41.546 Aerial[81698:80b] Unlimited access to network resources
+2014-02-11 14:41:41.812 Aerial[81698:80b] Resetting plugins due to page load.
+2014-02-11 14:41:41.946 Aerial[81698:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:41:42.010 Aerial[81698:80b] THREAD WARNING: ['Notification'] took '27.245117' ms. Plugin should use a background thread.
+2014-02-11 14:42:35.754 Aerial[82276:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:42:35.765 Aerial[82276:80b] Unlimited access to network resources
+2014-02-11 14:42:36.008 Aerial[82276:80b] Resetting plugins due to page load.
+2014-02-11 14:42:36.122 Aerial[82276:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:42:36.698 Aerial[82276:80b] THREAD WARNING: ['Notification'] took '532.367188' ms. Plugin should use a background thread.
+2014-02-11 14:42:36.723 Aerial[82276:80b] THREAD WARNING: ['Notification'] took '23.298828' ms. Plugin should use a background thread.
+2014-02-11 14:43:40.699 Aerial[82857:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:43:40.710 Aerial[82857:80b] Unlimited access to network resources
+2014-02-11 14:43:40.944 Aerial[82857:80b] Resetting plugins due to page load.
+2014-02-11 14:43:41.076 Aerial[82857:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B3EA80A4-B331-4D53-B293-3AFEACC4DE70/Aerial.app/www/index.html
+2014-02-11 14:45:01.460 Aerial[83438:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:45:01.470 Aerial[83438:80b] Unlimited access to network resources
+2014-02-11 14:45:01.720 Aerial[83438:80b] Resetting plugins due to page load.
+2014-02-11 14:45:01.832 Aerial[83438:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:49:00.467 Aerial[84353:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:49:00.478 Aerial[84353:80b] Unlimited access to network resources
+2014-02-11 14:49:00.681 Aerial[84353:80b] Resetting plugins due to page load.
+2014-02-11 14:49:00.824 Aerial[84353:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:50:01.463 Aerial[84932:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:50:01.475 Aerial[84932:80b] Unlimited access to network resources
+2014-02-11 14:50:01.703 Aerial[84932:80b] Resetting plugins due to page load.
+2014-02-11 14:50:01.820 Aerial[84932:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:53:56.915 Aerial[85524:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:53:56.926 Aerial[85524:80b] Unlimited access to network resources
+2014-02-11 14:53:57.146 Aerial[85524:80b] Resetting plugins due to page load.
+2014-02-11 14:53:57.261 Aerial[85524:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:53:57.866 Aerial[85524:80b] THREAD WARNING: ['Notification'] took '557.858154' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 14:55:24.777 Aerial[86105:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:55:24.788 Aerial[86105:80b] Unlimited access to network resources
+2014-02-11 14:55:25.006 Aerial[86105:80b] Resetting plugins due to page load.
+2014-02-11 14:55:25.103 Aerial[86105:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:55:25.715 Aerial[86105:80b] THREAD WARNING: ['Notification'] took '552.530029' ms. Plugin should use a background thread.
+2014-02-11 14:56:32.128 Aerial[86683:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:56:32.139 Aerial[86683:80b] Unlimited access to network resources
+2014-02-11 14:56:32.370 Aerial[86683:80b] Resetting plugins due to page load.
+2014-02-11 14:56:32.505 Aerial[86683:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:56:32.592 Aerial[86683:80b] THREAD WARNING: ['Notification'] took '28.194824' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 14:58:58.707 Aerial[87022:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 14:58:58.719 Aerial[87022:80b] Unlimited access to network resources
+2014-02-11 14:58:58.953 Aerial[87022:80b] Resetting plugins due to page load.
+2014-02-11 14:58:59.062 Aerial[87022:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 14:58:59.665 Aerial[87022:80b] THREAD WARNING: ['Notification'] took '534.157715' ms. Plugin should use a background thread.
+2014-02-11 15:00:53.165 Aerial[88180:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:00:53.176 Aerial[88180:80b] Unlimited access to network resources
+2014-02-11 15:00:53.348 Aerial[88180:80b] Resetting plugins due to page load.
+2014-02-11 15:00:53.438 Aerial[88180:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:00:53.593 Aerial[88180:80b] THREAD WARNING: ['Notification'] took '102.119141' ms. Plugin should use a background thread.
+2014-02-11 15:04:09.229 Aerial[89337:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:04:09.241 Aerial[89337:80b] Unlimited access to network resources
+2014-02-11 15:04:09.322 Aerial[89337:80b] Resetting plugins due to page load.
+2014-02-11 15:04:09.423 Aerial[89337:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:04:09.577 Aerial[89337:80b] THREAD WARNING: ['Notification'] took '102.364014' ms. Plugin should use a background thread.
+2014-02-11 15:04:09.599 Aerial[89337:80b] THREAD WARNING: ['Notification'] took '21.081055' ms. Plugin should use a background thread.
+2014-02-11 15:05:14.801 Aerial[89654:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:05:14.812 Aerial[89654:80b] Unlimited access to network resources
+2014-02-11 15:05:14.893 Aerial[89654:80b] Resetting plugins due to page load.
+2014-02-11 15:05:15.008 Aerial[89654:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:05:15.164 Aerial[89654:80b] THREAD WARNING: ['Notification'] took '100.839111' ms. Plugin should use a background thread.
+2014-02-11 15:05:15.186 Aerial[89654:80b] THREAD WARNING: ['Notification'] took '20.655029' ms. Plugin should use a background thread.
+2014-02-11 15:08:50.203 Aerial[90260:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:08:50.214 Aerial[90260:80b] Unlimited access to network resources
+2014-02-11 15:08:50.434 Aerial[90260:80b] Resetting plugins due to page load.
+2014-02-11 15:08:50.530 Aerial[90260:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:08:51.146 Aerial[90260:80b] THREAD WARNING: ['Notification'] took '567.933105' ms. Plugin should use a background thread.
+2014-02-11 15:08:51.168 Aerial[90260:80b] THREAD WARNING: ['Notification'] took '20.436035' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 15:10:12.205 Aerial[90840:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:10:12.216 Aerial[90840:80b] Unlimited access to network resources
+2014-02-11 15:10:12.315 Aerial[90840:80b] Resetting plugins due to page load.
+2014-02-11 15:10:12.430 Aerial[90840:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:10:12.610 Aerial[90840:80b] THREAD WARNING: ['Notification'] took '114.554199' ms. Plugin should use a background thread.
+2014-02-11 15:10:12.633 Aerial[90840:80b] THREAD WARNING: ['Notification'] took '20.981201' ms. Plugin should use a background thread.
+2014-02-11 15:11:11.461 Aerial[91417:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:11:11.473 Aerial[91417:80b] Unlimited access to network resources
+2014-02-11 15:11:11.702 Aerial[91417:80b] Resetting plugins due to page load.
+2014-02-11 15:11:11.805 Aerial[91417:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:11:12.423 Aerial[91417:80b] THREAD WARNING: ['Notification'] took '541.707031' ms. Plugin should use a background thread.
+2014-02-11 15:11:12.444 Aerial[91417:80b] THREAD WARNING: ['Notification'] took '20.405273' ms. Plugin should use a background thread.
+2014-02-11 15:14:01.215 Aerial[92005:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:14:01.225 Aerial[92005:80b] Unlimited access to network resources
+2014-02-11 15:14:01.431 Aerial[92005:80b] Resetting plugins due to page load.
+2014-02-11 15:14:01.526 Aerial[92005:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:14:01.640 Aerial[92005:80b] THREAD WARNING: ['Notification'] took '65.850098' ms. Plugin should use a background thread.
+2014-02-11 15:14:01.661 Aerial[92005:80b] THREAD WARNING: ['Notification'] took '20.308105' ms. Plugin should use a background thread.
+2014-02-11 15:18:46.955 Aerial[92005:80b] Received memory warning.
+2014-02-11 15:35:49.406 Aerial[93847:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:35:49.416 Aerial[93847:80b] Unlimited access to network resources
+2014-02-11 15:35:49.604 Aerial[93847:80b] Resetting plugins due to page load.
+2014-02-11 15:35:49.688 Aerial[93847:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B64D9056-9B72-45D8-9357-4D63A8561F9F/Aerial.app/www/index.html
+2014-02-11 15:35:49.822 Aerial[93847:80b] THREAD WARNING: ['Notification'] took '92.905029' ms. Plugin should use a background thread.
+2014-02-11 15:35:49.844 Aerial[93847:80b] THREAD WARNING: ['Notification'] took '20.507812' ms. Plugin should use a background thread.
+2014-02-11 15:43:25.326 Aerial[95187:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:43:25.336 Aerial[95187:80b] Unlimited access to network resources
+2014-02-11 15:43:25.540 Aerial[95187:80b] Resetting plugins due to page load.
+2014-02-11 15:43:25.638 Aerial[95187:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:43:26.275 Aerial[95187:80b] THREAD WARNING: ['Notification'] took '546.425781' ms. Plugin should use a background thread.
+2014-02-11 15:43:26.297 Aerial[95187:80b] THREAD WARNING: ['Notification'] took '21.016846' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 15:44:01.429 Aerial[95769:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:44:01.440 Aerial[95769:80b] Unlimited access to network resources
+2014-02-11 15:44:01.645 Aerial[95769:80b] Resetting plugins due to page load.
+2014-02-11 15:44:01.738 Aerial[95769:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:44:01.858 Aerial[95769:80b] THREAD WARNING: ['Notification'] took '66.912109' ms. Plugin should use a background thread.
+2014-02-11 15:44:01.883 Aerial[95769:80b] THREAD WARNING: ['Notification'] took '23.703857' ms. Plugin should use a background thread.
+2014-02-11 15:45:05.717 Aerial[96346:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:45:05.729 Aerial[96346:80b] Unlimited access to network resources
+2014-02-11 15:45:05.971 Aerial[96346:80b] Resetting plugins due to page load.
+2014-02-11 15:45:06.076 Aerial[96346:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:45:06.665 Aerial[96346:80b] THREAD WARNING: ['Notification'] took '531.765869' ms. Plugin should use a background thread.
+2014-02-11 15:45:06.687 Aerial[96346:80b] THREAD WARNING: ['Notification'] took '20.461914' ms. Plugin should use a background thread.
+2014-02-11 15:46:12.640 Aerial[96924:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:46:12.651 Aerial[96924:80b] Unlimited access to network resources
+2014-02-11 15:46:12.832 Aerial[96924:80b] Resetting plugins due to page load.
+2014-02-11 15:46:12.881 Aerial[96924:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:46:13.050 Aerial[96924:80b] THREAD WARNING: ['Notification'] took '96.025146' ms. Plugin should use a background thread.
+2014-02-11 15:46:13.077 Aerial[96924:80b] THREAD WARNING: ['Notification'] took '25.085938' ms. Plugin should use a background thread.
+2014-02-11 15:47:29.305 Aerial[97502:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:47:29.315 Aerial[97502:80b] Unlimited access to network resources
+2014-02-11 15:47:29.551 Aerial[97502:80b] Resetting plugins due to page load.
+2014-02-11 15:47:29.654 Aerial[97502:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:47:29.773 Aerial[97502:80b] THREAD WARNING: ['Notification'] took '68.332764' ms. Plugin should use a background thread.
+2014-02-11 15:50:01.423 Aerial[98406:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:50:01.434 Aerial[98406:80b] Unlimited access to network resources
+2014-02-11 15:50:01.661 Aerial[98406:80b] Resetting plugins due to page load.
+2014-02-11 15:50:01.761 Aerial[98406:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:50:01.860 Aerial[98406:80b] THREAD WARNING: ['Notification'] took '49.017822' ms. Plugin should use a background thread.
+2014-02-11 15:50:59.388 Aerial[98983:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:50:59.400 Aerial[98983:80b] Unlimited access to network resources
+2014-02-11 15:50:59.635 Aerial[98983:80b] Resetting plugins due to page load.
+2014-02-11 15:50:59.732 Aerial[98983:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:51:00.333 Aerial[98983:80b] THREAD WARNING: ['Notification'] took '556.937988' ms. Plugin should use a background thread.
+2014-02-11 15:51:00.356 Aerial[98983:80b] THREAD WARNING: ['Notification'] took '20.939697' ms. Plugin should use a background thread.
+2014-02-11 15:52:24.521 Aerial[99560:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:52:24.532 Aerial[99560:80b] Unlimited access to network resources
+2014-02-11 15:52:24.755 Aerial[99560:80b] Resetting plugins due to page load.
+2014-02-11 15:52:24.952 Aerial[99560:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:52:25.038 Aerial[99560:80b] THREAD WARNING: ['Notification'] took '28.179932' ms. Plugin should use a background thread.
+2014-02-11 15:53:01.879 Aerial[306:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:53:01.891 Aerial[306:80b] Unlimited access to network resources
+2014-02-11 15:53:02.069 Aerial[306:80b] Resetting plugins due to page load.
+2014-02-11 15:53:02.175 Aerial[306:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:53:02.321 Aerial[306:80b] THREAD WARNING: ['Notification'] took '95.395020' ms. Plugin should use a background thread.
+2014-02-11 15:53:49.976 Aerial[895:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:53:49.987 Aerial[895:80b] Unlimited access to network resources
+2014-02-11 15:53:50.201 Aerial[895:80b] Resetting plugins due to page load.
+2014-02-11 15:53:50.302 Aerial[895:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:53:50.924 Aerial[895:80b] THREAD WARNING: ['Notification'] took '570.947021' ms. Plugin should use a background thread.
+2014-02-11 15:53:50.946 Aerial[895:80b] THREAD WARNING: ['Notification'] took '20.751953' ms. Plugin should use a background thread.
+2014-02-11 15:54:37.763 Aerial[1472:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:54:37.774 Aerial[1472:80b] Unlimited access to network resources
+2014-02-11 15:54:37.994 Aerial[1472:80b] Resetting plugins due to page load.
+2014-02-11 15:54:38.096 Aerial[1472:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:54:38.201 Aerial[1472:80b] THREAD WARNING: ['Notification'] took '49.343018' ms. Plugin should use a background thread.
+2014-02-11 15:54:38.222 Aerial[1472:80b] THREAD WARNING: ['Notification'] took '19.943848' ms. Plugin should use a background thread.
+2014-02-11 15:56:14.458 Aerial[2368:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 15:56:14.469 Aerial[2368:80b] Unlimited access to network resources
+2014-02-11 15:56:14.703 Aerial[2368:80b] Resetting plugins due to page load.
+2014-02-11 15:56:14.790 Aerial[2368:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 15:56:15.485 Aerial[2368:80b] THREAD WARNING: ['Notification'] took '634.434326' ms. Plugin should use a background thread.
+2014-02-11 15:56:15.507 Aerial[2368:80b] THREAD WARNING: ['Notification'] took '20.664062' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 16:11:00.221 Aerial[3099:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:11:00.232 Aerial[3099:80b] Unlimited access to network resources
+2014-02-11 16:11:00.461 Aerial[3099:80b] Resetting plugins due to page load.
+2014-02-11 16:11:00.561 Aerial[3099:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:11:00.656 Aerial[3099:80b] THREAD WARNING: ['Notification'] took '45.347168' ms. Plugin should use a background thread.
+2014-02-11 16:13:39.189 Aerial[3769:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:13:39.200 Aerial[3769:80b] Unlimited access to network resources
+2014-02-11 16:13:39.440 Aerial[3769:80b] Resetting plugins due to page load.
+2014-02-11 16:13:39.571 Aerial[3769:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:13:40.146 Aerial[3769:80b] THREAD WARNING: ['Notification'] took '530.636230' ms. Plugin should use a background thread.
+2014-02-11 16:13:40.168 Aerial[3769:80b] THREAD WARNING: ['Notification'] took '21.405029' ms. Plugin should use a background thread.
+2014-02-11 16:14:55.032 Aerial[4101:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:14:55.043 Aerial[4101:80b] Unlimited access to network resources
+2014-02-11 16:14:55.262 Aerial[4101:80b] Resetting plugins due to page load.
+2014-02-11 16:14:55.343 Aerial[4101:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:14:55.470 Aerial[4101:80b] THREAD WARNING: ['Notification'] took '43.031982' ms. Plugin should use a background thread.
+2014-02-11 16:14:55.491 Aerial[4101:80b] THREAD WARNING: ['Notification'] took '20.013916' ms. Plugin should use a background thread.
+2014-02-11 16:21:06.652 Aerial[4748:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:21:06.663 Aerial[4748:80b] Unlimited access to network resources
+2014-02-11 16:21:06.909 Aerial[4748:80b] Resetting plugins due to page load.
+2014-02-11 16:21:07.013 Aerial[4748:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:21:07.603 Aerial[4748:80b] THREAD WARNING: ['Notification'] took '540.620850' ms. Plugin should use a background thread.
+2014-02-11 16:21:07.627 Aerial[4748:80b] THREAD WARNING: ['Notification'] took '23.066895' ms. Plugin should use a background thread.
+2014-02-11 16:22:26.729 Aerial[5331:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:22:26.739 Aerial[5331:80b] Unlimited access to network resources
+2014-02-11 16:22:26.979 Aerial[5331:80b] Resetting plugins due to page load.
+2014-02-11 16:22:27.076 Aerial[5331:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:22:27.171 Aerial[5331:80b] THREAD WARNING: ['Notification'] took '44.125977' ms. Plugin should use a background thread.
+2014-02-11 16:22:27.193 Aerial[5331:80b] THREAD WARNING: ['Notification'] took '20.284180' ms. Plugin should use a background thread.
+2014-02-11 16:24:06.050 Aerial[5930:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:24:06.062 Aerial[5930:80b] Unlimited access to network resources
+2014-02-11 16:24:06.293 Aerial[5930:80b] Resetting plugins due to page load.
+2014-02-11 16:24:06.391 Aerial[5930:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:24:06.485 Aerial[5930:80b] THREAD WARNING: ['Notification'] took '48.048096' ms. Plugin should use a background thread.
+2014-02-11 16:24:06.507 Aerial[5930:80b] THREAD WARNING: ['Notification'] took '20.696045' ms. Plugin should use a background thread.
+2014-02-11 16:25:43.777 Aerial[6838:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:25:43.788 Aerial[6838:80b] Unlimited access to network resources
+2014-02-11 16:25:44.044 Aerial[6838:80b] Resetting plugins due to page load.
+2014-02-11 16:25:44.146 Aerial[6838:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:25:44.746 Aerial[6838:80b] THREAD WARNING: ['Notification'] took '539.280029' ms. Plugin should use a background thread.
+2014-02-11 16:28:27.001 Aerial[7438:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:28:27.012 Aerial[7438:80b] Unlimited access to network resources
+2014-02-11 16:28:27.093 Aerial[7438:80b] Resetting plugins due to page load.
+2014-02-11 16:28:27.208 Aerial[7438:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:28:27.371 Aerial[7438:80b] THREAD WARNING: ['Notification'] took '100.406006' ms. Plugin should use a background thread.
+2014-02-11 16:28:27.393 Aerial[7438:80b] THREAD WARNING: ['Notification'] took '20.951904' ms. Plugin should use a background thread.
+2014-02-11 16:30:09.509 Aerial[8029:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:30:09.521 Aerial[8029:80b] Unlimited access to network resources
+2014-02-11 16:30:09.750 Aerial[8029:80b] Resetting plugins due to page load.
+2014-02-11 16:30:09.807 Aerial[8029:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:30:09.938 Aerial[8029:80b] THREAD WARNING: ['Notification'] took '61.271973' ms. Plugin should use a background thread.
+2014-02-11 16:30:09.959 Aerial[8029:80b] THREAD WARNING: ['Notification'] took '19.962891' ms. Plugin should use a background thread.
+2014-02-11 16:33:36.024 Aerial[8627:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:33:36.035 Aerial[8627:80b] Unlimited access to network resources
+2014-02-11 16:33:36.286 Aerial[8627:80b] Resetting plugins due to page load.
+2014-02-11 16:33:36.381 Aerial[8627:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:33:37.057 Aerial[8627:80b] THREAD WARNING: ['Notification'] took '623.687012' ms. Plugin should use a background thread.
+2014-02-11 16:33:37.082 Aerial[8627:80b] THREAD WARNING: ['Notification'] took '23.325928' ms. Plugin should use a background thread.
+2014-02-11 16:37:20.646 Aerial[9227:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:37:20.658 Aerial[9227:80b] Unlimited access to network resources
+2014-02-11 16:37:20.888 Aerial[9227:80b] Resetting plugins due to page load.
+2014-02-11 16:37:20.984 Aerial[9227:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:37:22.158 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '22.185303' ms. Plugin should use a background thread.
+2014-02-11 16:37:22.174 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '14.818848' ms. Plugin should use a background thread.
+2014-02-11 16:37:24.452 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '30.195068' ms. Plugin should use a background thread.
+2014-02-11 16:37:29.318 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '60.519043' ms. Plugin should use a background thread.
+2014-02-11 16:37:34.230 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '63.436768' ms. Plugin should use a background thread.
+2014-02-11 16:37:39.386 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '68.010254' ms. Plugin should use a background thread.
+2014-02-11 16:37:44.552 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '89.183838' ms. Plugin should use a background thread.
+2014-02-11 16:37:49.550 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '14.660156' ms. Plugin should use a background thread.
+2014-02-11 16:37:49.766 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '12.853760' ms. Plugin should use a background thread.
+2014-02-11 16:37:50.142 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '10.090332' ms. Plugin should use a background thread.
+2014-02-11 16:37:50.415 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '27.610840' ms. Plugin should use a background thread.
+2014-02-11 16:37:50.657 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '21.534912' ms. Plugin should use a background thread.
+2014-02-11 16:37:50.894 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '11.375000' ms. Plugin should use a background thread.
+2014-02-11 16:37:51.017 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '10.027832' ms. Plugin should use a background thread.
+2014-02-11 16:37:51.538 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '28.680176' ms. Plugin should use a background thread.
+2014-02-11 16:37:52.215 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '85.895996' ms. Plugin should use a background thread.
+2014-02-11 16:37:53.414 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '22.902100' ms. Plugin should use a background thread.
+2014-02-11 16:37:58.831 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '117.681152' ms. Plugin should use a background thread.
+2014-02-11 16:38:01.492 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '18.502930' ms. Plugin should use a background thread.
+2014-02-11 16:38:01.548 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '21.814209' ms. Plugin should use a background thread.
+2014-02-11 16:38:01.663 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '11.110107' ms. Plugin should use a background thread.
+2014-02-11 16:38:01.791 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '14.905029' ms. Plugin should use a background thread.
+2014-02-11 16:38:01.915 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '12.162842' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.168 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '15.888916' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.293 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '12.762207' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.420 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '17.243896' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.542 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '12.344238' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.800 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '22.755859' ms. Plugin should use a background thread.
+2014-02-11 16:38:02.922 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '11.836182' ms. Plugin should use a background thread.
+2014-02-11 16:38:03.038 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '10.756104' ms. Plugin should use a background thread.
+2014-02-11 16:38:03.295 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '17.595947' ms. Plugin should use a background thread.
+2014-02-11 16:38:04.870 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '10.252197' ms. Plugin should use a background thread.
+2014-02-11 16:38:04.945 Aerial[9227:80b] THREAD WARNING: ['Notification'] took '35.809082' ms. Plugin should use a background thread.
+2014-02-11 16:38:11.332 Aerial[9804:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:38:11.343 Aerial[9804:80b] Unlimited access to network resources
+2014-02-11 16:38:11.568 Aerial[9804:80b] Resetting plugins due to page load.
+2014-02-11 16:38:11.672 Aerial[9804:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:38:12.855 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '22.653076' ms. Plugin should use a background thread.
+2014-02-11 16:38:12.871 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '14.478027' ms. Plugin should use a background thread.
+2014-02-11 16:38:15.106 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '27.838867' ms. Plugin should use a background thread.
+2014-02-11 16:38:19.949 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '69.576172' ms. Plugin should use a background thread.
+2014-02-11 16:38:22.697 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:38:24.860 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '65.181152' ms. Plugin should use a background thread.
+2014-02-11 16:38:29.761 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '71.264893' ms. Plugin should use a background thread.
+2014-02-11 16:38:32.698 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:38:35.110 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '69.626221' ms. Plugin should use a background thread.
+2014-02-11 16:38:40.568 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '99.043701' ms. Plugin should use a background thread.
+2014-02-11 16:38:42.699 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:38:46.277 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '71.427246' ms. Plugin should use a background thread.
+2014-02-11 16:38:51.635 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '82.638184' ms. Plugin should use a background thread.
+2014-02-11 16:38:51.917 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '19.163086' ms. Plugin should use a background thread.
+2014-02-11 16:38:52.700 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:38:57.121 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '71.399170' ms. Plugin should use a background thread.
+2014-02-11 16:39:02.702 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:39:02.763 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '72.130859' ms. Plugin should use a background thread.
+2014-02-11 16:39:08.386 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '73.498047' ms. Plugin should use a background thread.
+2014-02-11 16:39:12.702 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:39:14.063 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '75.981689' ms. Plugin should use a background thread.
+2014-02-11 16:39:20.756 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '76.330078' ms. Plugin should use a background thread.
+2014-02-11 16:39:22.703 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:39:26.752 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '101.889893' ms. Plugin should use a background thread.
+2014-02-11 16:39:32.703 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:39:32.803 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '77.479004' ms. Plugin should use a background thread.
+2014-02-11 16:39:35.943 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '37.597900' ms. Plugin should use a background thread.
+2014-02-11 16:39:38.882 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '78.276855' ms. Plugin should use a background thread.
+2014-02-11 16:39:40.834 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '17.921143' ms. Plugin should use a background thread.
+2014-02-11 16:39:40.852 Aerial[9804:80b] THREAD WARNING: ['Notification'] took '10.354004' ms. Plugin should use a background thread.
+2014-02-11 16:39:42.704 Aerial[9804:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:40:34.148 Aerial[10508:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:40:34.160 Aerial[10508:80b] Unlimited access to network resources
+2014-02-11 16:40:34.392 Aerial[10508:80b] Resetting plugins due to page load.
+2014-02-11 16:40:34.484 Aerial[10508:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:40:35.104 Aerial[10508:80b] THREAD WARNING: ['Notification'] took '557.674072' ms. Plugin should use a background thread.
+2014-02-11 16:41:18.499 Aerial[11095:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:41:18.510 Aerial[11095:80b] Unlimited access to network resources
+2014-02-11 16:41:18.750 Aerial[11095:80b] Resetting plugins due to page load.
+2014-02-11 16:41:18.848 Aerial[11095:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:41:19.461 Aerial[11095:80b] THREAD WARNING: ['Notification'] took '557.290039' ms. Plugin should use a background thread.
+2014-02-11 16:43:22.082 Aerial[11689:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:43:22.093 Aerial[11689:80b] Unlimited access to network resources
+2014-02-11 16:43:22.322 Aerial[11689:80b] Resetting plugins due to page load.
+2014-02-11 16:43:22.381 Aerial[11689:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:43:23.045 Aerial[11689:80b] THREAD WARNING: ['Notification'] took '595.505859' ms. Plugin should use a background thread.
+2014-02-11 16:44:32.209 Aerial[12586:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:44:32.219 Aerial[12586:80b] Unlimited access to network resources
+2014-02-11 16:44:32.448 Aerial[12586:80b] Resetting plugins due to page load.
+2014-02-11 16:44:32.547 Aerial[12586:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:44:33.631 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '21.928955' ms. Plugin should use a background thread.
+2014-02-11 16:44:33.647 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '15.528809' ms. Plugin should use a background thread.
+2014-02-11 16:44:39.290 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '84.690918' ms. Plugin should use a background thread.
+2014-02-11 16:44:43.503 Aerial[12586:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:44:44.292 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '63.413086' ms. Plugin should use a background thread.
+2014-02-11 16:44:49.310 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '73.426758' ms. Plugin should use a background thread.
+2014-02-11 16:44:53.505 Aerial[12586:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:44:54.433 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '72.752930' ms. Plugin should use a background thread.
+2014-02-11 16:44:59.724 Aerial[12586:80b] THREAD WARNING: ['Notification'] took '94.801025' ms. Plugin should use a background thread.
+2014-02-11 16:45:03.505 Aerial[12586:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:45:37.463 Aerial[13178:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:45:37.474 Aerial[13178:80b] Unlimited access to network resources
+2014-02-11 16:45:37.694 Aerial[13178:80b] Resetting plugins due to page load.
+2014-02-11 16:45:37.791 Aerial[13178:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:45:38.730 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '21.968750' ms. Plugin should use a background thread.
+2014-02-11 16:45:38.748 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '17.007812' ms. Plugin should use a background thread.
+2014-02-11 16:45:41.552 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '17.869141' ms. Plugin should use a background thread.
+2014-02-11 16:45:43.855 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '58.362061' ms. Plugin should use a background thread.
+2014-02-11 16:45:48.626 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:45:48.805 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '64.846191' ms. Plugin should use a background thread.
+2014-02-11 16:45:53.955 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '71.775146' ms. Plugin should use a background thread.
+2014-02-11 16:45:58.627 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:45:59.285 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '84.146973' ms. Plugin should use a background thread.
+2014-02-11 16:46:04.628 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '73.953125' ms. Plugin should use a background thread.
+2014-02-11 16:46:08.627 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:46:10.097 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '73.503906' ms. Plugin should use a background thread.
+2014-02-11 16:46:15.756 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '110.539795' ms. Plugin should use a background thread.
+2014-02-11 16:46:17.897 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '18.257812' ms. Plugin should use a background thread.
+2014-02-11 16:46:18.629 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:46:21.390 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '73.993896' ms. Plugin should use a background thread.
+2014-02-11 16:46:27.682 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '88.278076' ms. Plugin should use a background thread.
+2014-02-11 16:46:28.630 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:46:33.518 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '32.114990' ms. Plugin should use a background thread.
+2014-02-11 16:46:33.627 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '16.463135' ms. Plugin should use a background thread.
+2014-02-11 16:46:33.762 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '24.764160' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.016 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '17.000732' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.136 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '19.294189' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.249 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '11.968262' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.498 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '10.191895' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.511 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '11.098877' ms. Plugin should use a background thread.
+2014-02-11 16:46:34.877 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '10.555176' ms. Plugin should use a background thread.
+2014-02-11 16:46:35.139 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '20.303955' ms. Plugin should use a background thread.
+2014-02-11 16:46:35.169 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '19.137939' ms. Plugin should use a background thread.
+2014-02-11 16:46:35.665 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '94.661133' ms. Plugin should use a background thread.
+2014-02-11 16:46:38.631 Aerial[13178:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:resource:didFinishLoadingFromDataSource:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-02-11 16:46:41.947 Aerial[13178:80b] THREAD WARNING: ['Notification'] took '80.785889' ms. Plugin should use a background thread.
+2014-02-11 16:47:49.037 Aerial[14360:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:47:49.048 Aerial[14360:80b] Unlimited access to network resources
+2014-02-11 16:47:49.286 Aerial[14360:80b] Resetting plugins due to page load.
+2014-02-11 16:47:49.385 Aerial[14360:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:47:49.987 Aerial[14360:80b] THREAD WARNING: ['Notification'] took '534.375732' ms. Plugin should use a background thread.
+2014-02-11 16:47:50.009 Aerial[14360:80b] THREAD WARNING: ['Notification'] took '21.064209' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 16:48:21.807 Aerial[14677:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:48:21.818 Aerial[14677:80b] Unlimited access to network resources
+2014-02-11 16:48:22.054 Aerial[14677:80b] Resetting plugins due to page load.
+2014-02-11 16:48:22.163 Aerial[14677:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:48:22.756 Aerial[14677:80b] THREAD WARNING: ['Notification'] took '542.609863' ms. Plugin should use a background thread.
+2014-02-11 16:48:22.778 Aerial[14677:80b] THREAD WARNING: ['Notification'] took '20.562744' ms. Plugin should use a background thread.
+2014-02-11 16:48:57.193 Aerial[15257:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:48:57.204 Aerial[15257:80b] Unlimited access to network resources
+2014-02-11 16:48:57.440 Aerial[15257:80b] Resetting plugins due to page load.
+2014-02-11 16:48:57.534 Aerial[15257:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:48:58.570 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '23.294922' ms. Plugin should use a background thread.
+2014-02-11 16:48:58.586 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '15.155273' ms. Plugin should use a background thread.
+2014-02-11 16:49:03.626 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '61.016113' ms. Plugin should use a background thread.
+2014-02-11 16:49:08.566 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '69.254150' ms. Plugin should use a background thread.
+2014-02-11 16:49:13.552 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '66.600098' ms. Plugin should use a background thread.
+2014-02-11 16:49:16.990 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '10.011230' ms. Plugin should use a background thread.
+2014-02-11 16:49:18.612 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '72.687012' ms. Plugin should use a background thread.
+2014-02-11 16:49:23.794 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '71.114990' ms. Plugin should use a background thread.
+2014-02-11 16:49:29.191 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '77.957031' ms. Plugin should use a background thread.
+2014-02-11 16:49:34.503 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '74.651855' ms. Plugin should use a background thread.
+2014-02-11 16:49:36.560 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '20.285889' ms. Plugin should use a background thread.
+2014-02-11 16:49:40.704 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '84.952148' ms. Plugin should use a background thread.
+2014-02-11 16:49:46.391 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '78.541748' ms. Plugin should use a background thread.
+2014-02-11 16:49:52.110 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '74.895996' ms. Plugin should use a background thread.
+2014-02-11 16:49:58.015 Aerial[15257:80b] THREAD WARNING: ['Notification'] took '82.066895' ms. Plugin should use a background thread.
+2014-02-11 16:50:42.989 Aerial[15851:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:50:43.000 Aerial[15851:80b] Unlimited access to network resources
+2014-02-11 16:50:43.170 Aerial[15851:80b] Resetting plugins due to page load.
+2014-02-11 16:50:43.263 Aerial[15851:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:50:44.375 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '25.225098' ms. Plugin should use a background thread.
+2014-02-11 16:50:44.392 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '16.082031' ms. Plugin should use a background thread.
+2014-02-11 16:50:48.517 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '56.309082' ms. Plugin should use a background thread.
+2014-02-11 16:50:53.810 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '66.846924' ms. Plugin should use a background thread.
+2014-02-11 16:50:58.822 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '71.098877' ms. Plugin should use a background thread.
+2014-02-11 16:51:04.036 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '70.981201' ms. Plugin should use a background thread.
+2014-02-11 16:51:09.284 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '70.356934' ms. Plugin should use a background thread.
+2014-02-11 16:51:14.997 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '96.048096' ms. Plugin should use a background thread.
+2014-02-11 16:51:20.992 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '95.548096' ms. Plugin should use a background thread.
+2014-02-11 16:51:24.436 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '17.149902' ms. Plugin should use a background thread.
+2014-02-11 16:51:26.562 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '73.030762' ms. Plugin should use a background thread.
+2014-02-11 16:51:32.184 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '75.859131' ms. Plugin should use a background thread.
+2014-02-11 16:51:37.934 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '83.420166' ms. Plugin should use a background thread.
+2014-02-11 16:51:43.948 Aerial[15851:80b] THREAD WARNING: ['Notification'] took '84.515137' ms. Plugin should use a background thread.
+2014-02-11 16:54:21.879 Aerial[16780:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:54:21.890 Aerial[16780:80b] Unlimited access to network resources
+2014-02-11 16:54:22.126 Aerial[16780:80b] Resetting plugins due to page load.
+2014-02-11 16:54:22.230 Aerial[16780:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:54:22.826 Aerial[16780:80b] THREAD WARNING: ['Notification'] took '539.573975' ms. Plugin should use a background thread.
+2014-02-11 16:55:57.749 Aerial[17681:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:55:57.760 Aerial[17681:80b] Unlimited access to network resources
+2014-02-11 16:55:57.931 Aerial[17681:80b] Resetting plugins due to page load.
+2014-02-11 16:55:58.056 Aerial[17681:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:55:58.685 Aerial[17681:80b] THREAD WARNING: ['Notification'] took '576.171387' ms. Plugin should use a background thread.
+2014-02-11 16:56:42.575 Aerial[18288:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:56:42.586 Aerial[18288:80b] Unlimited access to network resources
+2014-02-11 16:56:42.817 Aerial[18288:80b] Resetting plugins due to page load.
+2014-02-11 16:56:42.912 Aerial[18288:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:56:43.012 Aerial[18288:80b] THREAD WARNING: ['Notification'] took '47.527832' ms. Plugin should use a background thread.
+2014-02-11 16:56:43.034 Aerial[18288:80b] THREAD WARNING: ['Notification'] took '20.530762' ms. Plugin should use a background thread.
+2014-02-11 16:58:36.214 Aerial[18878:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:58:36.225 Aerial[18878:80b] Unlimited access to network resources
+2014-02-11 16:58:36.455 Aerial[18878:80b] Resetting plugins due to page load.
+2014-02-11 16:58:36.554 Aerial[18878:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:58:37.184 Aerial[18878:80b] THREAD WARNING: ['Notification'] took '575.920898' ms. Plugin should use a background thread.
+2014-02-11 16:58:37.205 Aerial[18878:80b] THREAD WARNING: ['Notification'] took '19.542969' ms. Plugin should use a background thread.
+2014-02-11 16:59:55.789 Aerial[19768:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 16:59:55.802 Aerial[19768:80b] Unlimited access to network resources
+2014-02-11 16:59:55.984 Aerial[19768:80b] Resetting plugins due to page load.
+2014-02-11 16:59:56.097 Aerial[19768:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 16:59:56.736 Aerial[19768:80b] THREAD WARNING: ['Notification'] took '597.251953' ms. Plugin should use a background thread.
+2014-02-11 16:59:56.758 Aerial[19768:80b] THREAD WARNING: ['Notification'] took '21.461182' ms. Plugin should use a background thread.
+2014-02-11 17:02:29.521 Aerial[20365:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:02:29.532 Aerial[20365:80b] Unlimited access to network resources
+2014-02-11 17:02:29.762 Aerial[20365:80b] Resetting plugins due to page load.
+2014-02-11 17:02:29.859 Aerial[20365:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:02:29.970 Aerial[20365:80b] THREAD WARNING: ['Notification'] took '59.270020' ms. Plugin should use a background thread.
+2014-02-11 17:02:29.992 Aerial[20365:80b] THREAD WARNING: ['Notification'] took '20.138184' ms. Plugin should use a background thread.
+2014-02-11 17:03:30.478 Aerial[20945:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:03:30.489 Aerial[20945:80b] Unlimited access to network resources
+2014-02-11 17:03:30.721 Aerial[20945:80b] Resetting plugins due to page load.
+2014-02-11 17:03:30.825 Aerial[20945:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:03:30.920 Aerial[20945:80b] THREAD WARNING: ['Notification'] took '42.278076' ms. Plugin should use a background thread.
+2014-02-11 17:03:30.942 Aerial[20945:80b] THREAD WARNING: ['Notification'] took '20.697021' ms. Plugin should use a background thread.
+2014-02-11 17:04:29.742 Aerial[21525:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:04:29.753 Aerial[21525:80b] Unlimited access to network resources
+2014-02-11 17:04:29.983 Aerial[21525:80b] Resetting plugins due to page load.
+2014-02-11 17:04:30.085 Aerial[21525:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:04:30.683 Aerial[21525:80b] THREAD WARNING: ['Notification'] took '532.878174' ms. Plugin should use a background thread.
+2014-02-11 17:04:30.705 Aerial[21525:80b] THREAD WARNING: ['Notification'] took '19.833008' ms. Plugin should use a background thread.
+2014-02-11 17:17:33.594 Aerial[22771:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:17:33.607 Aerial[22771:80b] Unlimited access to network resources
+2014-02-11 17:17:33.833 Aerial[22771:80b] Resetting plugins due to page load.
+2014-02-11 17:17:33.928 Aerial[22771:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:17:34.576 Aerial[22771:80b] THREAD WARNING: ['Notification'] took '598.775146' ms. Plugin should use a background thread.
+2014-02-11 17:17:34.598 Aerial[22771:80b] THREAD WARNING: ['Notification'] took '20.775146' ms. Plugin should use a background thread.
+2014-02-11 17:20:30.980 Aerial[23386:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:20:30.991 Aerial[23386:80b] Unlimited access to network resources
+2014-02-11 17:20:31.226 Aerial[23386:80b] Resetting plugins due to page load.
+2014-02-11 17:20:31.339 Aerial[23386:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:20:31.934 Aerial[23386:80b] THREAD WARNING: ['Notification'] took '542.613770' ms. Plugin should use a background thread.
+2014-02-11 17:20:31.956 Aerial[23386:80b] THREAD WARNING: ['Notification'] took '20.379150' ms. Plugin should use a background thread.
+2014-02-11 17:23:08.035 Aerial[23984:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:23:08.047 Aerial[23984:80b] Unlimited access to network resources
+2014-02-11 17:23:08.227 Aerial[23984:80b] Resetting plugins due to page load.
+2014-02-11 17:23:08.323 Aerial[23984:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:23:08.985 Aerial[23984:80b] THREAD WARNING: ['Notification'] took '599.546875' ms. Plugin should use a background thread.
+2014-02-11 17:24:07.858 Aerial[24568:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:24:07.869 Aerial[24568:80b] Unlimited access to network resources
+2014-02-11 17:24:08.044 Aerial[24568:80b] Resetting plugins due to page load.
+2014-02-11 17:24:08.120 Aerial[24568:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:24:08.277 Aerial[24568:80b] THREAD WARNING: ['Notification'] took '95.527100' ms. Plugin should use a background thread.
+2014-02-11 17:25:14.400 Aerial[25149:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:25:14.411 Aerial[25149:80b] Unlimited access to network resources
+2014-02-11 17:25:14.652 Aerial[25149:80b] Resetting plugins due to page load.
+2014-02-11 17:25:14.766 Aerial[25149:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:25:15.351 Aerial[25149:80b] THREAD WARNING: ['Notification'] took '536.972900' ms. Plugin should use a background thread.
+2014-02-11 17:25:15.373 Aerial[25149:80b] THREAD WARNING: ['Notification'] took '20.819824' ms. Plugin should use a background thread.
+2014-02-11 17:27:21.469 Aerial[25736:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 17:27:21.480 Aerial[25736:80b] Unlimited access to network resources
+2014-02-11 17:27:21.728 Aerial[25736:80b] Resetting plugins due to page load.
+2014-02-11 17:27:21.820 Aerial[25736:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 17:27:22.428 Aerial[25736:80b] THREAD WARNING: ['Notification'] took '553.880859' ms. Plugin should use a background thread.
+2014-02-11 17:27:22.450 Aerial[25736:80b] THREAD WARNING: ['Notification'] took '20.839844' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-11 18:06:44.817 Aerial[26702:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:06:44.828 Aerial[26702:80b] Unlimited access to network resources
+2014-02-11 18:06:45.058 Aerial[26702:80b] Resetting plugins due to page load.
+2014-02-11 18:06:45.136 Aerial[26702:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:06:45.768 Aerial[26702:80b] THREAD WARNING: ['Notification'] took '556.137207' ms. Plugin should use a background thread.
+2014-02-11 18:08:26.192 Aerial[27292:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:08:26.202 Aerial[27292:80b] Unlimited access to network resources
+2014-02-11 18:08:26.414 Aerial[27292:80b] Resetting plugins due to page load.
+2014-02-11 18:08:26.506 Aerial[27292:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:08:26.614 Aerial[27292:80b] THREAD WARNING: ['Notification'] took '58.955811' ms. Plugin should use a background thread.
+2014-02-11 18:10:12.141 Aerial[27905:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:10:12.153 Aerial[27905:80b] Unlimited access to network resources
+2014-02-11 18:10:12.376 Aerial[27905:80b] Resetting plugins due to page load.
+2014-02-11 18:10:12.479 Aerial[27905:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:10:13.116 Aerial[27905:80b] THREAD WARNING: ['Notification'] took '578.420898' ms. Plugin should use a background thread.
+2014-02-11 18:10:46.193 Aerial[28557:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:10:46.204 Aerial[28557:80b] Unlimited access to network resources
+2014-02-11 18:10:46.435 Aerial[28557:80b] Resetting plugins due to page load.
+2014-02-11 18:10:46.549 Aerial[28557:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:10:47.140 Aerial[28557:80b] THREAD WARNING: ['Notification'] took '545.878174' ms. Plugin should use a background thread.
+2014-02-11 18:12:37.903 Aerial[29155:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:12:37.914 Aerial[29155:80b] Unlimited access to network resources
+2014-02-11 18:12:38.133 Aerial[29155:80b] Resetting plugins due to page load.
+2014-02-11 18:12:38.316 Aerial[29155:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:12:38.389 Aerial[29155:80b] THREAD WARNING: ['Notification'] took '28.368164' ms. Plugin should use a background thread.
+2014-02-11 18:15:36.579 Aerial[29623:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:15:36.589 Aerial[29623:80b] Unlimited access to network resources
+2014-02-11 18:15:36.795 Aerial[29623:80b] Resetting plugins due to page load.
+2014-02-11 18:15:36.929 Aerial[29623:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:15:37.523 Aerial[29623:80b] THREAD WARNING: ['Notification'] took '538.510742' ms. Plugin should use a background thread.
+2014-02-11 18:15:37.544 Aerial[29623:80b] THREAD WARNING: ['Notification'] took '20.266602' ms. Plugin should use a background thread.
+2014-02-11 18:17:21.133 Aerial[30043:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:17:21.144 Aerial[30043:80b] Unlimited access to network resources
+2014-02-11 18:17:21.390 Aerial[30043:80b] Resetting plugins due to page load.
+2014-02-11 18:17:21.531 Aerial[30043:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:17:21.609 Aerial[30043:80b] THREAD WARNING: ['Notification'] took '28.041992' ms. Plugin should use a background thread.
+2014-02-11 18:17:21.632 Aerial[30043:80b] THREAD WARNING: ['Notification'] took '21.070801' ms. Plugin should use a background thread.
+2014-02-11 18:18:09.151 Aerial[30362:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:18:09.161 Aerial[30362:80b] Unlimited access to network resources
+2014-02-11 18:18:09.347 Aerial[30362:80b] Resetting plugins due to page load.
+2014-02-11 18:18:09.462 Aerial[30362:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:18:09.591 Aerial[30362:80b] THREAD WARNING: ['Notification'] took '82.419922' ms. Plugin should use a background thread.
+2014-02-11 18:18:09.615 Aerial[30362:80b] THREAD WARNING: ['Notification'] took '22.433838' ms. Plugin should use a background thread.
+2014-02-11 18:20:06.189 Aerial[31105:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:20:06.200 Aerial[31105:80b] Unlimited access to network resources
+2014-02-11 18:20:06.449 Aerial[31105:80b] Resetting plugins due to page load.
+2014-02-11 18:20:06.569 Aerial[31105:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:20:07.166 Aerial[31105:80b] THREAD WARNING: ['Notification'] took '535.615967' ms. Plugin should use a background thread.
+2014-02-11 18:20:07.193 Aerial[31105:80b] THREAD WARNING: ['Notification'] took '24.892090' ms. Plugin should use a background thread.
+2014-02-11 18:21:35.018 Aerial[31457:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:21:35.029 Aerial[31457:80b] Unlimited access to network resources
+2014-02-11 18:21:35.231 Aerial[31457:80b] Resetting plugins due to page load.
+2014-02-11 18:21:35.353 Aerial[31457:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:21:35.446 Aerial[31457:80b] THREAD WARNING: ['Notification'] took '44.819824' ms. Plugin should use a background thread.
+2014-02-11 18:22:49.643 Aerial[31847:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:22:49.654 Aerial[31847:80b] Unlimited access to network resources
+2014-02-11 18:22:49.882 Aerial[31847:80b] Resetting plugins due to page load.
+2014-02-11 18:22:50.007 Aerial[31847:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:22:50.092 Aerial[31847:80b] THREAD WARNING: ['Notification'] took '27.783936' ms. Plugin should use a background thread.
+2014-02-11 18:23:43.418 Aerial[32195:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:23:43.429 Aerial[32195:80b] Unlimited access to network resources
+2014-02-11 18:23:43.666 Aerial[32195:80b] Resetting plugins due to page load.
+2014-02-11 18:23:43.786 Aerial[32195:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:23:43.877 Aerial[32195:80b] THREAD WARNING: ['Notification'] took '29.499023' ms. Plugin should use a background thread.
+2014-02-11 18:25:08.805 Aerial[32822:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:25:08.816 Aerial[32822:80b] Unlimited access to network resources
+2014-02-11 18:25:09.067 Aerial[32822:80b] Resetting plugins due to page load.
+2014-02-11 18:25:09.194 Aerial[32822:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:25:09.313 Aerial[32822:80b] THREAD WARNING: ['Notification'] took '51.667969' ms. Plugin should use a background thread.
+2014-02-11 18:27:10.236 Aerial[33441:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:27:10.247 Aerial[33441:80b] Unlimited access to network resources
+2014-02-11 18:27:10.484 Aerial[33441:80b] Resetting plugins due to page load.
+2014-02-11 18:27:10.629 Aerial[33441:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:27:10.820 Aerial[33441:80b] THREAD WARNING: ['Notification'] took '28.050049' ms. Plugin should use a background thread.
+2014-02-11 18:30:04.700 Aerial[34076:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:30:04.712 Aerial[34076:80b] Unlimited access to network resources
+2014-02-11 18:30:04.942 Aerial[34076:80b] Resetting plugins due to page load.
+2014-02-11 18:30:05.084 Aerial[34076:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:30:05.673 Aerial[34076:80b] THREAD WARNING: ['Notification'] took '550.520996' ms. Plugin should use a background thread.
+2014-02-11 18:30:05.695 Aerial[34076:80b] THREAD WARNING: ['Notification'] took '20.406982' ms. Plugin should use a background thread.
+2014-02-11 18:31:02.602 Aerial[34394:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:31:02.613 Aerial[34394:80b] Unlimited access to network resources
+2014-02-11 18:31:02.853 Aerial[34394:80b] Resetting plugins due to page load.
+2014-02-11 18:31:02.970 Aerial[34394:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:31:03.577 Aerial[34394:80b] THREAD WARNING: ['Notification'] took '555.290771' ms. Plugin should use a background thread.
+2014-02-11 18:31:03.599 Aerial[34394:80b] THREAD WARNING: ['Notification'] took '20.362061' ms. Plugin should use a background thread.
+2014-02-11 18:32:59.121 Aerial[35012:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:32:59.132 Aerial[35012:80b] Unlimited access to network resources
+2014-02-11 18:32:59.211 Aerial[35012:80b] Resetting plugins due to page load.
+2014-02-11 18:32:59.348 Aerial[35012:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:32:59.500 Aerial[35012:80b] THREAD WARNING: ['Notification'] took '106.765869' ms. Plugin should use a background thread.
+2014-02-11 18:32:59.525 Aerial[35012:80b] THREAD WARNING: ['Notification'] took '23.224121' ms. Plugin should use a background thread.
+2014-02-11 18:34:13.702 Aerial[35343:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:34:13.713 Aerial[35343:80b] Unlimited access to network resources
+2014-02-11 18:34:13.949 Aerial[35343:80b] Resetting plugins due to page load.
+2014-02-11 18:34:14.054 Aerial[35343:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:34:14.153 Aerial[35343:80b] THREAD WARNING: ['Notification'] took '28.856934' ms. Plugin should use a background thread.
+2014-02-11 18:34:14.175 Aerial[35343:80b] THREAD WARNING: ['Notification'] took '21.413818' ms. Plugin should use a background thread.
+2014-02-11 18:35:56.299 Aerial[35971:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:35:56.310 Aerial[35971:80b] Unlimited access to network resources
+2014-02-11 18:35:56.536 Aerial[35971:80b] Resetting plugins due to page load.
+2014-02-11 18:35:56.664 Aerial[35971:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:35:57.268 Aerial[35971:80b] THREAD WARNING: ['Notification'] took '540.857910' ms. Plugin should use a background thread.
+2014-02-11 18:35:57.288 Aerial[35971:80b] THREAD WARNING: ['Notification'] took '19.572998' ms. Plugin should use a background thread.
+2014-02-11 18:37:20.644 Aerial[36584:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:37:20.655 Aerial[36584:80b] Unlimited access to network resources
+2014-02-11 18:37:20.890 Aerial[36584:80b] Resetting plugins due to page load.
+2014-02-11 18:37:21.065 Aerial[36584:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:37:21.140 Aerial[36584:80b] THREAD WARNING: ['Notification'] took '29.096924' ms. Plugin should use a background thread.
+2014-02-11 18:37:21.162 Aerial[36584:80b] THREAD WARNING: ['Notification'] took '20.464111' ms. Plugin should use a background thread.
+2014-02-11 18:39:16.238 Aerial[37235:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 18:39:16.249 Aerial[37235:80b] Unlimited access to network resources
+2014-02-11 18:39:16.478 Aerial[37235:80b] Resetting plugins due to page load.
+2014-02-11 18:39:16.606 Aerial[37235:80b] Finished load of: file:///Users/mayala/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/558E80D9-73FA-474F-9C9A-5AB4BD371631/Aerial.app/www/index.html
+2014-02-11 18:39:16.698 Aerial[37235:80b] THREAD WARNING: ['Notification'] took '26.922119' ms. Plugin should use a background thread.
+2014-02-11 18:39:16.722 Aerial[37235:80b] THREAD WARNING: ['Notification'] took '22.897949' ms. Plugin should use a background thread.
+2014-02-11 19:06:03.108 Aerial[12531:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 19:06:03.136 Aerial[12531:80b] Unlimited access to network resources
+2014-02-11 19:06:03.574 Aerial[12531:80b] Resetting plugins due to page load.
+2014-02-11 19:06:03.768 Aerial[12531:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7B52BC85-FB69-466E-B3EC-46A0BA59867A/Aerial.app/www/index.html
+2014-02-11 19:06:03.838 Aerial[12531:80b] THREAD WARNING: ['Notification'] took '33.528076' ms. Plugin should use a background thread.
+2014-02-11 19:06:49.667 Aerial[12827:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-11 19:06:49.678 Aerial[12827:80b] Unlimited access to network resources
+2014-02-11 19:06:49.927 Aerial[12827:80b] Resetting plugins due to page load.
+2014-02-11 19:06:50.100 Aerial[12827:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7B52BC85-FB69-466E-B3EC-46A0BA59867A/Aerial.app/www/index.html
+2014-02-11 19:06:50.163 Aerial[12827:80b] THREAD WARNING: ['Notification'] took '29.033936' ms. Plugin should use a background thread.
+2014-02-12 11:46:25.904 Aerial[17158:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-12 11:46:25.915 Aerial[17158:80b] Unlimited access to network resources
+2014-02-12 11:46:26.176 Aerial[17158:80b] Resetting plugins due to page load.
+2014-02-12 11:46:26.336 Aerial[17158:80b] Finished load of: file:///Users/jesselarusso/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/7B52BC85-FB69-466E-B3EC-46A0BA59867A/Aerial.app/www/index.html
+2014-02-12 11:46:26.431 Aerial[17158:80b] THREAD WARNING: ['Notification'] took '35.208008' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.

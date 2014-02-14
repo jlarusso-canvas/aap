@@ -1,24 +1,27 @@
 class @PlayerController
   constructor: ->
-    @dispatcher = window.AAL.dispatcher.dispatcher
-    # @server_url = "192.168.1.34"
-    @server_url = "http://localhost:3000"
+    @server_url = window.AAL.dispatcher.url
     @_bindEvents()
 
   _bindEvents: =>
-    $('#sweepstakes-submit').on 'click', (e) ->
-      e.preventDefault()
+    $('.player-select').on 'click', ->
+      $item = $(@)
+      $item.css("background", 'white')
+      $item.css("color", 'steelblue')
 
-      sweepstake = $('#sweep-input').serialize()
+      window.AAL.dispatcher.connectWithId $item.data('player')
+      $('.player-select').off 'click'
+      $('#select-wrap').remove()
 
-      # $.post "#{@server_url}/sweepstakes", form_data
-      $.ajax
-        type: "POST"
-        url: "http://localhost:3000/sweepstakes"  ## @server_url not working
-        data: sweepstake
+    $('.disconnect').on 'click', ->
+      window.AAL.dispatcher.disconnect()
+      $item = $(@)
+      $item.css('color', 'white')
 
-  # validateForm = ->
-  # x = document.forms["myForm"]["fname"].value
-  # if not x? or x is ""
-  #   alert "First name must be filled out"
-  #   false
+    # $('#sweepstakes-submit').on 'click', (e) ->
+    #   e.preventDefault()
+
+    #   form_data = $('#sweep-input').serialize()
+    #   console.log form_data
+
+    # $.post "#{@server_url}/sweepstakes", form_data

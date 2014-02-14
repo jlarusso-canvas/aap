@@ -1,6 +1,6 @@
 class @Stopwatch
   constructor: ->
-    @dispatcher = window.AAL.dispatcher.dispatcher
+    place = "holder"
 
   clearCountdown: =>
     if @counting
@@ -12,7 +12,7 @@ class @Stopwatch
       count = 9
       @$container = $('.header-countdown .seconds')
     else if type is "main"
-      count = 1
+      count = 3
       @$container = $('.main-countdown .seconds')
 
     timer = =>

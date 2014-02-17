@@ -3,6 +3,16 @@ class @PlayerController
     @server_url = window.AAL.dispatcher.url
     @_bindEvents()
 
+  bindForm: =>
+    $('#sweepstakes-submit-link').on 'click', (e) ->
+      e.preventDefault()
+      params = {}
+      $('#sweepstakes-form input').each ->
+        # params["first_name"] = "jesse"
+        params[$(@).attr('id')] = $(@).val()
+      console.log params
+
+
   _bindEvents: =>
     $('.player-select').on 'click', ->
       $item = $(@)

@@ -155,6 +155,7 @@ class @Router
     template = @_mainTemplate()
     $('#content').append(template)
     $('#container').addClass("final-results")
+    window.AAL.playerController.bindForm()
 
   # Phase 5
   _post_game: ->

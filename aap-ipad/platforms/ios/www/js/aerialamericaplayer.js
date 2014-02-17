@@ -2142,7 +2142,8 @@ this.Router = (function() {
     this.clearHeaderCountdown();
     template = this._mainTemplate();
     $('#content').append(template);
-    return $('#container').addClass("final-results");
+    $('#container').addClass("final-results");
+    return window.AAL.playerController.bindForm();
   };
 
   Router.prototype._post_game = function() {
@@ -2209,9 +2210,22 @@ var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments)
 this.PlayerController = (function() {
   function PlayerController() {
     this._bindEvents = __bind(this._bindEvents, this);
+    this.bindForm = __bind(this.bindForm, this);
     this.server_url = window.AAL.dispatcher.url;
     this._bindEvents();
   }
+
+  PlayerController.prototype.bindForm = function() {
+    return $('#sweepstakes-submit-link').on('click', function(e) {
+      var params;
+      e.preventDefault();
+      params = {};
+      $('#sweepstakes-form input').each(function() {
+        return params[$(this).attr('id')] = $(this).val();
+      });
+      return console.log(params);
+    });
+  };
 
   PlayerController.prototype._bindEvents = function() {
     $('.player-select').on('click', function() {

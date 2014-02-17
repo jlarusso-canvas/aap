@@ -21,8 +21,6 @@
         <div class="player-select" data-player="2">Player 2</div>
         <div class="player-select" data-player="3">Player 3</div>
         <div class="player-select" data-player="4">Player 4</div>
-
-        <div class="disconnect" >disconnect</div>
       </div>
 
       <div id="content">
@@ -167,7 +165,7 @@
     <script id="final_results" type="text/x-handlebars-template">
       <div class="main-content">
         <div id="content">
-          <div id="logo-column"><div class="wia-logo"></div></div>
+          <!-- <div id="logo-column"><div class="wia-logo"></div></div> -->
           <div id="form-column">
             <h3>You Won! Thanks for Playing!</h3>
             <h1>Enter for a chance to win $5,000!</h1>
@@ -181,7 +179,7 @@
                 <div class="label">Email:</div>
                 <div class="label">Phone:</div>
               </section>
-              <form name="sweepstakes" id="sweepstakes-form">
+              <form name="sweepstakes" id="sweepstakes-form" action="http://192.168.1.2:3000/sweepstakes" method="post">
                 <input type="text" name="first_name" id="first_name">
                 <input type="text" name="last_name" id="last_name">
                 <input type="text" name="email" id="email">
@@ -199,7 +197,8 @@
                   </label>
                 </div>
                 <div class="submit-form">
-                  <input type="submit" class="submit is-active">
+                  <a href="#" id="sweepstakes-submit-link" class="submit is-active">Submit</a>
+                  <!-- <input type="submit" class="submit is-active"> -->
                   <a href="#">No Thanks</a>
                 </div>
               </form>

@@ -10,12 +10,12 @@ class @Map
       "stroke-dasharray": "none"
 
   staticMap: =>
-    paper_width = 1200
-    paper_height = 800
+    paper_width = 1300 #
+    paper_height = 600 # 600
 
     @paper = Raphael('map')
     @paper.setViewBox(0, 0, paper_width,paper_height,true);
-    @paper.setSize('80%', '80%');
+    @paper.setSize('140%', '140%');
 
     @choices = window.AAL.router.current_question.choices
     answer_id = window.AAL.router.current_question?.answer_index
@@ -40,13 +40,13 @@ class @Map
           fill: "#960000"
 
   buildMap: =>
-    paper_width = 1200
-    paper_height = 800
+    paper_width = 1400 #1000
+    paper_height = 600
 
     @paper = Raphael('map')
     @choices = window.AAL.router.current_question.choices
     @paper.setViewBox(0, 0, paper_width,paper_height,true);
-    @paper.setSize('100%', '100%');
+    @paper.setSize('150%', '150%');
 
     $.each @map_data, (index, state) =>
       path = @paper.path(state.path_data)

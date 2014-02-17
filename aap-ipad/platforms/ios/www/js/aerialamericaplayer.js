@@ -1883,11 +1883,11 @@ this.Map = (function() {
   Map.prototype.staticMap = function() {
     var answer_id, paper_height, paper_width, picked_id, _ref,
       _this = this;
-    paper_width = 1200;
-    paper_height = 800;
+    paper_width = 1300;
+    paper_height = 600;
     this.paper = Raphael('map');
     this.paper.setViewBox(0, 0, paper_width, paper_height, true);
-    this.paper.setSize('80%', '80%');
+    this.paper.setSize('140%', '140%');
     this.choices = window.AAL.router.current_question.choices;
     answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
     picked_id = window.AAL.router.answer_data.choice_id;
@@ -1916,12 +1916,12 @@ this.Map = (function() {
   Map.prototype.buildMap = function() {
     var paper_height, paper_width,
       _this = this;
-    paper_width = 1200;
-    paper_height = 800;
+    paper_width = 1400;
+    paper_height = 600;
     this.paper = Raphael('map');
     this.choices = window.AAL.router.current_question.choices;
     this.paper.setViewBox(0, 0, paper_width, paper_height, true);
-    this.paper.setSize('100%', '100%');
+    this.paper.setSize('150%', '150%');
     return $.each(this.map_data, function(index, state) {
       var path, _ref;
       path = _this.paper.path(state.path_data);

@@ -98,7 +98,14 @@ class @Router
     # window.AAL.pre_game_slider.create_pre_game_slider()
     template = @_mainTemplate()
     $('#content').append(template)
-
+    $(".pre-game-slides").flexslider
+      animation: "slide"
+      slideshow: false
+      selector: ".slides > li"
+      itemWidth: 1000
+      directionNav: false
+      start: ->
+        $(window).trigger "resize"
 
   # Phase 1
   _game_start: ->

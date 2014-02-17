@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.m \
-  /Users/jesselarusso/canvas/aap/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.m \
+  /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/CordovaLib/Classes/CDVTimer.h

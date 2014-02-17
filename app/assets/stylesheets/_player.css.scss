@@ -42,7 +42,7 @@
   }
 
   figure {
-    margin-top: 50px;
+    margin-top: 100px;
     height: 250px;
   }
 
@@ -100,11 +100,12 @@
 }
 
 #map {
-  position: relative;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  // width: 75%;
+  position: absolute;
+  top: -300px;
+  left: 160px
 }
 
 // Footer

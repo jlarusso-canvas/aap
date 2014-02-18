@@ -1,5 +1,5 @@
-42cccb76c18b080ccc931530cfa42952 063198da286fd95c17bb103fce77c3e7 ffffffffffffffffffffffffffffffff 1054 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app
-00000000530251b3000000000000095a 790f669739a78bfe4b148eb5ae42d5f2 ffffffffffffffffffffffffffffffff 0 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo
+42cccb76c18a911bcc931530cfa42952 063198da286fd95c17bb103fce77c3e7 ffffffffffffffffffffffffffffffff 1054 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app
+000000005303c8a4000000000000095a 790f669739a78bfe4b148eb5ae42d5f2 ffffffffffffffffffffffffffffffff 0 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/PkgInfo
 0000000052f9423b0000000000000066 a79184bab2825a0b383801030c25aa5c ffffffffffffffffffffffffffffffff 102 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/CDVNotification.bundle
 0000000052f9423b0000000000002dba e45814a3473345a5718e034ebdf2bb96 ffffffffffffffffffffffffffffffff 11706 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72@2x.png
 0000000052f9423b0000000000003b9e 8193d617b84f557303e0e920128d7af7 ffffffffffffffffffffffffffffffff 15262 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76@2x.png
@@ -25,9 +25,9 @@
 0000000052f9423b0000000000001350 6f5fd9a3ed55308b57bd9413e4a25c25 ffffffffffffffffffffffffffffffff 4944 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-72.png
 0000000052f9423b0000000000001cf3 d152a3d053d2323846658fafbec98bd4 ffffffffffffffffffffffffffffffff 7411 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-40@2x.png
 0000000052f9423b0000000000001b71 13640009ad16867eb48bd6d9f106fa19 ffffffffffffffffffffffffffffffff 7025 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/icon-76.png
-00000000530251b3000000000000068e bfd42d983f3890d33b99d7cf01a2af78 ffffffffffffffffffffffffffffffff 1678 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml
-5f850d0ed78518469811a946cb4614e2 22b0f3d8a9ce489d070edc07ae4db17e ffffffffffffffffffffffffffffffff 0 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
-00000000530251b3000000000000095a 790f669739a78bfe4b148eb5ae42d5f2 ffffffffffffffffffffffffffffffff 1146 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
+000000005303c8a4000000000000068e bfd42d983f3890d33b99d7cf01a2af78 ffffffffffffffffffffffffffffffff 1678 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/config.xml
+5f850d0ed78481519811a946cb4614e2 22b0f3d8a9ce489d070edc07ae4db17e ffffffffffffffffffffffffffffffff 0 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app.dSYM
+000000005303c8a4000000000000095a 790f669739a78bfe4b148eb5ae42d5f2 ffffffffffffffffffffffffffffffff 1146 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/Info.plist
 acbb847b218dee6228fb86f0ac76f102 8a31efe29cad2c69fbfea103c9723948 ffffffffffffffffffffffffffffffff 297248 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/emulator/Aerial.app/Aerial
 83b6bd23e09203b21980dd997dce4542 d7103e1b7075b461d3b895dd992fbc3d ffffffffffffffffffffffffffffffff 71660 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVNotification.o
 83b6bd23e09203b21980dd997dce57be 77885b4f4d54a073c8fd10111467b129 ffffffffffffffffffffffffffffffff 43996 /Users/erinlee/_Active/112-Canvas/AALivePlayer/aap-ipad/platforms/ios/build/Aerial.build/Debug-iphonesimulator/Aerial.build/Objects-normal/i386/CDVLogger.o

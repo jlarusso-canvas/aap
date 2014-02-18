@@ -10,12 +10,12 @@ class @Map
       "stroke-dasharray": "none"
 
   staticMap: =>
-    paper_width = 1300 #
+    paper_width = 1400 #
     paper_height = 600 # 600
 
     @paper = Raphael('map')
     @paper.setViewBox(0, 0, paper_width,paper_height,true);
-    @paper.setSize('140%', '140%');
+    @paper.setSize('150%', '150%');
 
     @choices = window.AAL.router.current_question.choices
     answer_id = window.AAL.router.current_question?.answer_index

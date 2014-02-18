@@ -78,6 +78,13 @@ class @Router
       else
         # TODO: tell player to select a valid state
 
+  toggleHeader: (show) ->
+    $header = $('#header')
+    if show
+      $header.show()
+    else
+      $header.hide()
+
 
   #############################################################################
   # Private
@@ -94,10 +101,12 @@ class @Router
 
   # Phase 0
   _pre_game: ->
+    @toggleHeader(true)
     @clearHeaderCountdown()
     # window.AAL.pre_game_slider.create_pre_game_slider()
     template = @_mainTemplate()
     $('#content').append(template)
+    $('#container').removeClass('promo-page final-results')
     $(".pre-game-slides").flexslider
       animation: "slide"
       slideshow: false
@@ -152,6 +161,7 @@ class @Router
   _final_results: ->
     @clearMap()
     @clearHeaderCountdown()
+    @toggleHeader(false)
     template = @_mainTemplate()
     $('#content').append(template)
     $('#container').addClass("final-results")
@@ -159,6 +169,7 @@ class @Router
 
   # Phase 5
   _post_game: ->
+    $('#container').removeClass("final-results")
     template = @_mainTemplate()
     $('#content').append(template)
     $('#container').addClass("promo-page")

@@ -1838,6 +1838,7 @@ this.Dispatcher = (function() {
   };
 
   Dispatcher.prototype._currentPhase = function(message) {
+    window.AAL.stopwatch.clearCountdown();
     this.current_phase = message['current_phase'];
     window.AAL.router.current_phase = this.current_phase;
     window.AAL.router.clearContent();
@@ -1883,11 +1884,11 @@ this.Map = (function() {
   Map.prototype.staticMap = function() {
     var answer_id, paper_height, paper_width, picked_id, _ref,
       _this = this;
-    paper_width = 1300;
+    paper_width = 1400;
     paper_height = 600;
     this.paper = Raphael('map');
     this.paper.setViewBox(0, 0, paper_width, paper_height, true);
-    this.paper.setSize('140%', '140%');
+    this.paper.setSize('150%', '150%');
     this.choices = window.AAL.router.current_question.choices;
     answer_id = (_ref = window.AAL.router.current_question) != null ? _ref.answer_index : void 0;
     picked_id = window.AAL.router.answer_data.choice_id;
@@ -2067,6 +2068,16 @@ this.Router = (function() {
     });
   };
 
+  Router.prototype.toggleHeader = function(show) {
+    var $header;
+    $header = $('#header');
+    if (show) {
+      return $header.show();
+    } else {
+      return $header.hide();
+    }
+  };
+
   Router.prototype._mainTemplate = function(json) {
     var template;
     template = Handlebars.compile($("#" + this.current_phase).html());
@@ -2075,9 +2086,11 @@ this.Router = (function() {
 
   Router.prototype._pre_game = function() {
     var template;
+    this.toggleHeader(true);
     this.clearHeaderCountdown();
     template = this._mainTemplate();
     $('#content').append(template);
+    $('#container').removeClass('promo-page final-results');
     return $(".pre-game-slides").flexslider({
       animation: "slide",
       slideshow: false,
@@ -2140,6 +2153,7 @@ this.Router = (function() {
     var template;
     this.clearMap();
     this.clearHeaderCountdown();
+    this.toggleHeader(false);
     template = this._mainTemplate();
     $('#content').append(template);
     $('#container').addClass("final-results");
@@ -2148,6 +2162,7 @@ this.Router = (function() {
 
   Router.prototype._post_game = function() {
     var template;
+    $('#container').removeClass("final-results");
     template = this._mainTemplate();
     $('#content').append(template);
     return $('#container').addClass("promo-page");
@@ -2217,6 +2232,11 @@ this.PlayerController = (function() {
 
   PlayerController.prototype.bindForm = function() {
     var _this = this;
+    $('#decline-form-link').on('click', function() {
+      return window.AAL.dispatcher._currentPhase({
+        current_phase: "post_game"
+      });
+    });
     return $('#sweepstakes-submit-link').on('click', function() {
       var request, url;
       url = _this.server_url.split('/')[0];
@@ -2227,9 +2247,9 @@ this.PlayerController = (function() {
         dataType: "script"
       });
       return $.when(request).done(function() {
-        window.AAL.router.current_phase = "post_game";
-        window.AAL.router.clearContent();
-        return window.AAL.router.loadCurrentTemplate();
+        return window.AAL.dispatcher._currentPhase({
+          current_phase: "post_game"
+        });
       });
     });
   };

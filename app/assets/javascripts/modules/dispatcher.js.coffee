@@ -27,6 +27,7 @@ class @Dispatcher
 
 
   _currentPhase: (message) =>
+    window.AAL.stopwatch.clearCountdown()
     @current_phase = message['current_phase']
     window.AAL.router.current_phase = @current_phase
     window.AAL.router.clearContent()

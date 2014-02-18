@@ -4,6 +4,9 @@ class @PlayerController
     @_bindEvents()
 
   bindForm: =>
+    $('#decline-form-link').on 'click', =>
+      window.AAL.dispatcher._currentPhase {current_phase: "post_game"}
+
     $('#sweepstakes-submit-link').on 'click', =>
       url = @server_url.split('/')[0]
 
@@ -14,9 +17,7 @@ class @PlayerController
         dataType: "script"
 
       $.when(request).done ->
-        window.AAL.router.current_phase = "post_game"
-        window.AAL.router.clearContent()
-        window.AAL.router.loadCurrentTemplate()
+        window.AAL.dispatcher._currentPhase {current_phase: "post_game"}
 
 
   _bindEvents: =>

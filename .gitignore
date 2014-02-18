@@ -18,8 +18,11 @@
 .DS_Store
 /node_modules/*
 
-aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
-aap-ipad/platforms/ios/Aerial/config.xml
-aap-ipad/platforms/ios/www/
+aap-ipad/platforms/**/*
+# aap-ipad/platforms/ios/Aerial/Aerial-Info.plist
+# aap-ipad/platforms/ios/Aerial/config.xml
+# aap-ipad/platforms/ios/www/*
+# aap-ipad/platforms/ios/build/*
+# aap-ipad/platforms/ios/*
 
-public/assets
+public/assets/*.*

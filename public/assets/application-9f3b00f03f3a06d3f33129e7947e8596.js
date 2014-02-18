@@ -938,7 +938,8 @@ this.Router = (function() {
     this.clearHeaderCountdown();
     template = this._mainTemplate();
     $('#content').append(template);
-    return $('#container').addClass("final-results");
+    $('#container').addClass("final-results");
+    return window.AAL.playerController.bindForm();
   };
 
   Router.prototype._post_game = function() {
@@ -1004,9 +1005,30 @@ var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments)
 this.PlayerController = (function() {
   function PlayerController() {
     this._bindEvents = __bind(this._bindEvents, this);
+    this.bindForm = __bind(this.bindForm, this);
     this.server_url = window.AAL.dispatcher.url;
     this._bindEvents();
   }
+
+  PlayerController.prototype.bindForm = function() {
+    return $('#sweepstakes-submit-link').on('click', (function(_this) {
+      return function() {
+        var request, url;
+        url = _this.server_url.split('/')[0];
+        request = $.ajax({
+          type: "GET",
+          url: "http://" + url + "/sweepstakes",
+          data: $('#sweepstakes-form').serialize(),
+          dataType: "script"
+        });
+        return $.when(request).done(function() {
+          window.AAL.router.current_phase = "post_game";
+          window.AAL.router.clearContent();
+          return window.AAL.router.loadCurrentTemplate();
+        });
+      };
+    })(this));
+  };
 
   PlayerController.prototype._bindEvents = function() {
     $('.player-select').on('click', function() {

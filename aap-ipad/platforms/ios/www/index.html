@@ -21,8 +21,6 @@
         <div class="player-select" data-player="2">Player 2</div>
         <div class="player-select" data-player="3">Player 3</div>
         <div class="player-select" data-player="4">Player 4</div>
-
-        <div class="disconnect" >disconnect</div>
       </div>
 
       <div id="content">
@@ -165,6 +163,7 @@
     <!-- Final Results -->
     <!-- ====================================================================== -->
     <script id="final_results" type="text/x-handlebars-template">
+<<<<<<< HEAD
       <div class="main-content" class="final-results">
         <div id="logo-column"><div class="wia-logo"></div></div>
         <div id="form-column">
@@ -179,6 +178,30 @@
               <div class="label">Last Name:</div>
               <div class="label">Email:</div>
               <div class="label">Phone:</div>
+              </section>
+              <form name="sweepstakes" id="sweepstakes-form">
+                <input type="text" name="first_name" id="first_name">
+                <input type="text" name="last_name" id="last_name">
+                <input type="text" name="email" id="email">
+                <input type="tel" name="phone" id="phone">
+                <div id="checkbox-group">
+                  <input type="checkbox" id="age_check">
+                  <label class="checkbox" for="age_check">I am 18 or older</label>
+                  <br>
+                  <input type="checkbox" id="signup_check">
+                  <label class="checkbox" for="signup_check">Yes, sign me up for e-mail updates from the Smithsonian Channel.</label>
+                  <br>
+                  <input type="checkbox" id="terms_check">
+                  <label class="checkbox" for="terms_check">
+                    By checking this box, I understand and agree to the terms and conditions of the attached <a href="#">Official Rules.</a>
+                  </label>
+                </div>
+                <div class="submit-form">
+                  <a href="#" id="sweepstakes-submit-link" class="submit is-active">Submit</a>
+                  <!-- <input type="submit" class="submit is-active"> -->
+                  <a href="#">No Thanks</a>
+                </div>
+              </form>
             </section>
             <form name="sweepstakes" id="sweep-input">
               <input type="text" name="first_name" id="first_name">

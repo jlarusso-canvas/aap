@@ -1,6 +1,7 @@
 class @Dispatcher
   constructor: ->
     @url = "192.168.1.2:3000/websocket"
+    # @url = "0.0.0.0:3000/wesbsocket"
 
   disconnect: =>
     @dispatcher.disconnect

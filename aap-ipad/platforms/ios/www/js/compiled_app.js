@@ -1054,14 +1054,20 @@ this.PlayerController = (function() {
   }
 
   PlayerController.prototype.bindForm = function() {
-    return $('#sweepstakes-submit-link').on('click', function(e) {
-      var params;
-      e.preventDefault();
-      params = {};
-      $('#sweepstakes-form input').each(function() {
-        return params[$(this).attr('id')] = $(this).val();
+    var _this = this;
+    return $('#sweepstakes-submit-link').on('click', function() {
+      var url;
+      url = _this.server_url.split('/');
+      url.splice(-1, 1);
+      url.join('/');
+      console.log("URL -> ", url);
+      $.ajax({
+        type: "POST",
+        url: "http://" + url + "/sweepstakes",
+        data: $('#sweepstakes-form').serialize(),
+        dataType: "script"
       });
-      return console.log(params);
+      return false;
     });
   };
 

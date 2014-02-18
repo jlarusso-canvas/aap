@@ -4,13 +4,18 @@ class @PlayerController
     @_bindEvents()
 
   bindForm: =>
-    $('#sweepstakes-submit-link').on 'click', (e) ->
-      e.preventDefault()
-      params = {}
-      $('#sweepstakes-form input').each ->
-        # params["first_name"] = "jesse"
-        params[$(@).attr('id')] = $(@).val()
-      console.log params
+    $('#sweepstakes-submit-link').on 'click', =>
+      url = @server_url.split('/')
+      url.splice(-1, 1)
+      url.join('/')
+
+      console.log "URL -> ", url
+      $.ajax
+        type: "POST"
+        url: "http://#{url}/sweepstakes"
+        data: $('#sweepstakes-form').serialize()
+        dataType: "script"
+      false
 
 
   _bindEvents: =>
@@ -28,10 +33,3 @@ class @PlayerController
       $item = $(@)
       $item.css('color', 'white')
 
-    # $('#sweepstakes-submit').on 'click', (e) ->
-    #   e.preventDefault()
-
-    #   form_data = $('#sweep-input').serialize()
-    #   console.log form_data
-
-    # $.post "#{@server_url}/sweepstakes", form_data

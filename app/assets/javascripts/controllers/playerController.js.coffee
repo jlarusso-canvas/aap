@@ -5,20 +5,30 @@ class @PlayerController
 
   bindForm: =>
     $('#sweepstakes-submit-link').on 'click', =>
-      url = @server_url.split('/')
-      url.splice(-1, 1)
-      url.join('/')
+      url = @server_url.split('/')[0]
 
-      console.log "URL -> ", url
-      $.ajax
-        type: "POST"
+      request = $.ajax
+        type: "GET"
         url: "http://#{url}/sweepstakes"
         data: $('#sweepstakes-form').serialize()
         dataType: "script"
-      false
+
+      $.when(request).done ->
+        window.AAL.router.current_phase = "post_game"
+        window.AAL.router.clearContent()
+        window.AAL.router.loadCurrentTemplate()
 
 
   _bindEvents: =>
+    # would be nice if this didnt break ios:
+    # app breaks when connecting to ws
+    #
+    # el = document.querySelector ".player-select"
+    # el.addEventListener 'touchstart', (e) ->
+    #   window.AAL.dispatcher.connectWithId $(@).data('player')
+    #   el.removeEventListener 'touchstart'
+    #   $('#select-wrap').remove()
+
     $('.player-select').on 'click', ->
       $item = $(@)
       $item.css("background", 'white')

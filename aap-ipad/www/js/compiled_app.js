@@ -1056,18 +1056,19 @@ this.PlayerController = (function() {
   PlayerController.prototype.bindForm = function() {
     var _this = this;
     return $('#sweepstakes-submit-link').on('click', function() {
-      var url;
-      url = _this.server_url.split('/');
-      url.splice(-1, 1);
-      url.join('/');
-      console.log("URL -> ", url);
-      $.ajax({
-        type: "POST",
+      var request, url;
+      url = _this.server_url.split('/')[0];
+      request = $.ajax({
+        type: "GET",
         url: "http://" + url + "/sweepstakes",
         data: $('#sweepstakes-form').serialize(),
         dataType: "script"
       });
-      return false;
+      return $.when(request).done(function() {
+        window.AAL.router.current_phase = "post_game";
+        window.AAL.router.clearContent();
+        return window.AAL.router.loadCurrentTemplate();
+      });
     });
   };
 
